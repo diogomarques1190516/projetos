@@ -1,0 +1,27 @@
+@startuml USA06_3
+
+title SD - Get Deliveries
+
+autonumber
+
+participant "API" as API
+participant "Delivery Controller" as C
+participant "Delivery Service" as S
+participant "Delivery Repository" as R
+
+activate API
+ -> API : GET
+API -> C : GetAll
+activate C
+C -> S : GetAllAsync
+activate S
+S -> R : GetAllAsync
+activate R
+R -> R : FetchAllDeliveries
+R --> S : List<Delivery>
+deactivate R
+S --> C : List<DeliveryDto>
+deactivate S
+C --> API : Response Code 200
+deactivate C
+deactivate API

@@ -1,0 +1,44 @@
+<div class="createPackagingDiv">
+    <div>
+        <h2>Create Packaging</h2>
+        <form #create="ngForm" class="form" (ngSubmit)="submit(create)">
+            <div class="form-group">
+                <label for="licensePlate">License Plate</label><br>
+                <select class="form-control" name="licensePlate" [(ngModel)]="form.licensePlate" id="licensePlate"
+                    (selectstart)="showTruck = false" (change)="getTruck()" required>
+                    <option selected>Select a License Plate</option>
+                    <option name="licensePlate" [value]="truck.licensePlate" *ngFor="let truck of trucks">
+                        {{
+                        truck.licensePlate }}</option>
+                </select>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="xPosition">X Position</label><br>
+                <input #xPosition="ngModel" required min="1" max="9" type="number" name="xPosition" class="form-control"
+                    placeholder="e.g. 5" [(ngModel)]="form.xPosition">
+                <small *ngIf="xPosition.touched && xPosition.invalid" class="form-text alert">Invalid x Position</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="yPosition">Y Position</label><br>
+                <input #yPosition="ngModel" required min="1" max="19" type="number" name="yPosition"
+                    class="form-control" placeholder="e.g. 5" [(ngModel)]="form.yPosition">
+                <small *ngIf="yPosition.touched && yPosition.invalid" class="form-text alert">Invalid y Position</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="zPosition">Z Position</label><br>
+                <input #zPosition="ngModel" required min="1" max="7" type="number" name="zPosition" class="form-control"
+                    placeholder="e.g. 5" [(ngModel)]="form.zPosition">
+                <small *ngIf="zPosition.touched && zPosition.invalid" class="form-text alert">Invalid z Position</small>
+            </div>
+            <pre></pre>
+            <button class="btn btn-primary" (click)="div1Function()" type="submit">Create</button>
+            <div style="margin-left: 30%; margin-top: -1em; width: 2em; height: 2em;" *ngIf="loading"
+                class="loading-circle"></div>
+            <small *ngIf="isSuccessfull" class="form-text success">Packaging created with success</small>
+            <small *ngIf="isFailure" class="form-text success">Error creating the Packaging</small>
+        </form>
+    </div>
+</div>

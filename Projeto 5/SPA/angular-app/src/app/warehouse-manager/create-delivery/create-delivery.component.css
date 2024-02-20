@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+  }
+.createDeliveryDiv{
+    color: white;
+	display: flex;
+	justify-content:center;
+}
+
+.createDeliveryDiv > div{
+    border-style:solid;
+	border-width:thin;
+	border-color:#8c8c8c;
+	text-align:center;
+	font-size:1.5em;
+    margin: 3.5em;
+    padding: 5%;
+    padding-top: 2%;
+}
+
+.form{
+    text-align: left;
+}
+
+.form > div{
+    padding: 0.2em;
+}
+
+h4 {
+    text-align: center;
+}
+  
+label{
+    margin: 1%;
+    text-align: left;
+}
+
+.alert{
+    color: rgb(245, 68, 68);
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.success{
+    color: rgb(255, 255, 255);
+    margin-left: 1em;
+
+}

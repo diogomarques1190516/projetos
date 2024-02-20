@@ -1,0 +1,964 @@
+{
+	"info": {
+		"_postman_id": "d7ce3009-5a17-412a-95e4-9921e20cb5b8",
+		"name": "Project Tests Logistics Module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24257767"
+	},
+	"item": [
+		{
+			"name": "Trucks",
+			"item": [
+				{
+					"name": "POST wrong plate",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"T01\",\r\n    \"licensePlate\": \"1234567\",\r\n    \"tare\": 1000,\r\n    \"loadCapacity\" : 500,\r\n    \"totalBatteryCapacity\" : 100,\r\n    \"autonomyWithMaxLoad\" : 50,\r\n    \"rechargeTime\" : 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST wrong tare",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"T01\",\r\n    \"licensePlate\": \"11AA11\",\r\n    \"tare\": -1000,\r\n    \"loadCapacity\" : 500,\r\n    \"totalBatteryCapacity\" : 100,\r\n    \"autonomyWithMaxLoad\" : 50,\r\n    \"rechargeTime\" : 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST wrong LoadCapacity",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"T01\",\r\n    \"licensePlate\": \"AA11AA\",\r\n    \"tare\": 1000,\r\n    \"loadCapacity\" : -500,\r\n    \"totalBatteryCapacity\" : 100,\r\n    \"autonomyWithMaxLoad\" : 50,\r\n    \"rechargeTime\" : 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST wrong BatteryCapacity",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"T01\",\r\n    \"licensePlate\": \"AA11AA\",\r\n    \"tare\": 1000,\r\n    \"loadCapacity\" : 500,\r\n    \"totalBatteryCapacity\" : -100,\r\n    \"autonomyWithMaxLoad\" : 50,\r\n    \"rechargeTime\" : 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST wrong Autonomy",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"T01\",\r\n    \"licensePlate\": \"AA11AA\",\r\n    \"tare\": 1000,\r\n    \"loadCapacity\" : 500,\r\n    \"totalBatteryCapacity\" : 100,\r\n    \"autonomyWithMaxLoad\" : -50,\r\n    \"rechargeTime\" : 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST wrong RechargeTime",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"T01\",\r\n    \"licensePlate\": \"AA11AA\",\r\n    \"tare\": 1000,\r\n    \"loadCapacity\" : 500,\r\n    \"totalBatteryCapacity\" : 100,\r\n    \"autonomyWithMaxLoad\" : 50,\r\n    \"rechargeTime\" : -15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Working",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"licensePlate\": \"73-77-FH\",\r\n    \"tare\": 1000,\r\n    \"loadCapacity\" : 500,\r\n    \"totalBatteryCapacity\" : 100,\r\n    \"autonomyWithMaxLoad\" : 50,\r\n    \"rechargeTime\" : 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Working",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful GET request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"API response contains the expected fields\", () => {\r",
+									"  const responseJson = pm.response.json();/* \r",
+									"  pm.expect(responseJson.tare).to.eql(1000);\r",
+									"  pm.expect(responseJson.loadCapacity).to.eql(500);\r",
+									"  pm.expect(responseJson.totalBatteryCapacity).to.eql(100);\r",
+									"  pm.expect(responseJson.autonomyWithMaxLoad).to.eql(50);\r",
+									"  pm.expect(responseJson.rechargeTime).to.eql(15); */\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST Existing Truck",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"T01\",\r\n    \"licensePlate\": \"AA-11-AA\",\r\n    \"tare\": 1000,\r\n    \"loadCapacity\" : 500,\r\n    \"totalBatteryCapacity\" : 100,\r\n    \"autonomyWithMaxLoad\" : 50,\r\n    \"rechargeTime\" : 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET PUT Worked",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"API response contains the expected fields\", () => {\r",
+									"  const responseJson = pm.response.json();/* \r",
+									"  pm.expect(responseJson.tare).to.eql(1200);\r",
+									"  pm.expect(responseJson.loadCapacity).to.eql(500);\r",
+									"  pm.expect(responseJson.totalBatteryCapacity).to.eql(100);\r",
+									"  pm.expect(responseJson.autonomyWithMaxLoad).to.eql(50);\r",
+									"  pm.expect(responseJson.rechargeTime).to.eql(15) */\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Fails",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad PUT Request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"T05\",\r\n    \"licensePlate\": \"5555555\",\r\n    \"tare\": 1200,\r\n    \"loadCapacity\" : 500,\r\n    \"totalBatteryCapacity\" : 100,\r\n    \"autonomyWithMaxLoad\" : 50,\r\n    \"rechargeTime\" : 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Response Time",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 100ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(100);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 50ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(50);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 25ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(25);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 10ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(10);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Routes",
+			"item": [
+				{
+					"name": "POST Working",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"distance\": 100,\r\n            \"width\": 5,\r\n            \"time\": 60,\r\n            \"extraTime\": 10,\r\n            \"energy\": 10,\r\n            \"originId\": \"W01\",\r\n            \"destinationId\": \"W02\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Routes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Routes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Working",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful GET request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"API response contains the expected fields\", () => {\r",
+									"  const responseJson = pm.response.json();\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Routes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Routes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET PUT Worked",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"API response contains the expected fields\", () => {\r",
+									"  const responseJson = pm.response.json();\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Routes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Routes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Fails",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad PUT Request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"distance\": 100,\r\n    \"width\": 5,\r\n    \"time\": 60,\r\n    \"extraTime\": 10,\r\n    \"energy\": 10,\r\n    \"originId\": 3432,\r\n    \"destinationId\": \"W02\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Routes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Routes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Response Time",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 100ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(100);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 50ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(50);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 25ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(25);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 10ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(10);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Packagings",
+			"item": [
+				{
+					"name": "POST Working",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"xPosition\": 5,\r\n    \"yPosition\": 15,\r\n    \"zPosition\": 3,\r\n    \"licensePlate\": \"53-35-DF\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Packagings",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Packagings"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET Working",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful GET request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"API response contains the expected fields\", () => {\r",
+									"  const responseJson = pm.response.json();\r",
+									"\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Routes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Routes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET PUT Worked",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"API response contains the expected fields\", () => {\r",
+									"  const responseJson = pm.response.json();\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Routes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Routes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT Fails",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Bad PUT Request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([500]);\r",
+									"});\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"xPosition\": 5,\r\n    \"yPosition\": 15,\r\n    \"zPosition\": 3,\r\n    \"licensePlate\": \"53-35-DF\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/Routes",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Routes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Check Response Time",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Successful POST request\", function () {\r",
+									"    pm.expect(pm.response.code).to.be.oneOf([200]);\r",
+									"});\r",
+									"\r",
+									"pm.test(\"Response time is less than 200ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 100ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(100);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 50ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(50);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 25ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(25);\r",
+									"});\r",
+									"pm.test(\"Response time is less than 10ms\", function () {\r",
+									"    pm.expect(pm.response.responseTime).to.be.below(10);\r",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/Trucks/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"Trucks",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

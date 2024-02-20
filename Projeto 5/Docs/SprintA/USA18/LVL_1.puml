@@ -1,0 +1,18 @@
+@startuml
+
+title View Level 1 - List Packagings
+
+autonumber
+
+actor "Logistics Manager" as LM
+actor "<< Container (C4)>> \n :Visual Interface" as SYS
+
+activate LM
+LM -> SYS : Asks to view the list of packagings.
+activate SYS
+SYS --> LM : Shows packaging list.
+deactivate SYS
+
+deactivate LM
+
+@enduml

@@ -1,0 +1,116 @@
+#  Template NodeJS Web Application for Azure Web App service
+
+#  This template allows you to deploy your NodeJS web application to Azure Web App Service.
+#  The workflow allows running tests, code linting and security scans on feature branches (as well as master).
+#  The NodeJS application will be validated after the code is merged to master and deployment can be triggered manually.
+
+# Prerequisites: $$AZURE_APP_ID, $AZURE_PASSWORD, $AZURE_TENANT_ID, $AZURE_RESOURCE_GROUP, $AZURE_APP_NAME setup in the Deployment variables.
+# For advanced cases, please, follow examples from the pipe's README https://bitbucket.org/microsoft/azure-web-apps-deploy/src/1.0.3/README.md
+
+
+#image: node:16
+image: atlassian/default-image:2
+
+pipelines:
+  branches: 
+      master:
+
+        - step:
+            name: "Logistics - Build"
+            image: node:16.13.0
+            script:
+              - cd LogisticsModule
+              - npm install
+              - npm run-script -build
+        - step:
+            name: "Logistics - Tests"
+            image: node:16.13.0
+            script:
+              - cd LogisticsModule
+              - npm install
+              - npm i -D @types/node
+              - npm i -D @types/jest ts-jest jest
+              - npm run test
+        - step:
+            name: "Warehouse - Build"
+            image: mcr.microsoft.com/dotnet/sdk:6.0
+            script:
+              - cd WarehouseModule
+              - dotnet build
+        - step:
+            name: "Warehouse - Tests"
+            image: mcr.microsoft.com/dotnet/sdk:6.0
+            script:
+              - cd WarehouseModule
+              - dotnet test
+      
+        - step:
+            name: "SPA - Build"
+            image: node:16.13.0
+            script:
+              - cd SPA
+              - cd angular-app
+              - npm install
+              - npm run build --prod
+        - step:
+            name: "SPA - Tests"
+            image: zenika/alpine-chrome:with-node
+            script:
+              - cd SPA
+              - cd angular-app
+              - npm install --legacy-peer-deps
+              - npm run ng test
+        
+      deploy:
+        - step:
+            name: "Warehouse - Deploy"
+            caches:
+              - node
+            script:
+            - cd WarehouseModule
+            - docker login warehouseslapr5.azurecr.io --username WarehousesLAPR5 --password +MoSmz7/UXgPOhQ+CbkrJXDTb5In8aZ5nBhuOnexGY+ACRCvkpeu
+            - docker build -t warehouseslapr5.azurecr.io/warehouses:latest .
+            - docker push warehouseslapr5.azurecr.io/warehouses:latest
+            services:
+            - docker
+        - step:
+            name: "Logistics - Deploy"
+            caches:
+              - node
+            script:
+            - cd LogisticsModule
+            - docker login logisticslapr5.azurecr.io --username LogisticsLAPR5 --password vuNEnWEqV18uJ1wwTuXdojzLezeOTadsyJ0GI0ii9P+ACRAvyX07
+            - docker build -t logisticslapr5.azurecr.io/logistics:latest .
+            - docker push logisticslapr5.azurecr.io/logistics:latest
+            services:
+            - docker
+        - step:
+            name: "RoutePlanning - Deploy"
+            script:
+            - cd Planning
+            - docker login routeplanning.azurecr.io --username RoutePlanning --password sBsHWXfC/S4gst9B33RQS+c1WHDy/RrfuDuIeFsvIS+ACRDxzJ2V
+            - docker build -t routeplanning.azurecr.io/routeplanning:latest .
+            - docker push routeplanning.azurecr.io/routeplanning:latest
+            services:
+            - docker
+        - step:
+            size: 2x
+            name: "SPA"
+            caches:
+              - node
+            script:
+            - cd SPA
+            - cd angular-app
+            - docker login spalapr5.azurecr.io --username SPALAPR5 --password 4yKjqg/UYbSexhf1DrAuXN1+cbg4pHYoR9Q1Ce/QC2+ACRCcN2+9
+            - docker build -t spalapr5.azurecr.io/spa:latest .
+            - docker push spalapr5.azurecr.io/spa:latest
+            services:
+            - docker
+            - redis
+definitions:
+  services:
+    redis:
+      image: redis:3.2
+      memory: 2048
+    docker:
+      memory: 3072

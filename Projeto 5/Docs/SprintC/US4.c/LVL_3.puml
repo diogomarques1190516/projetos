@@ -1,0 +1,52 @@
+@startuml US
+
+title Lvl 3 - List & Page Routes
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :RouteDTO" as DTO
+participant "<< Container (C4) >> \n LogisticsModule" as LG
+
+
+
+activate LM
+LM -> S : Selects the option to List Routes by page
+
+activate S
+S -> C : listRoutes()
+activate C
+
+C -> SV : getRoutes()
+activate SV
+
+SV -> DTO : routes()
+activate DTO
+
+DTO -> SV : return routes()
+deactivate DTO
+
+SV -> LG : GET /api/routes
+activate LG
+
+LG -> LG : routes(JSON)
+
+LG --> SV : return routes(JSON)
+deactivate LG
+
+SV --> C : return routes(JSON)
+deactivate SV
+
+C --> S : return routes(JSON)
+deactivate C
+S --> LM : Shows the list with all routes by page
+deactivate S
+
+deactivate LM
+
+@enduml
+
+@enduml

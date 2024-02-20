@@ -1,0 +1,47 @@
+@startuml US
+
+title Lvl 3 - Create Route
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :RouteDTO" as DTO
+participant "<< Container (C4) >> \n Logistics" as LG
+
+
+activate LM
+LM -> S : Starts the creation of a route
+
+activate S
+S -> C : submit()
+activate C
+
+C -> SV : createRoute()
+activate SV
+
+SV -> DTO : create()
+activate DTO
+deactivate DTO
+
+SV -> LG : POST /api/Routes
+activate LG
+
+LG -> LG : save(RouteData)
+
+LG --> SV : HTTP 201 Created
+deactivate LG
+
+SV --> C : Response
+deactivate SV
+
+C --> S : Response
+deactivate C
+S --> LM : Operation sucessfull
+deactivate S
+
+deactivate LM
+
+@enduml

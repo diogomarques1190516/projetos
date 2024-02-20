@@ -1,0 +1,39 @@
+<div class="center">
+  <h1>List of Routes</h1>
+</div>
+
+<div style="
+margin-left: 50%;" *ngIf="loading" class="loading-circle"></div>
+
+<div class="container" *ngIf="done">
+
+  <ul class="row">
+    <div class="col">Distance</div>
+    <div class="col">Time</div>
+    <div class="col">Extra Time</div>
+    <div class="col">Energy</div>
+    <div class="col">Origin Id</div>
+    <div class="col">Destination Id</div>
+    <div class="col">Width</div>
+
+
+    <li *ngFor="let route of pageSlice" class="row">
+      <div class="col"> {{ route.distance }} </div>
+      <div class="col"> {{ route.time }} </div>
+      <div class="col"> {{ route.extraTime }} </div>
+      <div class="col"> {{ route.energy }} </div>
+      <div class="col"> {{ route.originId }} </div>
+      <div class="col"> {{ route.destinationId }} </div>
+      <div class="col"> {{ route.width }} </div>
+
+    </li>
+  </ul>
+
+
+
+  <mat-paginator [length]="this.routes.length" [pageSize]="5" [pageSizeOptions]="[5,10,20]"
+    (page)="onPageChange($event)">
+
+  </mat-paginator>
+
+</div>

@@ -1,0 +1,61 @@
+<div class="createDeliveryDiv">
+  <div>
+    <h2>Create Delivery</h2>
+    <form #create="ngForm" class="form" (ngSubmit)="submit(create)">
+      <div class="form-group">
+        <label for="deliveryId">Delivery Identificator</label><br>
+        <input #deliveryId="ngModel" required type="text" name="deliveryId" class="form-control"
+          placeholder="e.g. 221504/1" [(ngModel)]="form.deliveryId">
+        <small *ngIf="deliveryId.touched && deliveryId.invalid" class="form-text alert">Invalid Delivery
+          Identificator</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="deliveryDate">Delivery Date</label><br>
+        <input #deliveryDate="ngModel" required type="text" name="deliveryDate" class="form-control"
+          placeholder="e.g. 12-04-2022" [(ngModel)]="form.deliveryDate">
+        <small *ngIf="deliveryDate.touched && deliveryDate.invalid" class="form-text alert">Invalid Delivery
+          Date</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="massOfDelivery">Mass of Delivery (in kilos)</label><br>
+        <input #massOfDelivery="ngModel" required type="number" name="massOfDelivery" class="form-control"
+          placeholder="e.g. 300" [(ngModel)]="form.massOfDelivery">
+        <small *ngIf="massOfDelivery.touched && massOfDelivery.invalid" class="form-text alert">Invalid Mass</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="warehouseId">Warehouse Identificator</label><br>
+        <input #warehouseId="ngModel" required type="text" name="warehouseId" class="form-control"
+          placeholder="e.g. M01" [(ngModel)]="form.warehouseId">
+        <small *ngIf="warehouseId.touched && warehouseId.invalid" class="form-text alert">Invalid Warehouse
+          Identificator
+        </small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="timeToPlaceDelivery">Time to Place Delivery (in minutes)</label><br>
+        <input #timeToPlaceDelivery="ngModel" required min="-180" max="180" type="number" name="timeToPlaceDelivery"
+          class="form-control" placeholder="e.g. 20" [(ngModel)]="form.timeToPlaceDelivery">
+        <small *ngIf="timeToPlaceDelivery.touched && timeToPlaceDelivery.invalid" class="form-text alert">Invalid Time
+          to Place</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="timeToPickUpDelivery">Time to Pick Up Delivery (in minutes)</label><br>
+        <input #timeToPickUpDelivery="ngModel" required type="number" name="timeToPickUpDelivery" class="form-control"
+          placeholder="e.g. 15" [(ngModel)]="form.timeToPickUpDelivery">
+        <small *ngIf="timeToPickUpDelivery.touched && timeToPickUpDelivery.invalid" class="form-text alert">Invalid Time
+          to Pick Up</small>
+      </div>
+      <pre></pre>
+      <button class="btn btn-primary" (click)="div1Function()" style="margin-top: 1em;" type="submit">Create</button>
+      <div style="margin-left: 30%; margin-top: -1em; width: 2em; height: 2em;" *ngIf="loading" class="loading-circle">
+      </div>
+      <small *ngIf="isSuccessfull" class="form-text success">Delivery created with success</small>
+      <small *ngIf="isFailure" class="form-text success">Error creating the Delivery</small>
+    </form>
+    <p></p>
+  </div>
+</div>

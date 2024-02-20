@@ -1,0 +1,15 @@
+@startuml USA02
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Warehouse Manager" as WM
+participant "System" as S
+
+activate WM
+WM -> S : Initiates want to list the warehouses
+activate S
+S --> WM : Show the list with the warehouses
+deactivate S
+deactivate WM
+
+@enduml

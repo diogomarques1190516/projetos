@@ -1,0 +1,45 @@
+@startuml
+
+title Lvl 2 - Delete Route
+
+autonumber
+
+actor "Logistics Manager" as FM
+actor "<< Container >> \n Visual Interface" as SYS
+actor "<< Container >> \n Logistics" as TDM
+
+
+activate FM
+FM -> SYS : Asks to delete a route between two warehouses.
+activate SYS
+SYS --> FM : Ask to choose wich route you want to delete.
+deactivate SYS
+
+FM -> SYS : Chooses the route.
+activate SYS
+
+SYS -> TDM : GET route/{id}
+activate TDM
+
+TDM -> SYS : route(JSON)
+deactivate TDM
+
+SYS --> FM : Validates the data and requests confirmation.
+deactivate SYS
+
+
+FM -> SYS : Confirms the information.
+activate SYS
+
+SYS -> TDM : DELETE route/{id}
+activate TDM
+TDM --> SYS
+deactivate TDM
+
+SYS --> FM : Saves the data and informs of operation success.
+deactivate SYS
+
+
+deactivate FM
+
+@enduml

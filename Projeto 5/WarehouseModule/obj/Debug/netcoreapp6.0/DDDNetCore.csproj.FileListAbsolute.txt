@@ -1,0 +1,1075 @@
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\appsettings.Development.json
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\appsettings.json
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\staticwebassets.build.json
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\staticwebassets.development.json
+D:\AAA_Porto_Docs\ARQSI\proj1\dddnetcore\obj\Debug\netcoreapp6.0\scopedcss\bundle\DDDNetCore.styles.css
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\appsettings.Development.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\appsettings.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\staticwebassets.build.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\staticwebassets.development.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\scopedcss\bundle\DDDNetCore.styles.css
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\appsettings.Development.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\appsettings.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\appsettings.Development.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\appsettings.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Warehouse Tests\Postman_Warehouses_Tests.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\staticwebassets.build.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\staticwebassets.development.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\scopedcss\bundle\DDDNetCore.styles.css
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Warehose Tests\Postman_Warehouses_Tests.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DeliveriesTests\PostmanTests_Deliveries.json
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\appsettings.Development.json
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\appsettings.json
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DeliveriesTests\PostmanTests_Deliveries.json
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Warehose Tests\Postman_Warehouses_Tests.json
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Castle.Core.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CoreUtilities.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.Utilities.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\testhost.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Moq.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\NuGet.Frameworks.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.abstractions.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.assert.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.core.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.execution.dotnet.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+c:\Users\james\Desktop\Porto\LAB5\Nueva carpeta\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\testhost.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\testhost.exe
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Castle.Core.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Humanizer.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.Identity.Client.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Moq.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\NuGet.Frameworks.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Runtime.Caching.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Security.Permissions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Windows.Extensions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.abstractions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.assert.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.core.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.execution.dotnet.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\staticwebassets.build.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\staticwebassets.development.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\Warehouse Module\obj\Debug\netcoreapp6.0\scopedcss\bundle\DDDNetCore.styles.css
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\testhost.exe
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\testhost.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\DeliveriesTests\PostmanTests_Deliveries.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.runner.reporters.netcoreapp10.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.runner.utility.netcoreapp10.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\WarehoseTests\Postman_Warehouses_Tests.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Castle.Core.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Humanizer.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.Data.SqlClient.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.Identity.Client.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Logging.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Tokens.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.Utilities.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Microsoft.Win32.SystemEvents.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\Moq.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\NuGet.Frameworks.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Configuration.ConfigurationManager.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Drawing.Common.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Runtime.Caching.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Security.Permissions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\System.Windows.Extensions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.abstractions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.assert.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.core.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\xunit.execution.dotnet.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\Warehouse Module\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\testhost.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\testhost.exe
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\appsettings.Development.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\appsettings.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DeliveriesTests\PostmanTests_Deliveries.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\WarehouseTests\Postman_Warehouses_Tests.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.reporters.netcoreapp10.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.utility.netcoreapp10.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Castle.Core.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Humanizer.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Data.SqlClient.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Identity.Client.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Logging.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Tokens.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.Utilities.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Win32.SystemEvents.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Moq.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\NuGet.Frameworks.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Configuration.ConfigurationManager.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Drawing.Common.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Runtime.Caching.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Security.Cryptography.ProtectedData.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Security.Permissions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Windows.Extensions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.abstractions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.assert.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.core.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.execution.dotnet.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\staticwebassets.build.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\staticwebassets.development.json
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\scopedcss\bundle\DDDNetCore.styles.css
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+D:\AAA_Porto_Docs\ARQSI\DELIVERY\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\testhost.exe
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\testhost.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\appsettings.Development.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\appsettings.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DeliveriesTests\PostmanTests_Deliveries.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\WarehouseTests\Postman_Warehouses_Tests.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\staticwebassets.build.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\staticwebassets.development.json
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\scopedcss\bundle\DDDNetCore.styles.css
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\testhost.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\appsettings.Development.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\appsettings.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DeliveriesTests\PostmanTests_Deliveries.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\WarehouseTests\Postman_Warehouses_Tests.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\testhost.exe
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Castle.Core.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Humanizer.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Data.SqlClient.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Identity.Client.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Moq.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\NuGet.Frameworks.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Drawing.Common.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Runtime.Caching.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Security.Permissions.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Windows.Extensions.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.abstractions.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.assert.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.core.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.execution.dotnet.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\staticwebassets.build.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\staticwebassets.development.json
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\scopedcss\bundle\DDDNetCore.styles.css
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\JoãoSilva(1200616)\Documents\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Identity.Client.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Castle.Core.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Humanizer.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Moq.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\NuGet.Frameworks.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Runtime.Caching.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Security.Permissions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Windows.Extensions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.abstractions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.assert.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.core.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.execution.dotnet.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\james\Desktop\Porto\LAB5\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll
+<<<<<<< HEAD
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\testhost.exe
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\testhost.dll
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\appsettings.Development.json
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\appsettings.json
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DeliveriesTests\PostmanTests_Deliveries.json
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\WarehouseTests\Postman_Warehouses_Tests.json
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.reporters.netcoreapp10.dll
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.runner.utility.netcoreapp10.dll
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.exe
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.deps.json
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.runtimeconfig.json
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfoInputs.cache
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.AssemblyInfo.cs
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\staticwebassets.build.json
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\staticwebassets.development.json
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\scopedcss\bundle\DDDNetCore.styles.css
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CopyComplete
+c:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.genruntimeconfig.cache
+=======
+<<<<<<< HEAD
+>>>>>>> 6b5aa5734cadc346a8b8d9ebf430635471ff479e
+>>>>>>> 1c97be7b3177b692660fea76e44551617a9a1d4b
+=======
+>>>>>>> origin/master
+>>>>>>> 5d360f726a965d459a417013dd59218181516341
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Castle.Core.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Humanizer.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+<<<<<<< HEAD
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.dll
+=======
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\DDDNetCore.pdb
+>>>>>>> 6b5aa5734cadc346a8b8d9ebf430635471ff479e
+>>>>>>> 5d360f726a965d459a417013dd59218181516341
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Identity.Client.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Moq.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Newtonsoft.Json.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\Newtonsoft.Json.Bson.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\NuGet.Frameworks.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Runtime.Caching.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Security.Permissions.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\System.Windows.Extensions.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.abstractions.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.assert.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.core.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\xunit.execution.dotnet.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\bin\Debug\netcoreapp6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\refint\DDDNetCore.dll
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\DDDNetCore.pdb
+C:\Users\james\Desktop\Porto\lei-22-23-s5-3de-g32\WarehouseModule\obj\Debug\netcoreapp6.0\ref\DDDNetCore.dll

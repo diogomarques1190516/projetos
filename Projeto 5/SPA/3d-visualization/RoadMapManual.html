@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Map of Warehouses</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="./js/THREEx.KeyboardState.js"></script>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "../three.js-master/build/three.module.js"
+            }
+        }
+    </script>
+    <script type="module">
+
+        import Road from "./js/road.js";
+        import ManualVehicle from "./js/manual_vehicle.js";
+        
+        import Coordinates from "./js/coordinates.js";
+        import * as THREE from "../three.js-master/build/three.module.js";
+        import WarehouseLoader from "./js/warehouse.js"
+        //import MapApi from "./js/mapApi.js"
+        import MapApi from "./js/mapApi.js"
+        //import { FBXLoader } from "../three.js-master/examples/jsm/loaders/FBXLoader.js"
+        import { OrbitControls } from "../three.js-master/examples/jsm/controls/OrbitControls.js";
+        //import Stats from '../three.js-master/examples/jsm/libs/stats.module.js'
+
+        THREE.Object3D.DefaultUp.set(0, 0, 1);
+
+        const baseRadius = 1.5;
+        const baseScale = 0.05;
+        var clock = new THREE.Clock();
+        var delta = 0;
+        var speed = 0.3;
+        var keyboard = new THREEx.KeyboardState()
+
+        const api = new MapApi();
+        //let warehouses = api.loadWarehouses();
+
+        // console.log(coord)
+        //console.log(warehouses)
+        console.log("done")
+
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x707070);
+        const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        camera.up.set(0, 0, 1);
+        camera.position.z = 20;
+
+        // Create a directional light
+        var directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+
+        // Set the position of the light
+        directionalLight.position.set(1, 1, 1);
+
+        // Add the light to the scene
+        scene.add(directionalLight);
+
+        // Create an ambient light
+        var ambientLight = new THREE.AmbientLight(0xffffff, 2);
+
+        // Add the ambient light to the scene
+        scene.add(ambientLight);
+
+        // Enable shadow projection for the light
+        directionalLight.castShadow = true;
+
+        // Set the shadow resolution
+        directionalLight.shadow.mapSize.width = 512;
+        directionalLight.shadow.mapSize.height = 512;
+
+        // Set the shadow camera's near and far planes
+        directionalLight.shadow.camera.near = 1;
+        directionalLight.shadow.camera.far = 100;
+
+        // Set the shadow camera's field of view
+        directionalLight.shadow.camera.fov = 90;
+
+
+
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        // Enable shadow rendering in the renderer
+        renderer.shadowMap.enabled = true;
+
+        const controls = new OrbitControls(camera, renderer.domElement);
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.1;
+        controls.maxPolarAngle = Math.PI / 2;
+
+        var warehouseLoader = new WarehouseLoader(scene);
+
+        api.loadWarehouses(addWarehouses);
+
+        
+        /*
+                    
+        */
+        const gridhelper = new THREE.GridHelper(200, 50);
+        gridhelper.rotation.x = Math.PI / 2;
+        scene.add(gridhelper);
+
+        const axesHelper = new THREE.AxesHelper(5);
+        scene.add(axesHelper);
+
+        renderer.render(scene, camera);
+
+        function animate() {
+            requestAnimationFrame(animate)
+
+            controls.update()
+
+            //moveAnimation()
+            update()
+            render()
+        }
+
+
+        function addWarehouses(warehouses) {
+            console.log(warehouses)
+            warehouses.forEach(warehouse => {
+
+                let radius = warehouse.radius
+                let warehouseScale = warehouse.scale / 20
+                let warehouseRotation = warehouse.rotation
+                let warehouseModel = "./3dmodels/WarehouseModel/withDirt/Warehouse.fbx"//warehouse.model
+
+                createRoundAbout(warehouse.coord, radius, scene);
+                warehouseLoader.addWarehouse(warehouse.coord, warehouseScale, warehouseRotation, warehouseModel);
+
+            })
+            api.loadRoads(warehouses, configureRoads)
+            
+        }
+
+        function configureRoads(roads,warehouses){
+            
+            createRoads(roads)
+            api.loadBestRoute(warehouses,roads,createAutomaticMovement)
+            
+        }
+
+        function createRoads(roads) {
+            roads.forEach(r =>
+                createRoad(r.start, r.end, r.width, scene)
+            )
+        }
+
+        function createAutomaticMovement(warehouses,roads){
+
+            globalThis.automatic = new ManualVehicle(
+                {
+                    warehouses:warehouses,
+                    roads:roads,
+                    scene:scene
+                }
+            )
+           // scene.add(globalThis.automatic);
+
+        }
+
+        function moveAnimation(){
+
+            if(globalThis.automatic!= null){
+                if(globalThis.automatic.vehicle!=null){
+
+                    globalThis.automatic.animateMovement()
+                }
+            }
+        }
+
+        function createRoundAbout(position, radius, scene) {
+
+            var loader = new THREE.TextureLoader();
+
+            var texture = loader.load('img/roundabout.jpg', function (texture) {
+
+                texture.wrapS = texture.wrapT = THREE.RepeatWrapping;
+                texture.offset.set(0, 0);
+                texture.repeat.set(1, 1);
+
+            }.bind(this));
+
+            const material = new THREE.MeshBasicMaterial({ map: texture, side: THREE.DoubleSide });
+            const geometry = new THREE.CircleGeometry(radius, 40);
+            const circle = new THREE.Mesh(geometry, material);
+            circle.position.set(position.x, position.y, position.z);
+
+            // Set the material of the object to cast shadows
+            circle.material.receiveShadow = true;
+
+            scene.add(circle);
+
+        }
+
+        function createRoad(begining, end, width, scene) {
+            let road = new Road(
+                {
+                    begining: new THREE.Vector3(begining.coord.x, begining.coord.y, begining.coord.z - 0.01),
+                    end: new THREE.Vector3(end.coord.x, end.coord.y, end.coord.z - 0.01),
+                    radius1: begining.radius,
+                    radius2: end.radius,
+                    width: width
+                }
+            )
+            scene.add(road);
+        }
+
+        function render() {
+            renderer.render(scene, camera)
+        }
+
+        animate()
+
+        //MANUAL MOVEMENT
+        /*document.addEventListener("keydown", onDocumentKeyDown, false);
+        function onDocumentKeyDown(event) {
+            var keyCode = event.which;
+            globalThis.automatic.move(keyCode)
+        };*/
+
+        function update(){
+            delta = clock.getDelta();
+            var moveDistance = delta * speed
+
+    	    if ( keyboard.pressed("down") )
+                globalThis.automatic.move(-moveDistance)
+            if ( keyboard.pressed("up") )
+            globalThis.automatic.move(moveDistance);
+            if ( keyboard.pressed("left") )
+                globalThis.automatic.rotate(delta);
+            if ( keyboard.pressed("right") )
+                globalThis.automatic.rotate(-delta);
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+@startuml USA02
+
+title Lvl 2 - List Packagings
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n LogisticsModule" as LMD
+
+
+activate LM
+LM -> S : Selects the option to List Packagings
+activate S
+
+S -> LMD : GET /api/packagings
+activate LMD
+
+LMD -> S : packagings(JSON)
+deactivate LMD
+
+S --> LM : Show the list with all the packagings
+deactivate S
+deactivate LM
+
+@enduml

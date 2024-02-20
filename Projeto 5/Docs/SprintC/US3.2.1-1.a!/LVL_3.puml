@@ -1,0 +1,47 @@
+@startuml US
+
+title Lvl 3 - Create Warehouse
+
+autonumber
+
+actor "Warehouse Manager" as WM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :WarehouseDTO" as DTO
+participant "<< Container (C4) >> \n WarehouseModule" as WMD
+
+
+activate WM
+WM -> S : Starts the creation of a warehouse
+
+activate S
+S -> C : submit()
+activate C
+
+C -> SV : createWarehouse()
+activate SV
+
+SV -> DTO : create()
+activate DTO
+deactivate DTO
+
+SV -> WMD : POST /api/Warehouses
+activate WMD
+
+WMD -> WMD : save(WarehouseData)
+
+WMD --> SV : HTTP 201 Created
+deactivate WMD
+
+SV --> C : Response
+deactivate SV
+
+C --> S : Response
+deactivate C
+S --> WM : Operation sucessfull
+deactivate S
+
+deactivate WM
+
+@enduml

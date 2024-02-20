@@ -1,0 +1,61 @@
+<div class="createTruckDiv">
+    <div>
+        <h2>Create Truck</h2>
+        <form #create="ngForm" class="form" (ngSubmit)="submit(create)">
+            <div class="form-group">
+                <label for="licensePlate">License Plate</label><br>
+                <input #licensePlate="ngModel"
+                    pattern="([A-Z]{2}-[0-9]{2}-[0-9]{2}|[0-9]{2}-[A-Z]{2}-[0-9]{2}|[0-9]{2}-[0-9]{2}-[A-Z]{2}|[A-Z]{2}-[0-9]{2}-[A-Z]{2})"
+                    required type="text" name="licensePlate" class="form-control" placeholder="e.g. 11-11-NN"
+                    [(ngModel)]="form.licensePlate">
+                <small *ngIf="licensePlate.touched && licensePlate.invalid" class="form-text alert">Invalid License
+                    Plate</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="tare">Tare</label><br>
+                <input #tare="ngModel" required min="0" type="number" name="tare" class="form-control"
+                    placeholder="e.g. 7500" [(ngModel)]="form.tare">
+                <small *ngIf="tare.touched && tare.invalid" class="form-text alert">Invalid Tare</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="totalBatteryCapacity">Total Battery Capacity</label><br>
+                <input #battery="ngModel" required min="0" type="number" name="totalBatteryCapacity"
+                    class="form-control" placeholder="e.g. 80" [(ngModel)]="form.totalBatteryCapacity">
+                <small *ngIf="battery.touched && battery.invalid" class="form-text alert">Invalid Battery
+                    Capacity</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="rechargeTime">Recharge Time</label><br>
+                <input #rechargeTime="ngModel" required min="0" type="number" name="rechargeTime" class="form-control"
+                    placeholder="e.g. 60" [(ngModel)]="form.rechargeTime">
+                <small *ngIf="rechargeTime.touched && rechargeTime.invalid" class="form-text alert">Invalid Recharge
+                    Time</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="autonomyWithMaxLoad">Autonomy</label><br>
+                <input #autonomy="ngModel" required min="0" type="number" name="autonomyWithMaxLoad"
+                    class="form-control" placeholder="e.g. 100" [(ngModel)]="form.autonomyWithMaxLoad">
+                <small *ngIf="autonomy.touched && autonomy.invalid" class="form-text alert">Invalid Autonomy</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="loadCapacity">Load Capacity</label><br>
+                <input #loadCapacity="ngModel" required min="0" type="number" name="loadCapacity" class="form-control"
+                    placeholder="e.g. 4300" [(ngModel)]="form.loadCapacity">
+                <small *ngIf="loadCapacity.touched && loadCapacity.invalid" class="form-text alert">Invalid Load
+                    Capacity</small>
+            </div>
+            <pre></pre>
+            <button class="btn btn-primary" (click)="div1Function()" style="margin-top: 1em;"
+                type="submit">Create</button>
+            <div style="margin-left: 30%; margin-top: -1em; width: 2em; height: 2em;" *ngIf="loading"
+                class="loading-circle"></div>
+            <small *ngIf="isSuccessfull" class="form-text success">Truck created with success</small>
+            <small *ngIf="isFailure" class="form-text success">Error creating the Truck</small>
+        </form>
+    </div>
+</div>

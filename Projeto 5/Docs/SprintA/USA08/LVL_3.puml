@@ -1,0 +1,36 @@
+@startuml USA08_3
+
+title SD - Delete Delivery
+
+autonumber
+
+participant "API" as API
+participant "Delivery Controller" as C
+participant "Delivery Service" as S
+participant "Delivery Repository" as R
+participant "UnitOfWork" as U
+
+activate API
+-> API : DELETE (delivery_id)
+API -> C : HardDelete(delivery_id)
+activate C
+C -> S : DeleteAsync(delivery_id)
+activate S
+S -> R : GetByIdAsync(delivery_id)
+activate R
+R -> R : Fetch(delivery_id)
+R --> S : Delivery
+deactivate R
+S -> R : Remove(Delivery)
+activate R
+R --> S
+deactivate R
+S -> U : CommitAsync
+activate U
+U --> S
+deactivate U
+S --> C : DeletedDelivery(DeliveryDto)
+deactivate S
+C --> API : Response Code 200
+deactivate C
+deactivate API

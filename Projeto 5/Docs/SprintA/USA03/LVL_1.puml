@@ -1,0 +1,24 @@
+@startuml USA03
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Warehouse Manager" as WM
+participant "System" as S
+
+activate WM
+WM -> S : Initiates wants to delete a warehouse
+activate S
+
+S --> WM : Ask warehouse id
+deactivate S
+
+WM -> S : Enter the warehouse id
+activate S
+S --> S: Checks if the warehouse exists
+S --> S: Deletes warehouse
+S --> WM : Informs of operation success
+deactivate S
+
+deactivate WM
+
+@enduml

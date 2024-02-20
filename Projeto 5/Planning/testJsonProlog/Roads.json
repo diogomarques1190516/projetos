@@ -1,0 +1,56 @@
+[
+   {
+      "truckId":"M01",
+      "distance": 56,
+      "time": 141,
+      "extraTime": 24,
+      "energy": 51,
+      "originId": "5",
+      "destinationId": "1"
+    },
+    {
+      "truckId":"M01",
+      "distance": 56,
+      "time": 185,
+      "extraTime": 53,
+      "energy": 74,
+      "originId": "1",
+      "destinationId": "9"
+    },
+    {
+      "truckId":"M01",
+      "distance": 56,
+      "time": 86,
+      "extraTime": 0,
+      "energy": 35,
+      "originId": "9",
+      "destinationId": "3"
+    },
+    {
+      "truckId":"M01",
+      "distance": 56,
+      "time": 38,
+      "extraTime": 0,
+      "energy": 8,
+      "originId": "3",
+      "destinationId": "8"
+    },
+    {
+      "truckId":"M01",
+      "distance": 56,
+      "time": 53,
+      "extraTime": 0,
+      "energy": 22,
+      "originId": "8",
+      "destinationId": "11"
+    },    
+    {
+      "truckId":"M01",
+      "distance": 56,
+      "time": 55,
+      "extraTime": 0,
+      "energy": 25,
+      "originId": "11",
+      "destinationId": "5"
+    }
+]

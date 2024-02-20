@@ -1,0 +1,27 @@
+@startuml US
+
+title Lvl 1 - Create Packaging
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+
+activate LM
+LM -> S : Clicks sign-in with Google button
+activate S
+S --> LM : Shows Logistic Manager Features
+deactivate S
+LM -> S : Selects the option to create a packaging
+activate S
+S --> LM : Requests the necessary data
+deactivate S
+
+LM -> S : Inserts the requested data.
+activate S
+S --> LM : Validates the data and informs of operation success.
+deactivate S
+
+deactivate LM
+
+@enduml

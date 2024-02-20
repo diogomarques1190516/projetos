@@ -1,0 +1,26 @@
+@startuml USA02
+
+title Lvl 2 - List Deliveries
+
+autonumber
+
+actor "Warehouse Manager" as WM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n WarehouseModule" as WMD
+
+
+activate WM
+WM -> S : Selects the option to List Deliveries
+activate S
+
+S -> WMD : GET /api/deliveries
+activate WMD
+
+WMD -> S : deliveries(JSON)
+deactivate WMD
+
+S --> WM : Show the list with all the Deliveries
+deactivate S
+deactivate WM
+
+@enduml

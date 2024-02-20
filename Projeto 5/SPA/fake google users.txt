@@ -1,0 +1,5 @@
+admin:     joaosilvaspalapr5@gmail.com
+logistics: pedromarquesspalapr5@gmail.com
+warehouse: jakubkielarspalapr5@gmail.com
+password:  Lapr5good
+

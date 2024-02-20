@@ -1,0 +1,47 @@
+@startuml US
+
+title Lvl 3 - Create an account
+
+autonumber
+
+actor "System Administrator" as WM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n Component" as C
+participant "<< Container (C4) >> \n UserService" as SV
+participant "<< Container (C4) >> \n UserDTO" as DTO
+participant "<< Container (C4) >> \n Logistics Manager" as LM
+
+
+activate WM
+WM -> S : Starts the creation of an account
+
+activate S
+S -> C : submit()
+activate C
+
+C -> SV : createuser()
+activate SV
+
+SV -> DTO : create()
+activate DTO
+deactivate DTO
+
+SV -> LM : POST /api/User
+activate LM
+
+LM -> LM : save(UserData)
+
+LM --> SV : HTTP 201 Created
+deactivate LM
+
+SV --> C : Response
+deactivate SV
+
+C --> S : Response
+deactivate C
+S --> WM : Operation sucessfull
+deactivate S
+
+deactivate WM
+
+@enduml

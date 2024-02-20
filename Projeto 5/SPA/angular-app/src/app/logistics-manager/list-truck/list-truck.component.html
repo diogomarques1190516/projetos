@@ -1,0 +1,36 @@
+<div class="center">
+  <h1>List of Trucks</h1>
+</div>
+
+<div style="
+margin-left: 50%;" *ngIf="loading" class="loading-circle"></div>
+
+<div class="container" *ngIf="done">
+
+  <ul class="row">
+    <div class="col">License Plate</div>
+    <div class="col">Tare</div>
+    <div class="col">Load Capacity</div>
+    <div class="col">Recharge Time</div>
+    <div class="col">Autonomy</div>
+    <div class="col">Total Battery Capacity</div>
+
+    <li *ngFor="let truck of pageSlice" class="row">
+      <div class="col"> {{ truck.licensePlate }} </div>
+      <div class="col"> {{ truck.tare }} </div>
+      <div class="col"> {{ truck.loadCapacity }} </div>
+      <div class="col"> {{ truck.rechargeTime }} </div>
+      <div class="col"> {{ truck.autonomyWithMaxLoad }} </div>
+      <div class="col"> {{ truck.totalBatteryCapacity }} </div>
+
+    </li>
+  </ul>
+
+
+
+  <mat-paginator [length]="this.trucks.length" [pageSize]="5" [pageSizeOptions]="[5,10,20]"
+    (page)="onPageChange($event)">
+
+  </mat-paginator>
+
+</div>

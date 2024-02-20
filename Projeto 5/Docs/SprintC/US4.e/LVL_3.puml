@@ -1,0 +1,52 @@
+@startuml US
+
+title Lvl 3 - List & Page Packagings
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :PackagingDTO" as DTO
+participant "<< Container (C4) >> \n LogisticsModule" as LG
+
+
+
+activate LM
+LM -> S : Selects the option to List Packagings by page
+
+activate S
+S -> C : listPackagings()
+activate C
+
+C -> SV : getPackagings()
+activate SV
+
+SV -> DTO : packagings()
+activate DTO
+
+DTO -> SV : return packagings()
+deactivate DTO
+
+SV -> LG : GET /api/packagings
+activate LG
+
+LG -> LG : packagings(JSON)
+
+LG --> SV : return packagings(JSON)
+deactivate LG
+
+SV --> C : return packagings(JSON)
+deactivate SV
+
+C --> S : return packagings(JSON)
+deactivate C
+S --> LM : Shows the list with all packagings by page
+deactivate S
+
+deactivate LM
+
+@enduml
+
+@enduml

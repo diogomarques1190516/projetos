@@ -1,0 +1,32 @@
+<div class="center">
+    <h1>List of Warehouses</h1>
+</div>
+
+<div style="
+margin-left: 50%;" *ngIf="loading" class="loading-circle"></div>
+
+<div class="container" *ngIf="done">
+
+    <ul class="row">
+
+        <div class="col">Designation</div>
+        <div class="col">Address</div>
+        <div class="col">Latitude</div>
+        <div class="col">Longitude</div>
+        <div class="col">Altitude</div>
+
+        <li *ngFor="let warehouse of pageSlice" class="row">
+            <div class="col"> {{ warehouse.designation }} </div>
+            <div class="col"> {{ warehouse.address }} </div>
+            <div class="col"> {{ warehouse.lat }} </div>
+            <div class="col"> {{ warehouse.lng }} </div>
+            <div class="col"> {{ warehouse.altitude }} </div>
+        </li>
+    </ul>
+
+    <mat-paginator [length]="this.warehouses.length" [pageSize]="5" [pageSizeOptions]="[5,10,20]"
+        (page)="onPageChange($event)">
+
+    </mat-paginator>
+
+</div>

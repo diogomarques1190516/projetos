@@ -1,0 +1,31 @@
+@startuml USA06_2
+
+title SD - Get Deliveries
+
+autonumber
+
+actor "Warehouse Manager" as FM
+actor "<< Container >> \n API" as SYS
+actor "<< Container >> \n DeliveriesDataMaster" as TDM
+
+
+activate FM
+FM -> SYS : Asks the list of deliveries.
+activate SYS
+
+SYS -> TDM : GET
+activate TDM
+
+TDM -> TDM : GetAllAsync
+
+TDM -> SYS : deliveries_list(JSON)
+deactivate TDM
+
+SYS -> SYS : Functionality executed successfully.
+
+SYS --> FM : Show deliveries.
+deactivate SYS
+
+deactivate FM
+
+@enduml

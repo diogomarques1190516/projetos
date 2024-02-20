@@ -1,0 +1,18 @@
+@startuml USA02
+
+title Lvl 1 - List Trucks
+
+
+autonumber
+actor "Fleet Manager" as FM
+participant "<< Container >> \n SPA" as S
+
+activate FM
+FM -> S : Selects the option to List Trucks
+activate S
+S --> FM : Show the list with all the trucks
+deactivate S
+
+deactivate FM
+
+@enduml

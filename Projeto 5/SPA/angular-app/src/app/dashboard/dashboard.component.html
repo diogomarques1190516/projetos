@@ -1,0 +1,55 @@
+<div class="navbar" role="banner">
+  <span style="margin-left: 10px">
+    <h2><a rel="noopener" routerLink="">EletricGO </a></h2>
+  </span>
+
+  <div *ngIf="AdminIsLoggedIn">
+    <app-admin-dash></app-admin-dash>
+  </div>
+
+  <div *ngIf="WarehouseManagerIsLoggedIn">
+    <app-warehouse-man-dash></app-warehouse-man-dash>
+  </div>
+
+  <div *ngIf="LogisticsManagerIsLoggedIn">
+    <app-logistics-man-dash></app-logistics-man-dash>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div *ngIf="user1" class="user">
+    <div *ngIf="isLoggedIn">
+      <img src="{{ user1.photoUrl }}">
+    </div>
+  </div>
+
+  <div *ngIf="user1" class="user">
+
+    <div *ngIf="isLoggedIn">
+      <h5>{{ user1.name }}</h5>
+      <h6>{{ userLogged.role }}</h6>
+    </div>
+  </div>
+
+  <div *ngIf="!isLoggedIn">
+    <div *ngIf="loginFailed">
+      <h4>Login Failed</h4>
+    </div>
+  </div>
+
+  <div *ngIf="!isLoggedIn" class="google">
+    <asl-google-signin-button id="asl-google-signin-button" type='standard' size='large'></asl-google-signin-button>
+  </div>
+
+
+
+  <div *ngIf="isLoggedIn">
+    <div>
+      <a (click)="logOut()" class="signup" aria-label="Log Out" target="_self" rel="noopener" routerLink="/frontpage"
+        title="Log Out">
+        Log Out
+      </a>
+    </div>
+  </div>
+
+</div>

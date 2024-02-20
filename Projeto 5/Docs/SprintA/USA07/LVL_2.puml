@@ -1,0 +1,48 @@
+@startuml USA07_2
+
+title SD - Edit Delivery
+
+autonumber
+
+actor "Warehouse Manager" as FM
+actor "<< Container >> \n API" as SYS
+actor "<< Container >> \n DeliveriesDataMaster" as TDM
+
+
+activate FM
+FM -> SYS : Asks to edit a delivery.
+activate SYS
+SYS --> FM : Asks which delivery wants to edit
+deactivate SYS
+
+FM -> SYS : Inserts the delivery ID
+activate SYS
+
+SYS -> TDM : PUT /delivery ID
+activate TDM
+
+TDM -> TDM : UpdateAsync(deliveryDATA)
+
+TDM -> SYS : delivery_edited(JSON)
+deactivate TDM
+
+SYS --> FM : Validates the data and requests confirmation.
+deactivate SYS
+
+FM -> SYS : Confirms the information.
+activate SYS
+
+SYS -> TDM : Save
+activate TDM
+
+TDM -> TDM : save(edited delivery)
+
+TDM -> SYS : 201 Edited
+deactivate TDM
+
+SYS --> FM : Saves the data and informs of operation success.
+deactivate SYS
+
+deactivate FM
+
+@enduml

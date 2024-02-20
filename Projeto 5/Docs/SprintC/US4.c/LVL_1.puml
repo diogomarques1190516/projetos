@@ -1,0 +1,22 @@
+@startuml US
+
+title Lvl 1 - List & Page Routes
+
+
+autonumber
+actor "Logistics Manager" as LM
+participant "<< Container >> \n SPA" as S
+
+activate LM
+LM -> S : Clicks sign-in with Google button
+activate S
+S --> LM : Shows Logistic Manager Features
+deactivate S
+LM -> S : Selects the option to List Routes
+activate S
+S --> LM : Show the list with the Routes
+deactivate S
+
+deactivate LM
+
+@enduml

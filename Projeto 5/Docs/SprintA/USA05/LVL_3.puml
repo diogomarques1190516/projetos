@@ -1,0 +1,35 @@
+@startuml USA05_3
+
+title SD - Create Delivery
+
+autonumber
+
+participant "API" as API
+participant "Delivery Controller" as C
+participant "Delivery Service" as S
+participant "Delivery Repository" as R
+participant "UnitOfWork" as U
+
+activate API
+ -> API : POST (delivery info)
+ API -> API : new DeliveryDto(delivery info)
+API -> C : Create(DeliveryDto)
+activate C
+C -> S : AddAsync(DeliveryDto)
+activate S
+S -> S : checkWarehouseIdAsync(DeliveryDto.WarehouseId)
+S -> S : new Delivery(DeliveryDto)
+S -> R : AddAsync(Delivery)
+activate R
+R -> R : Save(Delivery)
+R --> S
+deactivate R
+S -> U : CommitAsync
+activate U
+U --> S
+deactivate U 
+S --> C : DeliveryCreated(DeliveryDto)
+deactivate S
+C --> API : Response Code 201
+deactivate C
+deactivate API

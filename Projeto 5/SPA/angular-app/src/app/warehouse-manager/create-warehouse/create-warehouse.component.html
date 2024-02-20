@@ -1,0 +1,87 @@
+<div class="createWarehouseDiv">
+  <div>
+    <h2>Create Warehouse</h2>
+    <h4>Location</h4>
+    <form #create="ngForm" class="form" (ngSubmit)="submit(create)">
+      <div class="form-group">
+        <label for="warehouseId">Warehouse Identificator</label><br>
+        <input #warehouseId="ngModel" required type="text" name="warehouseId" class="form-control"
+          placeholder="e.g. M15" [(ngModel)]="form.warehouseId">
+        <small *ngIf="warehouseId.touched && warehouseId.invalid" class="form-text alert">Invalid Warehouse
+          Identificator</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="designation">Designation</label><br>
+        <input #designation="ngModel" required type="text" name="designation" class="form-control"
+          placeholder="e.g. Matosinhos" [(ngModel)]="form.designation">
+        <small *ngIf="designation.touched && designation.invalid" class="form-text alert">Invalid Designation</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="address">Address</label><br>
+        <input #address="ngModel" required type="text" name="address" class="form-control"
+          placeholder="e.g. Av Frederico Ulrich, Zona industrial I, 4444-999" [(ngModel)]="form.address">
+        <small *ngIf="designation.touched && designation.invalid" class="form-text alert">Invalid Address</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="latitude">Latitude</label><br>
+        <input #latitude="ngModel" required min="-180" max="180" type="number" name="latitude" class="form-control"
+          placeholder="e.g. 8.59634" [(ngModel)]="form.latitude">
+        <small *ngIf="latitude.touched && latitude.invalid" class="form-text alert">Invalid Latitude</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="longitude">Longitude</label><br>
+        <input #longitude="ngModel" required type="number" name="longitude" class="form-control"
+          placeholder="e.g. 30.69483" [(ngModel)]="form.longitude">
+        <small *ngIf="longitude.touched && longitude.invalid" class="form-text alert">Invalid Longitude</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="altitude">Altitude</label><br>
+        <input #altitude="ngModel" required type="number" name="altitude" class="form-control"
+          placeholder="e.g. 570.67054" [(ngModel)]="form.altitude">
+        <small *ngIf="altitude.touched && altitude.invalid" class="form-text alert">Invalid Altitude</small>
+      </div>
+      <pre></pre>
+      <h4>Visualization</h4>
+      <div class="form-group">
+        <label for="radius">Radius of Roundabout</label><br>
+        <input #radius="ngModel" required type="number" name="radius" class="form-control" placeholder="e.g. 4"
+          [(ngModel)]="form.radius">
+        <small *ngIf="radius.touched && radius.invalid" class="form-text alert">Invalid Radius</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="rotation">Rotation of Warehouse (in degrees)</label><br>
+        <input #rotation="ngModel" required type="number" name="rotation" class="form-control" placeholder="e.g. 45"
+          [(ngModel)]="form.rotation">
+        <small *ngIf="rotation.touched && rotation.invalid" class="form-text alert">Invalid Rotation</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="scale">Scale of Warehouse</label><br>
+        <input #scale="ngModel" required type="number" name="scale" class="form-control" placeholder="e.g. 3"
+          [(ngModel)]="form.scale">
+        <small *ngIf="scale.touched && scale.invalid" class="form-text alert">Invalid Scale</small>
+      </div>
+      <pre></pre>
+      <div class="form-group">
+        <label for="warehouseModel">Warehouse Model</label><br>
+        <input #warehouseModel="ngModel" required type="text" name="warehouseModel" class="form-control"
+          placeholder="e.g. https://www.models.com/warehouseModel1" [(ngModel)]="form.warehouseModel">
+        <small *ngIf="warehouseModel.touched && warehouseModel.invalid" class="form-text alert">Invalid Warehouse Model
+          Link</small>
+      </div>
+      <pre></pre>
+      <button class="btn btn-primary" (click)="div1Function()" style="margin-top: 1em;" type="submit">Create</button>
+      <div style="margin-left: 30%; margin-top: -1em; width: 2em; height: 2em;" *ngIf="loading" class="loading-circle">
+      </div>
+      <small *ngIf="isSuccessfull" class="form-text success">Warehouse created with success</small>
+      <small *ngIf="isFailure" class="form-text success">Error creating the Warehouse</small>
+    </form>
+    <p></p>
+  </div>
+</div>

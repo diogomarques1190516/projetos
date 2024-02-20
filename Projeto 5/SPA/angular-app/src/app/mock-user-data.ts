@@ -1,0 +1,34 @@
+import { UserData } from "./dto/user-data";
+
+export const USERS_DATA: UserData[] = [
+    {
+        email: "joaosilvaspalapr5@gmail.com",
+        firstName: "Joao",
+        //idToken: "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyOWFiYzE5YmUyN2ZiNDE1MWFhNDMxZTk0ZmEzNjgwYWU0NThkYTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NzMwNTY5ODksImF1ZCI6IjMzMTc4MjU5MzIxNS1mcDV1Z2kwdDh1Y3N1aHAyZHY5aDV2NmdnMGNvdHNiNy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjU2ODY2NjM3MzI3ODY2ODAxNyIsImVtYWlsIjoiam9hb3NpbHZhc3BhbGFwcjVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjMzMTc4MjU5MzIxNS1mcDV1Z2kwdDh1Y3N1aHAyZHY5aDV2NmdnMGNvdHNiNy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJKb2FvIFNpbHZhIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDVYMExfbndSOXM4MGR6c0pOYlhad0pIVF9oUzZYLUF5N2ppdWhYPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IkpvYW8iLCJmYW1pbHlfbmFtZSI6IlNpbHZhIiwiaWF0IjoxNjczMDU3Mjg5LCJleHAiOjE2NzMwNjA4ODksImp0aSI6ImM0MDE5NWNiNWEwOTI4ZTk2MmIwYWEzYjMxYTQ3MjA4NDIyMzNjZjgifQ.G9GsKUYrSA3UevP7eXLXMkM5yFpWNdMZM9SflVbc99o1kiTXTJOGnulfTVDWd6xcNVonHFS7DRCO5G7Cp8PATrhch8zBSGnNU2Ky7kUkJ6153oYUtbnobSt_UCtT_7IUSj2-TOTAUZR9UK6zwQU2iikEs3H56yikwFIrSqJkWL6DsHpXU0I5uZydyQdcT3uBjuzwN1jH6GPBpHZWT9kvlpwFC7tzyjnBKcpdiEmGlpWOGOsRS3k3stX7e7Ig_7RXL6Kz3t1dYP-xQsz3L__HAhvnEAqKnLOSke395DlOOtTSEyDpePD2vqan4BNZ5Bsjp8_La1kL5vt9VeoOgvYJVg",
+        lastName: "Silva",
+        //name: "Joao Silva",
+        telephoneNr: "965434567",
+        role: "System Administrator",
+        roleid: 1,
+    },
+    {
+        email: "jakubkielarspalapr5@gmail.com",
+        firstName: "Jakub",
+        //idToken: "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyOWFiYzE5YmUyN2ZiNDE1MWFhNDMxZTk0ZmEzNjgwYWU0NThkYTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NzMwNTgyNDIsImF1ZCI6IjMzMTc4MjU5MzIxNS1mcDV1Z2kwdDh1Y3N1aHAyZHY5aDV2NmdnMGNvdHNiNy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwODA4NTY4MDE1NzA5MTU2NzY4MSIsImVtYWlsIjoicGVkcm9tYXJxdWVzc3BhbGFwcjVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjMzMTc4MjU5MzIxNS1mcDV1Z2kwdDh1Y3N1aHAyZHY5aDV2NmdnMGNvdHNiNy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJQZWRybyBNYXJxdWVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDZ4ZkFUcnVpZjI3RTlNVWN3cERqNDA3bGVyclVlVnplOTBWOVluPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IlBlZHJvIiwiZmFtaWx5X25hbWUiOiJNYXJxdWVzIiwiaWF0IjoxNjczMDU4NTQyLCJleHAiOjE2NzMwNjIxNDIsImp0aSI6IjA2MGIxODhjMDEzNjc3MjlkZDhkODhlM2U0NDk5OGU2NjVjYjUyNjUifQ.Ude4hHOxFgNCczaSrteXiFxzVb82g6jtvHdSfiNby2fiELcTMKPh0efjuu3aESDJxunJFO3OQ2RYho-QPO9jcPJ92KkLw2VrX1xtAQnCulyzW18m-4zDeoU92uUEUPB12KwjGHQdGz4StigFwVCyH7AO8D9F-I1pN4EUtqRn36q3tm9XKqdYPbHPr9rRBL1R84kpJXfGi5rY0k9FGDzTCsuYyP1te1ccxLYooZ-hvvggpN5vNQaPAXpbDKWL4LKQetxBZCVU1uKXx72pS9NP5IIr_u8sojJIJl-2N6Izbvrh8cVd5yta0CsOF8mezMdBbQYSdFJxCLcNdXTlxnPZnA",
+        lastName: "Kielar",
+        //name: "Jakub Kielar",
+        telephoneNr: "912343423",
+        role: "Warehouse Manager",
+        roleid: 2,
+    },
+    {
+        email: "pedromarquesspalapr5@gmail.com",
+        firstName: "Pedro",
+        //idToken: "eyJhbGciOiJSUzI1NiIsImtpZCI6ImEyOWFiYzE5YmUyN2ZiNDE1MWFhNDMxZTk0ZmEzNjgwYWU0NThkYTUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2NzMwNTgyNDIsImF1ZCI6IjMzMTc4MjU5MzIxNS1mcDV1Z2kwdDh1Y3N1aHAyZHY5aDV2NmdnMGNvdHNiNy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwODA4NTY4MDE1NzA5MTU2NzY4MSIsImVtYWlsIjoicGVkcm9tYXJxdWVzc3BhbGFwcjVAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImF6cCI6IjMzMTc4MjU5MzIxNS1mcDV1Z2kwdDh1Y3N1aHAyZHY5aDV2NmdnMGNvdHNiNy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsIm5hbWUiOiJQZWRybyBNYXJxdWVzIiwicGljdHVyZSI6Imh0dHBzOi8vbGgzLmdvb2dsZXVzZXJjb250ZW50LmNvbS9hL0FFZEZUcDZ4ZkFUcnVpZjI3RTlNVWN3cERqNDA3bGVyclVlVnplOTBWOVluPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6IlBlZHJvIiwiZmFtaWx5X25hbWUiOiJNYXJxdWVzIiwiaWF0IjoxNjczMDU4NTQyLCJleHAiOjE2NzMwNjIxNDIsImp0aSI6IjA2MGIxODhjMDEzNjc3MjlkZDhkODhlM2U0NDk5OGU2NjVjYjUyNjUifQ.Ude4hHOxFgNCczaSrteXiFxzVb82g6jtvHdSfiNby2fiELcTMKPh0efjuu3aESDJxunJFO3OQ2RYho-QPO9jcPJ92KkLw2VrX1xtAQnCulyzW18m-4zDeoU92uUEUPB12KwjGHQdGz4StigFwVCyH7AO8D9F-I1pN4EUtqRn36q3tm9XKqdYPbHPr9rRBL1R84kpJXfGi5rY0k9FGDzTCsuYyP1te1ccxLYooZ-hvvggpN5vNQaPAXpbDKWL4LKQetxBZCVU1uKXx72pS9NP5IIr_u8sojJIJl-2N6Izbvrh8cVd5yta0CsOF8mezMdBbQYSdFJxCLcNdXTlxnPZnA",
+        lastName: "Marques",
+        //name: "Pedro Marques",
+        telephoneNr: "953454398",
+        role: "Logistics Manager",
+        roleid: 3,
+    }
+];

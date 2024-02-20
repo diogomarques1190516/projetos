@@ -1,0 +1,31 @@
+@startuml US
+
+title Lvl 2 - Login via SSO
+
+autonumber
+
+actor "User" as US
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n SSO Authetication" as SSO
+
+activate US
+US -> S : Clicks sign-in with Google button
+activate S
+S --> US : Redirects to Google Login page
+deactivate S
+US -> S : Fills in account information
+activate S
+
+S --> SSO : Logs In
+activate SSO
+SSO --> SSO : Checks if the email is registered
+SSO --> S : Email is correct
+deactivate SSO
+
+S --> US : Shows the data that the user is authorized to see
+deactivate S
+
+
+deactivate US
+
+@enduml

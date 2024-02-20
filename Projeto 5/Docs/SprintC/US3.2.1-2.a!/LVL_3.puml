@@ -1,0 +1,47 @@
+@startuml US
+
+title Lvl 3 - Create Truck
+
+autonumber
+
+actor "Logistic Manager" as FM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :TruckDTO" as DTO
+participant "<< Container (C4) >> \n Logistics" as LG
+
+
+activate FM
+FM -> S : Starts the creation of a truck
+
+activate S
+S -> C : submit()
+activate C
+
+C -> SV : createTruck()
+activate SV
+
+SV -> DTO : create()
+activate DTO
+deactivate DTO
+
+SV -> LG : POST /api/Trucks
+activate LG
+
+LG -> LG : save(TruckData)
+
+LG --> SV : HTTP 201 Created
+deactivate LG
+
+SV --> C : Response
+deactivate SV
+
+C --> S : Response
+deactivate C
+S --> FM : Operation sucessfull
+deactivate S
+
+deactivate FM
+
+@enduml

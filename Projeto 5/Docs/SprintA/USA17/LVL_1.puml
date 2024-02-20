@@ -1,0 +1,28 @@
+@startuml
+
+title View Level 1 - Create/Add Packaging
+
+autonumber
+
+actor "Logistics Manager" as LM
+actor "<< Component >> \n << Context(C4) >> \n :Visual Interface" as SYS
+
+activate LM
+LM -> SYS : Asks to create/add a packaging.
+activate SYS
+SYS --> LM : Requests the necessary data abou the new packaging.
+deactivate SYS
+
+LM -> SYS : Inserts the requested data.
+activate SYS
+SYS --> LM : Validates the data and requests confirmation.
+deactivate SYS
+
+LM -> SYS : Confirms the information.
+activate SYS
+SYS --> LM : Saves the data and informs of operation success.
+deactivate SYS
+
+deactivate LM
+
+@enduml

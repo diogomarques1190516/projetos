@@ -1,0 +1,51 @@
+@startuml US
+
+title Lvl 2 - Create Packaging
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n SSO Authetication" as SSO
+participant "<< Container (C4) >> \n AuthGuard" as AG
+participant "<< Container (C4) >> \n Logistics" as LG
+
+
+activate LM
+LM -> S : Clicks sign-in with Google button
+activate S
+S -> SSO : Logs in with a Google Account
+activate SSO
+SSO --> SSO : Checks if the email is registered
+SSO --> S : Email is correct
+deactivate SSO
+S --> LM : Shows Logistic Manager Features
+deactivate S
+LM -> S : Selects the option to create a packaging
+activate S
+S --> AG : Checks if this user has Authorization to view this page
+activate AG
+AG -> AG : CanActivateChild()
+AG --> S : Authorized
+deactivate AG
+S --> LM : Requests the necessary data
+deactivate S
+
+LM -> S : Inserts the requested data.
+activate S
+
+S -> LG : POST /api/Packagings
+activate LG
+
+LG -> LG : save(PackagingData)
+
+LG -> S : HTTP 201 Created
+deactivate LG
+
+S --> LM : Validates the data and informs of operation success.
+
+deactivate S
+
+deactivate LM
+
+@enduml

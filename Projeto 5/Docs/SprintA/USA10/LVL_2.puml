@@ -1,0 +1,29 @@
+@startuml
+
+title Lvl 2 - List Trucks
+
+autonumber
+
+actor "Fleet Manager" as FM
+actor "<< Container >> \n Visual Interface" as SYS
+actor "<< Container >> \n Logistics" as LG
+
+
+activate FM
+FM -> SYS : Asks to view the list of trucks.
+activate SYS
+
+SYS -> LG : GET /trucks
+activate LG
+
+LG -> SYS : trucks(JSON)
+deactivate LG
+
+SYS -> SYS : Functionality executed successfully.
+
+SYS --> FM : Shows truck list.
+deactivate SYS
+
+deactivate FM
+
+@enduml

@@ -1,0 +1,35 @@
+@startuml US
+
+title Lvl 2 - Create Route
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n Logistics" as LG
+
+
+activate LM
+LM -> S : Selects the option to create a route
+activate S
+S --> LM : Requests the necessary data
+deactivate S
+
+LM -> S : Inserts the requested data.
+activate S
+
+S -> LG : POST /api/Routes
+activate LG
+
+LG -> LG : save(RouteData)
+
+LG -> S : HTTP 201 Created
+deactivate LG
+
+S --> LM : Validates the data and informs of operation success.
+
+deactivate S
+
+deactivate LM
+
+@enduml

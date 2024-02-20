@@ -1,0 +1,219 @@
+h1 {
+    color: white;
+    text-align: center;
+  }
+
+h6 {
+    color: white;
+    text-align: center;
+    font-weight: 900;
+  }
+
+p{
+    color: white;
+    line-height: 30%;
+    font-weight: 600;
+}
+
+.select-box {
+    width: 250px;
+    height: 45px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+    }
+    
+select {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10px;
+}
+   
+
+option {
+    color: white;
+    background-color: #333;
+}
+
+.date-picker {
+    width: 20em;
+    height: 80%;
+    border: 0.2em solid #333;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin-bottom: 1em;
+    background-color:white;
+}
+
+input[type="date"] {
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 10px;
+}
+
+input[type="date"]:focus {
+    outline: none;
+}
+
+.date-picker::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.date-picker::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+button {
+    width: 250px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #333;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+    
+button:hover {
+    background-color:#333;
+    color: white;
+}
+    
+button:active {
+    transform: scale(0.9);
+}
+    
+button:focus {
+    outline: none;
+}
+    
+button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+    
+    
+button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    background-color: #747474;
+    border-radius: 50%;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+li{
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+}
+
+ul > div{
+    padding-bottom: 1em;
+}
+
+.mainli{
+    padding: 0.4em;
+    margin-left: 1em;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
+    border-style: none;
+    border-width: 0.1em;
+    border-color: #434343;
+}
+
+label.orders input[type=checkbox]{
+    position: relative;
+    vertical-align: middle;
+    bottom: 1px;
+    font-size: 3em;
+}
+
+.listAlgorithms{
+    width: 20em;
+    height: 80%;
+    border: 0.2em solid #333;
+    border-radius: 0.5em;
+    overflow: hidden;
+    cursor: default;
+
+}
+
+.listAlgorithms > input{
+    cursor: pointer;
+}
+
+.form-group{
+    display: flex;
+  justify-content: center;
+}
+
+.success{
+    color: rgb(255, 255, 255);
+    margin-left: 1em;
+    font-size: 1em;
+
+}
+  

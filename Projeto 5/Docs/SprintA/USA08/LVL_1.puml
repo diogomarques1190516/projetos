@@ -1,0 +1,24 @@
+@startuml USA08_1
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Warehouse Manager" as WM
+participant "System" as S
+
+activate WM
+WM -> S : Initiates wants to edit a delivery
+activate S
+
+S --> WM : Ask which delivery id and new information
+deactivate S
+
+WM -> S : Enter the information requested(id and changes)
+activate S
+S --> S: Checks if the delivery exists
+S --> S: Edits changes requested from the delivery
+S --> WM : Informs of operation success
+deactivate S
+
+deactivate WM
+
+@enduml

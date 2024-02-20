@@ -1,0 +1,55 @@
+@startuml USA02
+
+title Lvl 2 - List Route Plannings
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n SSO Authetication" as SSO
+participant "<< Container (C4) >> \n AuthGuard" as AG
+participant "<< Container (C4) >> \n LogisticsModule" as LMD
+participant "<< Container (C4) >> \n PlanningModule" as PMD
+
+
+activate LM
+LM -> S : Clicks sign-in with Google button
+activate S
+S -> SSO : Logs in with a Google Account
+activate SSO
+SSO --> SSO : Checks if the email is registered
+SSO --> S : Email is correct
+deactivate SSO
+S --> LM : Shows Logistic Manager Features
+deactivate S
+LM -> S : Selects the option to List Route Plannings
+activate S
+
+S --> AG : Checks if this user has Authorization to view this page
+activate AG
+AG -> AG : CanActivateChild()
+AG --> S : Authorized
+deactivate AG
+S -> LMD : GET /api/trucks
+activate LMD
+
+LMD -> S : listOfTrucks(JSON)
+deactivate LMD
+
+S --> LM : Ask for the LicensePlate from the presented list and Date
+deactivate S
+
+LM -> S : Selects the necessary data and click calculate button
+activate S
+
+S -> PMD : GET /fastestSequence(date, licensePlate in URL)
+activate PMD
+
+PMD -> S : Sequence of Cities and Necessary Time (JSON)
+deactivate PMD
+
+S --> LM : Show the list of sequence of cities and necessary time for a trip
+deactivate S
+deactivate LM
+
+@enduml

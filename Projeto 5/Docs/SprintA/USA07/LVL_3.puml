@@ -1,0 +1,35 @@
+@startuml USA07_3
+
+title SD - Edit Delivery
+
+autonumber
+
+participant "API" as API
+participant "Delivery Controller" as C
+participant "Delivery Service" as S
+participant "Delivery Repository" as R
+participant "UnitOfWork" as U
+
+activate API
+-> API : PUT (delivery_id, delivery_info)
+API -> API : new WarehouseDto(delivery info)
+API -> C : Update(delivery_id, DeliveryDto)
+activate C
+C -> C : Compares (delivery_id == DeliveryDto.Id)
+C -> S : UpdateAsync(DeliveryDto)
+activate S
+S -> R : GetByIdAsync(delivery_id)
+activate R
+R -> R : Fetch(delivery_id)
+R --> S : OldDelivery
+deactivate R
+S -> S : Edits delivery information
+S -> U : CommitAsync
+activate U
+U --> S
+deactivate U
+S --> C : NewDelivery(DeliveryDto)
+deactivate S
+C --> API : Response Code 200
+deactivate C
+deactivate API

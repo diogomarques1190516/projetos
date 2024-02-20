@@ -1,0 +1,18 @@
+@startuml
+
+title Lvl 1 - List Trucks
+
+autonumber
+
+actor "Fleet Manager" as FM
+actor "<< Container >> \n Visual Interface" as SYS
+
+activate FM
+FM -> SYS : Asks to view the list of trucks.
+activate SYS
+SYS --> FM : Shows truck list.
+deactivate SYS
+
+deactivate FM
+
+@enduml

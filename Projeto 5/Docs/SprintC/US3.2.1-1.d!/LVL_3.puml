@@ -1,0 +1,50 @@
+@startuml US
+
+title Lvl 3 - List Deliveries
+
+autonumber
+
+actor "Warehouse Manager" as WM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :DeliveryDTO" as DTO
+participant "<< Container (C4) >> \n WarehouseModule" as WMD
+
+
+
+activate WM
+WM -> S : Selects the option to List Deliveries
+
+activate S
+S -> C : listDeliveries()
+activate C
+
+C -> SV : getDeliveries()
+activate SV
+
+SV -> DTO : deliveries()
+activate DTO
+
+DTO -> SV : return deliveries()
+deactivate DTO
+
+SV -> WMD : GET /api/deliveries
+activate WMD
+
+WMD -> WMD : deliveries(JSON)
+
+WMD --> SV : return deliveries(JSON)
+deactivate WMD
+
+SV --> C : return deliveries(JSON)
+deactivate SV
+
+C --> S : return deliveries(JSON)
+deactivate C
+S --> WM : Shows the list with all deliveries
+deactivate S
+
+deactivate WM
+
+@enduml

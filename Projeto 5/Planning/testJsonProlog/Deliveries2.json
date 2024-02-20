@@ -1,0 +1,42 @@
+[
+    {
+    "id" : "220909/9",
+    "deliveryDate": "25-09-2022",
+    "massOfDelivery" : 200,
+    "warehouseId" : "1",
+    "timeToPlaceDelivery" : 8,
+    "timeToPickUpDelivery" : 10
+ },
+ {
+    "id" : "220909/11",
+    "deliveryDate": "25-05-2022",
+    "massOfDelivery" : 150,
+    "warehouseId" : "9",
+    "timeToPlaceDelivery" : 7,
+    "timeToPickUpDelivery" : 9
+ },
+ {
+    "id" : "220909/11",
+    "deliveryDate": "25-05-2022",
+    "massOfDelivery" : 100,
+    "warehouseId" : "3",
+    "timeToPlaceDelivery" : 5,
+    "timeToPickUpDelivery" : 7
+ },
+ {
+    "id" : "220909/11",
+    "deliveryDate": "25-05-2022",
+    "massOfDelivery" : 120,
+    "warehouseId" : "8",
+    "timeToPlaceDelivery" : 6,
+    "timeToPickUpDelivery" : 8
+ },
+ {
+    "id" : "220909/11",
+    "deliveryDate": "25-05-2022",
+    "massOfDelivery" : 300,
+    "warehouseId" : "11",
+    "timeToPlaceDelivery" : 15,
+    "timeToPickUpDelivery" : 20
+ }
+]

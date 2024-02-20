@@ -1,0 +1,35 @@
+@startuml USA08_2
+
+title SD - Delete Delivery
+
+autonumber
+
+actor "Warehouse Manager" as FM
+actor "<< Container >> \n API" as SYS
+actor "<< Container >> \n DeliveriesDataMaster" as TDM
+
+
+activate FM
+FM -> SYS : Asks to delete a delivery.
+activate SYS
+SYS --> FM : Asks which delivery wants to delete
+deactivate SYS
+
+FM -> SYS : Inserts the delivery ID
+activate SYS
+
+SYS -> TDM : DELETE /delivery ID
+activate TDM
+
+TDM -> TDM : DeleteHard(deliveryID)
+
+TDM -> SYS : 201 Deleted
+deactivate TDM
+deactivate TDM
+
+SYS --> FM : Informs of operation success.
+deactivate SYS
+
+deactivate FM
+
+@enduml

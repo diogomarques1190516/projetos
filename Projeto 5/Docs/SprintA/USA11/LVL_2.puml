@@ -1,0 +1,54 @@
+@startuml
+
+title Lvl 2 - Edit Truck
+
+autonumber
+
+actor "Fleet Manager" as FM
+actor "<< Container >> \n Visual Interface" as SYS
+actor "<< Container >> \n Logistics" as LG
+
+
+activate FM
+FM -> SYS : Asks to edit a truck.
+activate SYS
+SYS --> FM : Ask to choose wich truck you want to edit.
+deactivate SYS
+
+FM -> SYS : Choose the truck.
+activate SYS
+
+SYS -> LG : GET truck/{matricula}
+activate LG
+
+LG -> SYS : truck(JSON)
+deactivate LG
+
+SYS --> FM : Requests the data you want to change.
+deactivate SYS
+
+FM -> SYS : Enter  the desired data.
+activate SYS
+
+SYS -> LG : PATCH truck/{TruckData}
+activate LG
+
+LG -> LG : Validate(truck)
+
+LG -> LG : save(truck)
+
+LG -> SYS : 200 OK
+deactivate LG
+
+SYS --> FM : Validates the data and requests confirmation.
+deactivate SYS
+
+FM -> SYS : Confirms the information.
+activate SYS
+SYS --> FM : Saves the data and informs of operation success.
+deactivate SYS
+
+
+deactivate FM
+
+@enduml

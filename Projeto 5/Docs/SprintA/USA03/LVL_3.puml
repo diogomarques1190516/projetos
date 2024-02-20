@@ -1,0 +1,35 @@
+@startuml USA03_3
+
+title SD - Edit Warehouse
+
+autonumber
+
+participant "API" as API
+participant " WarehouseController" as C
+participant "Warehouse Service" as S
+participant "WarehouseRepository" as R
+participant "UnitOfWork" as U
+
+activate API
+-> API : PUT (warehouse_id, warehouse_info)
+API -> API : new WarehouseDto(warehouse info)
+API -> C : Update(warehouse_id, WarehouseDto)
+activate C
+C -> C : Compares (warehouse_id == WarehouseDto.Id)
+C -> S : UpdateAsync(WarehouseDto)
+activate S
+S -> R : GetByIdAsync(WarehouseId)
+activate R
+R -> R : Fetch(WarehouseId)
+R --> S : OldWarehouse
+deactivate R
+S -> S : Edits warehouse information
+S -> U : CommitAsync
+activate U
+U --> S
+deactivate U
+S --> C : NewWarehouse(WarehouseDto)
+deactivate S
+C --> API : Response Code 200
+deactivate C
+deactivate API

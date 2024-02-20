@@ -1,0 +1,48 @@
+@startuml USA02
+
+title SD - Create Warehouse
+
+autonumber
+
+actor "Warehouse Manager" as FM
+actor "<< Container >> \n API" as SYS
+actor "<< Container >> \n WarehouseDataMaster" as TDM
+
+
+activate FM
+FM -> SYS : Asks to add a warehouse.
+activate SYS
+SYS --> FM : Requests the necessary data\n(id, designation, address, coordinates)
+deactivate SYS
+
+FM -> SYS : Inserts the requested data.
+activate SYS
+
+SYS -> TDM : POST /warehouse warehouseData
+activate TDM
+
+TDM -> TDM : AddAsync(warehouseData)
+
+TDM -> SYS : warehouse_register(JSON)
+deactivate TDM
+
+SYS --> FM : Validates the data and requests confirmation.
+deactivate SYS
+
+FM -> SYS : Confirms the information.
+activate SYS
+
+SYS -> TDM : PUT validate /{option, warehouse}
+activate TDM
+
+TDM -> TDM : save(warehouse)
+
+TDM -> SYS : 201 created
+deactivate TDM
+
+SYS --> FM : Saves the data and informs of operation success.
+deactivate SYS
+
+deactivate FM
+
+@enduml

@@ -1,0 +1,52 @@
+@startuml US
+
+title Lvl 3 - List Warehouses
+
+autonumber
+
+actor "Warehouse Manager" as WM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :WarehouseDTO" as DTO
+participant "<< Container (C4) >> \n WarehouseModule" as WMD
+
+
+
+activate WM
+WM -> S : Selects the option to List Warehouses
+
+activate S
+S -> C : listWarehouses()
+activate C
+
+C -> SV : getWarehouses()
+activate SV
+
+SV -> DTO : warehouses()
+activate DTO
+
+DTO -> SV : return warehouses()
+deactivate DTO
+
+SV -> WMD : GET /api/warehouses
+activate WMD
+
+WMD -> WMD : warehouses(JSON)
+
+WMD --> SV : return warehouses(JSON)
+deactivate WMD
+
+SV --> C : return warehouses(JSON)
+deactivate SV
+
+C --> S : return warehouses(JSON)
+deactivate C
+S --> WM : Shows the list with all warehouses
+deactivate S
+
+deactivate WM
+
+@enduml
+
+@enduml

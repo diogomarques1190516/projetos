@@ -1,0 +1,51 @@
+@startuml US
+
+title Lvl 2 - Create Warehouse
+
+autonumber
+
+actor "Warehouse Manager" as WM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n SSO Authetication" as SSO
+participant "<< Container (C4) >> \n AuthGuard" as AG
+participant "<< Container (C4) >> \n WarehouseModule" as WMD
+
+activate WM
+WM -> S : Clicks sign-in with Google button
+activate S
+S -> SSO : Logs in with a Google Account
+activate SSO
+SSO --> SSO : Checks if the email is registered
+SSO --> S : Email is correct
+deactivate SSO
+S --> WM : Shows Warehouse Manager Features
+deactivate S
+
+WM -> S : Selects the option to create a warehouse
+activate S
+S --> AG : Checks if this user has Authorization to view this page
+activate AG
+AG -> AG : CanActivateChild()
+AG --> S : Authorized
+deactivate AG
+S --> WM : Requests the necessary data
+deactivate S
+
+WM -> S : Inserts the requested data.
+activate S
+
+S -> WMD : POST /api/Warehouse
+activate WMD
+
+WMD -> WMD : save(WarehouseData)
+
+WMD -> S : HTTP 201 Created
+deactivate WMD
+
+S --> WM : Validates the data and informs of operation success.
+
+deactivate S
+
+deactivate WM
+
+@enduml

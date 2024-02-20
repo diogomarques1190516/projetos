@@ -1,0 +1,33 @@
+# Node.js
+# Build a general Node.js project with npm.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
+
+trigger:
+- master
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+  
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: 'WarehouseModule/DDDNetCore.csproj'
+    
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'run'
+    projects: 'WarehouseModule/DDDNetCore.csproj'
+
+
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Azure for Students(bba73b53-fba6-47b3-a0ec-6f8b9a46e617)'
+    appType: 'apiApp'
+    WebAppName: 'logistics-master-data'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+        

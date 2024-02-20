@@ -1,0 +1,47 @@
+a,
+a:visited,
+a:hover {
+  color: #f4f6f7;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.dropdown {
+  color: white;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown:hover {
+  color: #518dca;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 200%;
+  overflow: auto;
+}
+
+.dropdown-content:hover {
+  color: #518dca;
+}
+
+
+.dropdown-content a {
+  display: block;
+  color: #ffffff;
+  padding: 1em;
+  text-decoration: none;
+  background-color: rgb(67, 67, 67, 0.5);
+}
+.dropdown-content a:hover {
+  color: #518dca;
+  background-color: rgb(67, 67, 67, 0.8);
+}

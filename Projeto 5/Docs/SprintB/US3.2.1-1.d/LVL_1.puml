@@ -1,0 +1,18 @@
+@startuml USA02
+
+title Lvl 1 - List Deliveries
+
+
+autonumber
+actor "Warehouse Manager" as WM
+participant "<< Container >> \n SPA" as S
+
+activate WM
+WM -> S : Selects the option to List Deliveries
+activate S
+S --> WM : Show the list with all the Deliveries
+deactivate S
+
+deactivate WM
+
+@enduml

@@ -1,0 +1,53 @@
+<div class="createAccountDiv">
+    <div>
+        <h2>Create An Account</h2>
+        <form #create="ngForm" class="form" (ngSubmit)="submit(create)">
+            <div class="form-group">
+                <label for="firstName">First Name</label><br>
+                <input #firstName="ngModel" required type="text" name="firstName" class="form-control"
+                    placeholder="e.g. Charles" [(ngModel)]="form.firstName">
+                <small *ngIf="firstName.touched && firstName.invalid" class="form-text alert">Invalid firstName</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="lastName">Last Name</label><br>
+                <input #lastName="ngModel" type="text" required name="lastName" class="form-control"
+                    placeholder="e.g. White" [(ngModel)]="form.lastName">
+                <small *ngIf="lastName.touched && lastName.invalid" class="form-text alert">Invalid Name</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="telephoneNr">Telephone Number</label><br>
+                <input #telephoneNr="ngModel" required required type="text" name="telephoneNr" class="form-control"
+                    placeholder="e.g. 96123456" [(ngModel)]="form.telephoneNr">
+                <small *ngIf="telephoneNr.touched && telephoneNr.invalid" class="form-text alert">Invalid Telephone
+                    Number</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="email">Email</label><br>
+                <input #email="ngModel" required type="text" name="email" class="form-control"
+                    placeholder="e.g. charleswhite123@gmail.com" [(ngModel)]="form.email">
+                <small *ngIf="email.touched && email.invalid" class="form-text alert">Invalid Email</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="email">Role</label><br>
+                <div class="select-box">
+                    <select class="form-control" name="role" [(ngModel)]="form.role" id="role" required>
+                        <option name="role" [value]="role.name" *ngFor="let role of roles">
+                            {{
+                            role.name }}</option>
+                    </select>
+                </div>
+            </div>
+            <pre></pre>
+            <button class="btn btn-primary" (click)="div1Function()" style="margin-top: 1em;"
+                type="submit">Create</button>
+            <div style="margin-left: 30%; margin-top: -1em; width: 2em; height: 2em;" *ngIf="loading"
+                class="loading-circle"></div>
+            <small *ngIf="isSuccessfull" class="form-text success">Account created with success</small>
+            <small *ngIf="isFailure" class="form-text success">Error creating the Account</small>
+        </form>
+    </div>
+</div>

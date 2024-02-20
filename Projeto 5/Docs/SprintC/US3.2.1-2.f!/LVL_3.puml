@@ -1,0 +1,52 @@
+@startuml US
+
+title Lvl 3 - List Trucks
+
+autonumber
+
+actor "Logistic Manager" as FM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :TruckDTO" as DTO
+participant "<< Container (C4) >> \n LogisticsModule" as LG
+
+
+
+activate FM
+FM -> S : Selects the option to List Trucks
+
+activate S
+S -> C : listTrucks()
+activate C
+
+C -> SV : getTrucks()
+activate SV
+
+SV -> DTO : trucks()
+activate DTO
+
+DTO -> SV : return trucks()
+deactivate DTO
+
+SV -> LG : GET /api/trucks
+activate LG
+
+LG -> LG : trucks(JSON)
+
+LG --> SV : return trucks(JSON)
+deactivate LG
+
+SV --> C : return trucks(JSON)
+deactivate SV
+
+C --> S : return trucks(JSON)
+deactivate C
+S --> FM : Shows the list with all trucks
+deactivate S
+
+deactivate FM
+
+@enduml
+
+@enduml

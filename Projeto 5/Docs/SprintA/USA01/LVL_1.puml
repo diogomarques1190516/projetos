@@ -1,0 +1,23 @@
+@startuml USA01_1
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Warehouse Manager" as WM
+participant "System" as S
+
+activate WM
+WM -> S : Initiates wants to create a new warehouse
+activate S
+
+S --> WM : Ask the information of the warehouse\n(id, designation, address, coordinates)
+deactivate S
+
+WM -> S : Enter the requested information
+activate S
+S --> S: Creates Warehouse
+S --> WM : Informs of operation success
+deactivate S
+
+deactivate WM
+
+@enduml

@@ -1,0 +1,94 @@
+@startuml
+
+
+package User <<Folder>>{
+class User{
+  -id
+  }
+  
+class UserRole{
+}
+
+class RolePermissons{
+}
+}
+
+package Shop <<Folder>>{
+class Warehouse <<entity root>>{
+  -city
+  -cityNumber
+  -coordinates
+  -altitude
+}
+
+class Store <<entity root>>{
+
+}
+
+class ChargingStation <<entity root>>{
+  
+}
+}
+
+
+class Truck <<entity root>>{
+  -licensePlate
+  -tare
+  -loadCapacity
+  -totalBatteryCapacity
+  -autonomyWithMaxLoad
+  -rechargeTime
+}
+
+class TruckDriver <<entity root>>{
+  
+}
+
+
+class Route <<entity root>>{
+  -destinationId
+  -originId
+  -distance
+  -time
+  -energy
+  -extraTime
+}
+
+class Orders <<entity root>>{
+  
+}
+
+
+
+class DeliveryPlan <<entity root>>{
+  
+}
+
+class Delivery <<entity root>>{
+  -deliveryId
+  -date
+  -massDelivered
+  -deliveredWarehouse
+  -placementTime
+  -removalTime
+}
+
+class SalesForecast <<entity root>>{
+  
+}
+
+UserRole "1" -- "*"RolePermissons : Has
+Warehouse "1" -- "1"ChargingStation : Has
+User "*" -- "1"UserRole : Has
+Warehouse "1" -- "*" Delivery
+Store "1" -- "*" Delivery
+Warehouse "1" -- "1" Store
+Warehouse "1" -- "*" Route : Origin
+Warehouse "1" -- "*" Route : Destination
+Delivery "1" -- "*" Orders
+DeliveryPlan "1" -- "*" Route
+SalesForecast "1" -- "*" Orders
+Truck "1" -- "*" DeliveryPlan
+Truck "*" -- "*" TruckDriver 
+
+@enduml

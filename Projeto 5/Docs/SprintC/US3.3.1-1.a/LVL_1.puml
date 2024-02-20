@@ -1,0 +1,27 @@
+@startuml US
+
+title Lvl 1 - Create an Account
+
+autonumber
+
+actor "System Administrator" as SA
+participant "<< Container (C4) >> \n SPA" as S
+
+activate SA
+SA -> S : Clicks sign-in with Google button
+activate S
+S --> SA : Shows System Administrator Features
+deactivate S
+SA -> S : Selects the option to create an account
+activate S
+S --> SA : Requests the necessary data
+deactivate S
+
+SA -> S : Inserts the requested data.
+activate S
+S --> SA : Validates the data and informs of operation success.
+deactivate S
+
+deactivate SA
+
+@enduml

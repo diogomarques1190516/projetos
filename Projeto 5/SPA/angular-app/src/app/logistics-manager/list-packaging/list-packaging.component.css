@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+  }
+
+mat-paginator{
+    color: white;
+    background-color: #434343;
+}
+
+span{
+  font-size: 1.5em;
+  color:white;
+}
+
+.buttonGood {
+  display: inline-block;
+  padding: 1em 1em;
+  margin: 1em;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.buttonGood:hover {
+  background-color: #444;
+  transform: scale(1.1);
+}
+
+.buttonGood:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.input {
+  background-color: #333;
+  border: none;
+  color: white;
+  padding: 0.8em 1em;
+  margin: 1em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }
+  
+.input:hover {
+  background-color: #444;
+  transform: scale(1.1);
+  }
+  
+  .input:active {
+  background-color: #444;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transform: scale(0.9);
+  }
+
+  .select {
+    transition: all 0.5s ease-in-out;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.8em 1em;
+    margin: 1em;
+    font-size: 18px;
+    cursor: pointer;
+    }
+
+    .select:before {
+      content: "Choose an option";
+      color: #999;
+    }
+    
+    .select:focus:before {
+      content: "";
+    }
+    
+    .select:hover {
+    background-color: #444;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+    }
+    
+    .select:active {
+    background-color: #555;
+    transform: scale(0.9);
+    }
+    
+    .select:focus {
+    outline: none;
+    }

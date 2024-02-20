@@ -1,0 +1,33 @@
+@startuml
+
+title Lvl 1 - Edit Truck
+
+autonumber
+
+actor "Fleet Manager" as FM
+actor "<< Container >> \n Visual Interface" as SYS
+
+activate FM
+FM -> SYS : Asks to edit a truck.
+activate SYS
+SYS --> FM : Ask to choose wich truck you want to edit.
+deactivate SYS
+
+FM -> SYS : Chooses the truck.
+activate SYS
+SYS --> FM : Requests the data you want to change.
+deactivate SYS
+
+FM -> SYS : Enter  the desired data.
+activate SYS
+SYS --> FM : Validates the data and requests confirmation.
+deactivate SYS
+
+FM -> SYS : Confirms the information.
+activate SYS
+SYS --> FM : Saves the data and informs of operation success.
+deactivate SYS
+
+deactivate FM
+
+@enduml

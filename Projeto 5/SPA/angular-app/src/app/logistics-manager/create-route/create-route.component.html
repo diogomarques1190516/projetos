@@ -1,0 +1,64 @@
+<div class="createRouteDiv">
+    <div>
+        <h2>Create Route</h2>
+        <form #create="ngForm" class="form" (ngSubmit)="submit(create)">
+            <div class="form-group">
+                <label for="distance">Distance</label><br>
+                <input #distance="ngModel" required min="0" type="number" name="distance" class="form-control"
+                    placeholder="e.g. 10" [(ngModel)]="form.distance">
+                <small *ngIf="distance.touched && distance.invalid" class="form-text alert">Invalid Distance</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="time">Time</label><br>
+                <input #time="ngModel" required min="0" type="number" name="time" class="form-control"
+                    placeholder="e.g. 10" [(ngModel)]="form.time">
+                <small *ngIf="time.touched && time.invalid" class="form-text alert">Invalid Time</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="extraTime">Extra Time</label><br>
+                <input #extraTime="ngModel" required min="0" type="number" name="extraTime" class="form-control"
+                    placeholder="e.g. 2" [(ngModel)]="form.extraTime">
+                <small *ngIf="extraTime.touched && extraTime.invalid" class="form-text alert">Invalid Extra Time</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="energy">Energy</label><br>
+                <input #energy="ngModel" required min="0" type="number" name="energy" class="form-control"
+                    placeholder="e.g. 10" [(ngModel)]="form.energy">
+                <small *ngIf="energy.touched && energy.invalid" class="form-text alert">Invalid Invalid Energy</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="originId">Origin Id</label><br>
+                <input #originId="ngModel" required min="0" type="text" name="originId" class="form-control"
+                    placeholder="e.g. 1" [(ngModel)]="form.originId">
+                <small *ngIf="originId.touched && originId.invalid" class="form-text alert">Invalid Origin Id</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="destinationId">Destination Id</label><br>
+                <input #destinationId="ngModel" required min="0" type="text" name="destinationId" class="form-control"
+                    placeholder="e.g. 1" [(ngModel)]="form.destinationId">
+                <small *ngIf="destinationId.touched && destinationId.invalid" class="form-text alert">Invalid
+                    Destination
+                    Id</small>
+            </div>
+            <pre></pre>
+            <div class="form-group">
+                <label for="width">Width</label><br>
+                <input #width="ngModel" required min="0" type="number" name="width" class="form-control"
+                    placeholder="e.g. 1" [(ngModel)]="form.width">
+                <small *ngIf="width.touched && width.invalid" class="form-text alert">Invalid Width</small>
+            </div>
+            <pre></pre>
+            <button class="btn btn-primary" (click)="div1Function()" style="margin-top: 1em;"
+                type="submit">Create</button>
+            <div style="margin-left: 30%; margin-top: -1em; width: 2em; height: 2em;" *ngIf="loading"
+                class="loading-circle"></div>
+            <small *ngIf="isSuccessfull" class="form-text success">Route created with success</small>
+            <small *ngIf="isFailure" class="form-text success">Error creating the Route</small>
+        </form>
+    </div>
+</div>

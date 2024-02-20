@@ -1,0 +1,50 @@
+<div class="center">
+    <h1>List of Deliveries</h1>
+</div>
+
+<div style="
+margin-left: 50%;" *ngIf="loading" class="loading-circle"></div>
+
+<div class="container" *ngIf="done">
+
+    <span>Select a filter:</span>
+    <select class="select" [(ngModel)]="selectedProperty">
+        <option value="deliveryDate">Delivery Date</option>
+        <option value="massOfDelivery">Mass of Delivery</option>
+        <option value="warehouseId">Warehouse Identifier</option>
+        <option value="timeToPlaceDelivery">Time To Place Delivery</option>
+        <option value="timeToPickUpDelivery">Time To Pick Up Delivery</option>
+    </select>
+
+    <input class="input" [(ngModel)]="searchTerm" placeholder="Search...">
+
+    <button class="buttonGood" (click)="sort('deliveryDate')">Delivery Date</button>
+    <button class="buttonGood" (click)="sort('massOfDelivery')">Mass of Delivery</button>
+    <button class="buttonGood" (click)="sort('warehouseId')">Warehouse Identifier</button>
+    <button class="buttonGood" (click)="sort('timeToPlaceDelivery')">Sort by Time To Place Delivery</button>
+    <button class="buttonGood" (click)="sort('timeToPickUpDelivery')">Sort by Time To Pick Up Delivery</button>
+
+    <ul class="row">
+
+        <div class="col">Delivery Date</div>
+        <div class="col">Mass of Delivery</div>
+        <div class="col">Warehouse Identifier</div>
+        <div class="col">Time To Place Delivery</div>
+        <div class="col">Time To Pick Up Delivery</div>
+
+        <li *ngFor="let delivery of pageSlice | filterBy: selectedProperty: searchTerm | orderBy: selectedSortProperty: sortDirection"
+            class="row">
+            <div class="col"> {{ delivery.deliveryDate }} </div>
+            <div class="col"> {{ delivery.massOfDelivery }} </div>
+            <div class="col"> {{ delivery.warehouseId }} </div>
+            <div class="col"> {{ delivery.timeToPlaceDelivery }} </div>
+            <div class="col"> {{ delivery.timeToPickUpDelivery }} </div>
+        </li>
+    </ul>
+
+    <mat-paginator [length]="this.deliveries.length" [pageSize]="5" [pageSizeOptions]="[5,10,20]"
+        (page)="onPageChange($event)">
+
+    </mat-paginator>
+
+</div>

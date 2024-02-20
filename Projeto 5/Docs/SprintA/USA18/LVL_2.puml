@@ -1,0 +1,48 @@
+@startuml
+
+title SD - Register Customer
+
+autonumber
+
+actor "Fleet Manager" as FM
+actor "<< Container >> \n Visual Interface" as SYS
+actor "<< Container >> \n TruckDataMaster" as TDM
+
+
+activate FM
+FM -> SYS : Asks to create/add a truck.
+activate SYS
+SYS --> FM : Requests the necessary data
+deactivate SYS
+
+FM -> SYS : Inserts the requested data.
+activate SYS
+
+SYS -> TDM : POST /truck truckData
+activate TDM
+
+TDM -> TDM : AddAsync(truckData)
+
+TDM -> SYS : truck_register(JSON)
+deactivate TDM
+
+SYS --> FM : Validates the data and requests confirmation.
+deactivate SYS
+
+FM -> SYS : Confirms the information.
+activate SYS
+
+SYS -> TDM : PUT validate /{option, truck}
+activate TDM
+
+TDM -> TDM : save(truck)
+
+TDM -> SYS : 201 created
+deactivate TDM
+
+SYS --> FM : Saves the data and informs of operation success.
+deactivate SYS
+
+deactivate FM
+
+@enduml

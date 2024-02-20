@@ -1,0 +1,34 @@
+@startuml USA01_3
+
+title SD - Create Warehouse
+
+autonumber
+
+participant "API" as API
+participant " WarehouseController" as C
+participant "Warehouse Service" as S
+participant "WarehouseRepository" as R
+participant "UnitOfWork" as U
+
+activate API
+ -> API : POST (warehouse info)
+ API -> API : new WarehouseDto(warehouse info)
+API -> C : Create(WarehouseDto)
+activate C
+C -> C : new Warehouse(WrehouseDto)
+C -> S : AddAsync(Warehouse)
+activate S
+S -> R : AddAsync(Warehouse)
+activate R
+R -> R : Save(Warehouse)
+R --> S
+deactivate R
+S -> U : CommitAsync
+activate U
+U --> S
+deactivate U 
+S --> C : WarehouseCreated(WarehouseDto)
+deactivate S
+C --> API : Response Code 201
+deactivate C
+deactivate API

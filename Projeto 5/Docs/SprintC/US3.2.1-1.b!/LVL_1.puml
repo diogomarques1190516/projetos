@@ -1,0 +1,27 @@
+@startuml US
+
+title Lvl 1 - Create Delivery
+
+autonumber
+
+actor "Warehouse Manager" as WM
+participant "<< Container (C4) >> \n SPA" as S
+
+activate WM
+WM -> S : Clicks sign-in with Google button
+activate S
+S --> WM : Shows Warehouse Manager Features
+deactivate S
+WM -> S : Selects the option to create a delivery
+activate S
+S --> WM : Requests the necessary data
+deactivate S
+
+WM -> S : Inserts the requested data.
+activate S
+S --> WM : Validates the data and informs of operation success.
+deactivate S
+
+deactivate WM
+
+@enduml

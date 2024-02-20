@@ -1,0 +1,47 @@
+@startuml US
+
+title Lvl 3 - Create Packaging
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :PackagingDTO" as DTO
+participant "<< Container (C4) >> \n Logistics" as LG
+
+
+activate LM
+LM -> S : Starts the creation of a packaging
+
+activate S
+S -> C : submit()
+activate C
+
+C -> SV : createPackaging()
+activate SV
+
+SV -> DTO : create()
+activate DTO
+deactivate DTO
+
+SV -> LG : POST /api/Packagings
+activate LG
+
+LG -> LG : save(PackagingData)
+
+LG --> SV : HTTP 201 Created
+deactivate LG
+
+SV --> C : Response
+deactivate SV
+
+C --> S : Response
+deactivate C
+S --> LM : Operation sucessfull
+deactivate S
+
+deactivate LM
+
+@enduml

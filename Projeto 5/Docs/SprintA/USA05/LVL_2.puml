@@ -1,0 +1,49 @@
+@startuml USA05_2
+
+title SD - Create Delivery
+
+autonumber
+
+actor "Warehouse Manager" as FM
+actor "<< Container >> \n API" as SYS
+actor "<< Container >> \n DeliveriesDataMaster" as TDM
+
+
+activate FM
+FM -> SYS : Asks to add a delivery.
+activate SYS
+SYS --> FM : Requests the necessary data\n(id, weight, warehouse,...)
+deactivate SYS
+FM -> SYS : Inserts the requested data.
+activate SYS
+
+SYS -> TDM : GET warehouse
+TDM -> SYS : Warehouse exists
+SYS -> TDM : POST /delivery deliveryData
+activate TDM
+
+TDM -> TDM : AddAsync(deliveryData)
+
+TDM -> SYS : delivert_register(JSON)
+deactivate TDM
+
+SYS --> FM : Validates the data and requests confirmation.
+deactivate SYS
+
+FM -> SYS : Confirms the information.
+activate SYS
+
+SYS -> TDM : PUT validate /{option, delivery}
+activate TDM
+
+TDM -> TDM : save(delivery)
+
+TDM -> SYS : 201 created
+deactivate TDM
+
+SYS --> FM : Saves the data and informs of operation success.
+deactivate SYS
+
+deactivate FM
+
+@enduml

@@ -1,0 +1,26 @@
+@startuml US
+
+title Lvl 2 - List Routes
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n LogisticsModule" as LG
+
+
+activate LM
+LM -> S : Selects the option to List Routes
+activate S
+
+S -> LG : GET /api/routes
+activate LG
+
+LG -> S : routes(JSON)
+deactivate LG
+
+S --> LM : Show the list with all Routes
+deactivate S
+deactivate LM
+
+@enduml

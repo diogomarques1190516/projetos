@@ -1,0 +1,28 @@
+@startuml
+
+title Lvl 1 - Create Truck
+
+autonumber
+
+actor "Fleet Manager" as FM
+actor "<< Container >> \n Visual Interface" as SYS
+
+activate FM
+FM -> SYS : Asks to create/add a truck.
+activate SYS
+SYS --> FM : Requests the necessary data
+deactivate SYS
+
+FM -> SYS : Inserts the requested data.
+activate SYS
+SYS --> FM : Validates the data and requests confirmation.
+deactivate SYS
+
+FM -> SYS : Confirms the information.
+activate SYS
+SYS --> FM : Saves the data and informs of operation success.
+deactivate SYS
+
+deactivate FM
+
+@enduml

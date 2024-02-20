@@ -1,0 +1,22 @@
+.background{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)),
+    url(../../assets/img/front-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    min-height: 100%;
+}
+
+.center{
+    color: white;
+    display: flex;
+    margin: 5em auto 3em;
+    max-width: 90em;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+  }
+  

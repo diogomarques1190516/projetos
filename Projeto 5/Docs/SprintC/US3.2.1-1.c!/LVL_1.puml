@@ -1,0 +1,22 @@
+@startuml USA02
+
+title Lvl 1 - List Warehouses
+
+
+autonumber
+actor "Warehouse Manager" as WM
+participant "<< Container >> \n SPA" as S
+
+activate WM
+WM -> S : Clicks sign-in with Google button
+activate S
+S --> WM : Shows Warehouse Manager Features
+deactivate S
+WM -> S : Selects the option to List Warehouses
+activate S
+S --> WM : Show the list with the Warehouses
+deactivate S
+
+deactivate WM
+
+@enduml

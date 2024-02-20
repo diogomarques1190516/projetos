@@ -1,0 +1,35 @@
+@startuml US
+
+title Lvl 2 - Create Delivery
+
+autonumber
+
+actor "Warehouse Manager" as WM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n WarehouseModule" as WMD
+
+
+activate WM
+WM -> S : Selects the option to create a delivery
+activate S
+S --> WM : Requests the necessary data
+deactivate S
+
+WM -> S : Inserts the requested data.
+activate S
+
+S -> WMD : POST /api/Delivery
+activate WMD
+
+WMD -> WMD : save(DeliveryData)
+
+WMD -> S : HTTP 201 Created
+deactivate WMD
+
+S --> WM : Validates the data and informs of operation success.
+
+deactivate S
+
+deactivate WM
+
+@enduml

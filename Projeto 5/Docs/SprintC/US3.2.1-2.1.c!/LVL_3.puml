@@ -1,0 +1,60 @@
+@startuml US
+
+title Lvl 3 - List Route Plannings
+
+autonumber
+
+actor "Logistics Manager" as LM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n :Component" as C
+participant "<< Container (C4) >> \n :Service" as SV
+participant "<< Container (C4) >> \n :DTO" as DTO
+participant "<< Container (C4) >> \n LogisticsModule" as LMD
+participant "<< Container (C4) >> \n PlanningModule" as PMD
+
+
+activate LM
+LM -> S : Selects the option to List Route Plannings
+activate S
+
+S -> C : listTruckss()
+activate C
+
+C -> SV : getTrucks()
+activate SV
+
+SV -> DTO : trucks()
+activate DTO
+
+DTO --> SV : return trucks()
+deactivate DTO
+
+SV -> LMD : GET /api/trucks
+activate LMD
+
+LMD --> SV : listOfTrucks(JSON)
+deactivate LMD
+
+SV --> C : listOfTrucks(JSON)
+deactivate SV
+
+C --> S : listOfTrucks(JSON)
+deactivate C
+
+S --> LM : Ask for the LicensePlate from the presented list and Date
+deactivate S
+
+LM -> S : Selects the necessary data and click calculate button
+activate S
+
+S -> PMD : GET /fastestSequence(date, licensePlate in URL)
+activate PMD
+
+PMD -> S : Sequence of Cities and Necessary Time (JSON)
+deactivate PMD
+
+S --> LM : Show the list of sequence of cities and necessary time for a trip
+deactivate S
+deactivate LM
+
+@enduml

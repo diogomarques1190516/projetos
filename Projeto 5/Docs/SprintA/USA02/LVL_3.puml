@@ -1,0 +1,27 @@
+@startuml USA02_2
+
+title SD - Get Warehouses
+
+autonumber
+
+participant "API" as API
+participant " WarehouseController" as C
+participant "Warehouse Service" as S
+participant "WarehouseRepository" as R
+
+activate API
+ -> API : GET
+API -> C : GetAll
+activate C
+C -> S : GetAllAsync
+activate S
+S -> R : GetAllAsync
+activate R
+R -> R : FetchAllWarehouses 
+R --> S : List<Warehouse>
+deactivate R
+S --> C : List<Warehouse>
+deactivate S
+C --> API : Response Code 200
+deactivate C
+deactivate API

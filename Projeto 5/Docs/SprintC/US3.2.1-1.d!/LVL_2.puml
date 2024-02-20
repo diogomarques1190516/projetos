@@ -1,0 +1,42 @@
+@startuml USA02
+
+title Lvl 2 - List Deliveries
+
+autonumber
+
+actor "Warehouse Manager" as WM
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n SSO Authetication" as SSO
+participant "<< Container (C4) >> \n AuthGuard" as AG
+participant "<< Container (C4) >> \n WarehouseModule" as WMD
+
+
+activate WM
+WM -> S : Clicks sign-in with Google button
+activate S
+S -> SSO : Logs in with a Google Account
+activate SSO
+SSO --> SSO : Checks if the email is registered
+SSO --> S : Email is correct
+deactivate SSO
+S --> WM : Shows Warehouse Manager Features
+deactivate S
+WM -> S : Selects the option to List Deliveries
+activate S
+S --> AG : Checks if this user has Authorization to view this page
+activate AG
+AG -> AG : CanActivateChild()
+AG --> S : Authorized
+deactivate AG
+
+S -> WMD : GET /api/deliveries
+activate WMD
+
+WMD -> S : deliveries(JSON)
+deactivate WMD
+
+S --> WM : Show the list with all the Deliveries
+deactivate S
+deactivate WM
+
+@enduml

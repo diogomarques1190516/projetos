@@ -1,0 +1,99 @@
+.spacer {
+    flex: 1;
+  }
+
+  a,
+  a:visited,
+  a:hover {
+    color: #f4f6f7;
+    text-decoration: none;
+    
+  }
+
+  a:hover {
+    color: #518dca;
+  }
+
+h4{
+  color: red;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+.user{
+  color:white;
+  margin-bottom: 3em;
+  margin-right: 2em;
+}
+
+.user > h5{
+  text-align: center center;
+  
+}
+
+img{
+  width: 5em;
+  height: 5em;
+  margin-top: 2em;
+}
+
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    background-color: #434343;
+    color: white;
+    font-weight: 600;
+  }
+
+.signup{
+    padding: 0.6rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 0.5em;
+    margin-right: 1em;
+    display: inline-block;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 0.5em;
+    min-width: 6em;
+    min-height: 3em;
+  }
+
+  .signup:hover {
+    color: #ffffff;
+    background-color: #42545C;
+  }
+  .signup:active {
+    background-color: black;
+  }
+
+  .login{
+    padding: 0.6rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 0.5em;
+    margin-right: 1em;
+    display: inline-block;
+    background-color: #005c14;
+    color: #ffffff;
+    border-radius: 0.5em;
+    min-width: 6em;
+    min-height: 3em;
+  }
+
+  .login:hover {
+    color: #ffffff;
+    background-color: #42545C;
+  }
+  .login:active {
+    background-color: black;
+  }
+
+  .google{
+    margin-right: 2em;
+  }

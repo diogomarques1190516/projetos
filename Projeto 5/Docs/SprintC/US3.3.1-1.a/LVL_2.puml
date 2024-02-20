@@ -1,0 +1,51 @@
+@startuml US
+
+title Lvl 2 - Create an Account
+
+autonumber
+
+actor "System Administrator" as SA
+participant "<< Container (C4) >> \n SPA" as S
+participant "<< Container (C4) >> \n SSO Authetication" as SSO
+participant "<< Container (C4) >> \n AuthGuard" as AG
+participant "<< Container (C4) >> \n Logistics Module" as LM
+
+activate SA
+SA -> S : Clicks sign-in with Google button
+activate S
+S -> SSO : Logs in with a Google Account
+activate SSO
+SSO --> SSO : Checks if the email is registered
+SSO --> S : Email is correct
+deactivate SSO
+S --> SA : Shows System Administrator Features
+deactivate S
+
+SA -> S : Selects the option to create an account
+activate S
+S --> AG : Checks if this user has Authorization to view this page
+activate AG
+AG -> AG : CanActivateChild()
+AG --> S : Authorized
+deactivate AG
+S --> SA : Requests the necessary data
+deactivate S
+
+SA -> S : Inserts the requested data.
+activate S
+
+S -> LM : POST /api/User
+activate LM
+
+LM -> LM : save(UserData)
+
+LM -> S : HTTP 201 Created
+deactivate LM
+
+S --> SA : Validates the data and informs of operation success.
+
+deactivate S
+
+deactivate SA
+
+@enduml

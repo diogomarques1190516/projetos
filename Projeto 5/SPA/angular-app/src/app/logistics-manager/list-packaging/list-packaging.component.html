@@ -1,0 +1,50 @@
+<div class="center">
+  <h1>List of Packagings</h1>
+</div>
+
+<div style="
+margin-left: 50%;" *ngIf="loading" class="loading-circle"></div>
+
+<div class="container" *ngIf="done">
+
+  <span>Select a filter:</span>
+  <select class="select" [(ngModel)]="selectedProperty">
+    <option value="licensePlate">License Plate</option>
+    <option value="xPosition">X Position</option>
+    <option value="yPosition">Y Position</option>
+    <option value="zPosition">Z Position</option>
+  </select>
+
+  <input class="input" [(ngModel)]="searchTerm" placeholder="Search...">
+
+  <button class="buttonGood" (click)="sort('licensePlate')">Sort by License Plate</button>
+  <button class="buttonGood" (click)="sort('xPosition')">Sort by X Position</button>
+  <button class="buttonGood" (click)="sort('yPosition')">Sort by Y Position</button>
+  <button class="buttonGood" (click)="sort('zPosition')">Sort by Z Position</button>
+
+
+  <ul class="row">
+    <div class="col">License Plate</div>
+    <div class="col">X Position</div>
+    <div class="col">Y Position</div>
+    <div class="col">Z Position</div>
+
+    <li
+      *ngFor="let packaging of pageSlice | filterBy: selectedProperty: searchTerm | orderBy: selectedSortProperty: sortDirection"
+      class="row">
+      <div class="col"> {{ packaging.licensePlate }} </div>
+      <div class="col"> {{ packaging.xPosition }} </div>
+      <div class="col"> {{ packaging.yPosition }} </div>
+      <div class="col"> {{ packaging.zPosition }} </div>
+
+    </li>
+  </ul>
+
+
+
+  <mat-paginator [length]="this.packagings.length" [pageSize]="5" [pageSizeOptions]="[5,10,20]"
+    (page)="onPageChange($event)">
+
+  </mat-paginator>
+
+</div>

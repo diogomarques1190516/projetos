@@ -1,0 +1,11 @@
+[
+   {
+      "id": "M01",
+      "licensePlate": "tr-4-2",
+      "tare": 7500,
+      "loadCapacity": 4300,
+      "totalBatteryCapacity": 80,
+      "autonomyWithMaxLoad": 100,
+      "rechargeTime": 60
+    }
+]

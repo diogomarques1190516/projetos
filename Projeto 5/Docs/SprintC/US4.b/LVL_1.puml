@@ -1,0 +1,27 @@
+@startuml ULM02
+
+title Lvl 1 - List & Page Trips
+
+
+autonumber
+actor "Logistics Manager" as LM
+participant "<< Container >> \n SPA" as S
+
+activate LM
+LM -> S : Clicks sign-in with Google button
+activate S
+S --> LM : Shows System Administrator Features
+deactivate S
+LM -> S : Selects the option to List Fleet Route Plannings
+activate S
+S --> LM : Ask for the trucks, Date and what algorithm to use
+deactivate S
+
+LM -> S : Selects the necessary data and click calculate button
+activate S
+S --> LM : Show the list with all the Route Plannings for the data selected
+deactivate S
+
+deactivate LM
+
+@enduml
