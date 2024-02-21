@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_Plantacao_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON Plantacao
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into PlantacaoLOG (instante, tipo, operacaoAgriculaID, numeroPlantas, compasso, DistanciaFilas, UnidadesunidadeID)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID, :new.numeroPlantas,:new.compasso,:new.DistaciaFilas,:new.UnidadesunidadeID);
+
+    ELSIF UPDATING THEN
+
+    insert into PlantacaoLOG (instante, tipo, operacaoAgriculaID, numeroPlantas, compasso, DistanciaFilas, UnidadesunidadeID)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID, :new.numeroPlantas,:new.compasso,:new.DistaciaFilas,:new.UnidadesunidadeID);
+
+    ELSE  --deleting
+    insert into PlantacaoLOG (instante, tipo, operacaoAgriculaID, numeroPlantas, compasso, DistanciaFilas, UnidadesunidadeID)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID, :old.numeroPlantas,:old.compasso,:old.DistaciaFilas,:old.UnidadesunidadeID);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

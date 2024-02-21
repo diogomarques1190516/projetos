@@ -1,0 +1,78 @@
+create or replace NONEDITIONABLE PROCEDURE RegistrarColheita (
+    p_designacaoParcela VARCHAR2,
+    p_dataOperacao DATE,
+    p_tipoVariedade VARCHAR2,
+    p_quantidade NUMBER,
+    p_tipoUnidade VARCHAR2,
+    p_dataReferencia DATE
+)
+IS
+    v_parcelaID NUMBER;
+    v_variedadeID NUMBER;
+    v_unidadeID NUMBER;
+    v_operacaoAgriculaID NUMBER;
+    v_numero_plantas_na_parcela NUMBER;
+    v_numero_plantas_permanentes NUMBER;
+BEGIN
+    -- Verificar se a data da operação é no passado
+    IF p_dataOperacao > p_dataReferencia THEN
+        RAISE_APPLICATION_ERROR(-20004, 'Não é possível registrar operações no futuro');
+    END IF;
+
+    -- Obter o ID da Parcela Agrícola
+    SELECT parcelaID INTO v_parcelaID
+    FROM "Parcela Agricula"
+    WHERE UPPER(designacao) = UPPER(p_designacaoParcela);
+
+    -- Obter o ID da Variedade
+    SELECT variedadeID INTO v_variedadeID
+    FROM Variedade
+    WHERE UPPER(tipoVariedade) = UPPER(p_tipoVariedade);
+
+    -- Verificar se existe o tipo de variedade na designacaoParcela
+    SELECT COUNT(*) INTO v_numero_plantas_na_parcela
+    FROM Parcela_Cultura
+    WHERE variedadeID = v_variedadeID AND parcelaID = v_parcelaID;
+    
+    -- Obter o ID da Unidade
+    SELECT unidadeID INTO v_unidadeID
+    FROM Unidades
+    WHERE UPPER(tipoUnidade) = UPPER(p_tipoUnidade);
+
+    IF v_numero_plantas_na_parcela = 0 THEN
+        RAISE_APPLICATION_ERROR(-20005, 'Tipo de variedade não encontrado na parcela');
+    END IF;
+
+    -- Inserir a operação agrícola (colheita)
+    INSERT INTO OperacaoAgricula (
+        nomeOperacao,
+        dataOperacao,
+        quantidade,
+        parcelaID,
+        variedadeID,
+        unidadeID
+    ) VALUES (
+        'colheita',
+        p_dataOperacao,
+        p_quantidade,
+        v_parcelaID,
+        v_variedadeID,
+        v_unidadeID
+    ) RETURNING operacaoAgriculaID INTO v_operacaoAgriculaID;
+
+    -- Exibir mensagem de sucesso
+    DBMS_OUTPUT.PUT_LINE('Operação de colheita registrada com sucesso. ID da Operação Agrícola: ' || v_operacaoAgriculaID);
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        DBMS_OUTPUT.PUT_LINE('Erro: Parcela, Variedade ou Unidade não encontrada.');
+    WHEN OTHERS THEN
+        DECLARE
+            v_error_code NUMBER := SQLCODE;
+        BEGIN
+            IF v_error_code = -20005 THEN
+                DBMS_OUTPUT.PUT_LINE('Erro: Tipo de variedade não encontrado na parcela.');
+            ELSE
+                DBMS_OUTPUT.PUT_LINE('Erro ao registrar operação de colheita: ' || SQLERRM);
+            END IF;
+        END;
+END RegistrarColheita;

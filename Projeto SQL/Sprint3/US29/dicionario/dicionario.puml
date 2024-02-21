@@ -1,0 +1,512 @@
+@startuml
+
+entity Consumidor {
+  +consumidorID: number(10) //Identificador do consumidor
+  nomeConsumidor: varchar2(255) //Nome do consumidor
+  --
+  PK: consumidorID
+}
+
+entity Rega {
+  +operacaoAgriculaID: number(10) //Identificador da operação agricula
+  minutos: number(10)   //Minutos da rega
+  horas: timestamp(0)   //Horas da rega
+  SetorsetorID: number(10) //Identificador do setor
+  --
+  PK: operacaoAgriculaID
+  FK: SetorsetorID -> Setor(setorID)
+}
+
+entity FatorProducao {
+  +fatorProducaoID: number(10)  //Identificador do fator de produção
+  designacao: varchar2(255)     //Designação do fator de produção
+  TipotipoID: number(10)        //Identificador do tipo
+  aplicacaoID: number(10)       //Identificador da aplicação
+  formatoID: number(10)     //Identificador do formato
+  fabricanteID: number(10)  //Identificador do fabricante
+  phID: number(10)          //Identificador do PH
+  --
+  PK: fatorProducaoID
+  FK: TipotipoID -> Tipo(tipoID)
+  FK: aplicacaoID -> Aplicacao(aplicacaoID)
+  FK: formatoID -> Formato(formatoID)
+  FK: fabricanteID -> Fabricante(fabricanteID)
+  FK: phID -> PH(phID)
+}
+
+entity Edificio {
+  +edificioID: number(10)       //Identificador do edificio
+  nome: varchar2(255)           //Nome do edificio
+  instalacaoAgriculaID: number(10)  //Identificador da instalação agricula
+  --
+  PK: edificioID
+  FK: instalacaoAgriculaID -> InstalacaoAgricula(instalacaoAgriculaID)
+}
+
+entity InstalacaoAgricula {
+  +instalacaoAgriculaID: number(10)     //Identificador da instalação agricula
+  nomeInstalacaoAgricula: varchar2(255)     //Nome da instalação agricula
+  --
+  PK: instalacaoAgriculaID
+}
+
+entity Planta {
+  +plantaID: number(10)     //Identificador da planta
+  nomeComum: varchar2(255)  //Nome comum da planta
+  especieID: number(10)     //Identificador da especie
+  tipoCulturaID: number(10) //Identificador do tipo de cultura
+  --
+  PK: plantaID
+  FK: especieID -> Especie(especieID)
+  FK: tipoCulturaID -> TipoCultura(tipoCulturaID)
+}
+
+entity Elemento {
+  +componenteID: number(10) //Identificador do componente
+  nomeComponente: varchar2(255) //Nome do componente
+  --
+  PK: componenteID
+}
+
+entity Fitofarmaco {
+  +operacaoAgriculaID: number(10)           //Identificador da operação agricula
+  FatorProducaofatorProducaoID: number(10)  //Identificador do fator de produção
+  UnidadesunidadeID: number(10)             //Identificador da unidade
+  --
+  PK: operacaoAgriculaID
+  FK: FatorProducaofatorProducaoID -> FatorProducao(fatorProducaoID)
+}
+
+entity FatorProducaoElemento {
+  +fatorProducaoID: number(10)              //Identificador do fator de produção
+  componenteID: number(10)                  //Identificador do componente
+  percentagem: float(10)                    //Percentagem do componente
+  --
+  PK: fatorProducaoID, componenteID
+  FK: fatorProducaoID -> FatorProducao(fatorProducaoID)
+  FK: componenteID -> Elemento(componenteID)
+}
+
+entity Fertilizacao {
+  +operacaoAgriculaID: number(10)           //Identificador da operação agricula
+  modo: varchar2(255)                       //Modo da fertilização
+  UnidadesunidadeID: number(10)             //Identificador da unidade
+  fatorProducaoID: number(10)               //Identificador do fator de produção
+  --
+  PK: operacaoAgriculaID
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+  FK: fatorProducaoID -> FatorProducao(fatorProducaoID)
+}
+
+entity Aplicacao {
+  +aplicacaoID: number(10)                  //Identificador da aplicação
+  aplicacao: varchar2(255)                  //Aplicação
+  --
+  PK: aplicacaoID
+}
+
+entity Especie {
+  +especieID: number(10)                    //Identificador da especie
+  tipoEspecie: varchar2(255)                //Tipo da especie
+  --
+  PK: especieID
+}
+
+entity Variedade {
+  +variedadeID: number(10)                  //Identificador da variedade
+  tipoVariedade: varchar2(255)              //Tipo da variedade
+  plantaID: number(10)                      //Identificador da planta
+  podaPlantaID: number(10)                  //Identificador da poda da planta
+  floracaoPlantaID: number(10)              //Identificador da floração da planta
+  colheitaPlantaID: number(10)              //Identificador da colheita da planta
+  --
+  PK: variedadeID
+  FK: plantaID -> Planta(plantaID)
+  FK: podaPlantaID -> PodaPlanta(podaPlantaID)
+  FK: floracaoPlantaID -> FloracaoPlanta(floracaoPlantaID)
+  FK: colheitaPlantaID -> ColheitaPlanta(colheitaPlantaID)
+}
+
+entity Colheita {
+  +operacaoAgriculaID: number(10)           //Identificador da operação agricula
+  quantidade: number(10)                    //Quantidade da colheita
+  ProdutoprodutoID: number(10)              //Identificador do produto
+  UnidadesunidadeID: number(10)             //Identificador da unidade
+  --
+  PK: operacaoAgriculaID
+  FK: ProdutoprodutoID -> Produto(produtoID)
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity Setor {
+  +setorID: number(10)                      //Identificador do setor
+  dataInicio: date                          //Data de inicio do setor
+  dataFim: date                             //Data de fim do setor
+  caudal: number(19)                        //Caudal do setor
+  CasaRegaedificioID: number(10)            //Identificador do edificio da casa de rega
+  UnidadesunidadeID: number(10)             //Identificador da unidade
+  --
+  PK: setorID
+  FK: CasaRegaedificioID -> CasaRega(edificioID)
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity Fabricante {
+  +fabricanteID: number(10)                 //Identificador do fabricante
+  fabricante: varchar2(255)                 //Fabricante
+  --
+  PK: fabricanteID
+}
+
+entity Formato {
+  +formatoID: number(10)                    //Identificador do formato
+  formato: varchar2(255)                    //Formato
+  --
+  PK: formatoID
+}
+
+entity Tipo {
+  +tipoID: number(10)                       //Identificador do tipo
+  tipo: varchar2(255)                       //Tipo
+  --
+  PK: tipoID
+}
+
+entity Moinho {
+  +edificioID: number(10)                   //Identificador do edificio
+  --
+  PK: edificioID
+  FK: edificioID -> Edificio(edificioID)
+}
+
+entity Armazem {
+  +edificioID: number(10)                   //Identificador do edificio
+  area: number(10)                          //Area do armazem
+  UnidadesunidadeID: number(10)             //Identificador da unidade
+  --
+  PK: edificioID
+  FK: edificioID -> Edificio(edificioID)
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity CasaRega {
+  +edificioID: number(10)                   //Identificador do edificio
+  area: number(10)                          //Area da casa de rega
+  UnidadesunidadeID: number(10)             //Identificador da unidade
+  --
+  PK: edificioID
+  FK: edificioID -> Edificio(edificioID)
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity Garagem {
+  +edificioID: number(10)                   //Identificador do edificio
+  area: number(10)                          //Area da garagem
+  UnidadesunidadeID: number(10)             //Identificador da unidade
+  --
+  PK: edificioID
+  FK: edificioID -> Edificio(edificioID)
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity SementeiraPlanta {
+  +sementeiraPlantaID: number(10)           //Identificador da sementeira da planta
+  intervaloSementeira: varchar2(255)        //Intervalo da sementeira
+  --
+  PK: sementeiraPlantaID
+}
+
+entity PodaPlanta {
+  +podaPlantaID: number(10)                 //Identificador da poda da planta
+  intervaloPoda: varchar2(255)              //Intervalo da poda
+  --
+  PK: podaPlantaID
+}
+
+entity FloracaoPlanta {
+  +floracaoPlantaID: number(10)             //Identificador da floração da planta
+  intervaloFloracao: varchar2(255)          //Intervalo da floração
+  --
+  PK: floracaoPlantaID
+}
+
+entity ColheitaPlanta {
+  +colheitaPlantaID: number(10)             //Identificador da colheita da planta
+  intervaloColheita: varchar2(255)          //Intervalo da colheita
+  --
+  PK: colheitaPlantaID
+}
+
+entity VariedadeSementeiraPlanta {
+  +variedadeID: number(10)                  //Identificador da variedade
+  sementeiraPlantaID: number(10)            //Identificador da sementeira da planta
+  --
+  PK: variedadeID, sementeiraPlantaID
+  FK: variedadeID -> Variedade(variedadeID)
+  FK: sementeiraPlantaID -> SementeiraPlanta(sementeiraPlantaID)
+}
+
+entity Produto {
+  +produtoID: number(10)                    //Identificador do produto
+  produto: varchar2(255)                    //Nome do produto
+  --
+  PK: produtoID
+}
+
+entity ProdutoConsumidor {
+  +produtoID: number(10)                    //Identificador do produto
+  consumidorID: number(10)                  //Identificador do consumidor
+  quantidade: number(10)                    //Quantidade do produto
+  --
+  PK: produtoID, consumidorID
+  FK: produtoID -> Produto(produtoID)
+  FK: consumidorID -> Consumidor(consumidorID)
+}
+
+entity Cultura {
+  +variedadeID: number(10)                  //Identificador da variedade
+  parcelaID: number(10)                     //Identificador da parcela
+  dataInicial: date                         //Data inicial da cultura
+  dataFinal: date                           //Data final da cultura
+  area: float(10)                           //Area da cultura
+  tipoCulturaID: number(10)                 //Identificador do tipo de cultura
+  unidadeID: number(10)                     //Identificador da unidade
+  SetorsetorID: number(10)                  //Identificador do setor
+  --
+  PK: variedadeID, parcelaID, dataInicial
+  FK: variedadeID -> Variedade(variedadeID)
+  FK: parcelaID -> Parcela(parcelaID)
+  FK: tipoCulturaID -> TipoCultura(tipoCulturaID)
+  FK: unidadeID -> Unidades(unidadeID)
+  FK: SetorsetorID -> Setor(setorID)
+}
+
+entity OperacaoAgricula {
+  +operacaoAgriculaID: number(10)               //Identificador da operação agricula
+  nomeOperacao: varchar2(255)                   //Nome da operação
+  dataOperacao: date                            //Data da operação
+  quantidade: float(10)                         //Quantidade da operação
+  parcelaID: number(10)                         //Identificador da parcela
+  dataInicial: date                             //Data inicial da operação
+  variedadeID: number(10)                       //Identificador da variedade
+  unidadeID: number(10)                         //Identificador da unidade
+  dataCriacao: timestamp(0) DEFAULT SYSDATE     //Data de criação da operação
+  --
+  PK: operacaoAgriculaID
+  FK: parcelaID -> Parcela(parcelaID)
+  FK: variedadeID -> Variedade(variedadeID)
+  FK: unidadeID -> Unidades(unidadeID)
+}
+
+entity TipoCultura {
+  +tipoCulturaID: number(10)                    //Identificador do tipo de cultura
+  tipoCultura: varchar2(255)                    //Tipo de cultura
+  --
+  PK: tipoCulturaID
+}
+
+entity Unidades {
+  +unidadeID: number(10)                        //Identificador da unidade
+  tipoUnidade: varchar2(255)                    //Tipo da unidade
+  --
+  PK: unidadeID
+}
+
+entity Parcela {
+  +parcelaID: number(10)                        //Identificador da parcela
+  designacao: varchar2(255)                     //Designação da parcela
+  area: float(10)                               //Area da parcela
+  instalacaoAgriculaID: number(10)              //Identificador da instalação agricula
+  UnidadesunidadeID: number(10)                 //Identificador da unidade
+  --
+  PK: parcelaID
+  FK: instalacaoAgriculaID -> InstalacaoAgricula(instalacaoAgriculaID)
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity Semeadoura {
+  +operacaoAgriculaID: number(10)               //Identificador da operação agricula
+  semente: float(10)                            //Semente da semeadoura
+  UnidadesunidadeID: number(10)                 //Identificador da unidade
+  --
+  PK: operacaoAgriculaID
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity Monda {
+  +operacaoAgriculaID: number(10)               //Identificador da operação agricula
+  area: number(10)                              //Area da monda
+  UnidadesunidadeID: number(10)                 //Identificador da unidade
+  --
+  PK: operacaoAgriculaID
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity Plantacao {
+  +operacaoAgriculaID: number(10)               //Identificador da operação agricula
+  numeroPlantas: number(10)                     //Numero de plantas
+  compasso: number(10)                          //Compasso
+  DistanciaFilas: number(10)                    //Distancia entre filas
+  UnidadesunidadeID: number(10)                 //Identificador da unidade
+  --
+  PK: operacaoAgriculaID
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity MovimentacaoSolo {
+  +operacaoAgriculaID: number(10)               //Identificador da operação agricula
+  area: number(10)                              //Area da movimentação do solo
+  UnidadesunidadeID: number(10)                 //Identificador da unidade
+  --
+  PK: operacaoAgriculaID
+  FK: UnidadesunidadeID -> Unidades(unidadeID)
+}
+
+entity Fenologia {
+  +fenologiaID: number(10)                      //Identificador da fenologia
+  designacao: varchar2(255)                     //Designação da fenologia
+  --
+  PK: fenologiaID
+}
+
+entity CulturaFenologia {
+  +CulturavariedadeID: number(10)               //Identificador da variedade
+  CulturaparcelaID: number(10)                  //Identificador da parcela
+  CulturadataInicial: date                      //Data inicial da cultura
+  FenologiafenologiaID: number(10)              //Identificador da fenologia
+  data: date
+  --
+  PK: CulturavariedadeID, CulturaparcelaID, CulturadataInicial, FenologiafenologiaID
+  FK: CulturavariedadeID -> Cultura(variedadeID)
+  FK: CulturaparcelaID -> Cultura(parcelaID)
+  FK: FenologiafenologiaID -> Fenologia(fenologiaID)
+}
+
+entity PH {
+  +phID: number(10)                             //Identificador do PH
+  ph: float(10)                                 //PH dos fatores de produção
+  --
+  PK: phID
+}
+
+entity Receita {
+  +receitaID: number(10)                        //Identificador da receita
+  --
+  PK: receitaID
+}
+
+entity Fertirega {
+  +operacaoAgriculaID: number(10)               //Identificador da operação agricula
+  minutos: number(10)                           //Minutos da fertirega
+  horas: timestamp(0)                           //Horas da fertirega
+  SetorsetorID: number(10)                      //Identificador do setor
+  receitaID: number(10)                         //Identificador da receita
+  --
+  PK: operacaoAgriculaID
+  FK: SetorsetorID -> Setor(setorID)
+  FK: receitaID -> Receita(receitaID)
+}
+
+entity ReceitaFatorProducao {
+  +receitaID: number(10)                        //Identificador da receita
+  fatorProducaoID: number(10)                   //Identificador do fator de produção
+  kgha: float(10)                               //Kg/ha
+  unidadeID: number(10)                         //Identificador da unidade
+  --
+  PK: receitaID, fatorProducaoID
+  FK: receitaID -> Receita(receitaID)
+}
+
+class OperacaoAgriculaLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaID: number                   //Identificador da operação agricula
+  +nomeoperacao: varchar2(255)                  //Nome da operação
+  +dataOperacao: date                           //Data da operação
+  +quantidade: float(10)                        //Quantidade da operação
+  +parcelaID: number                            //Identificador da parcela
+  +dataInicial: date                            //Data inicial da operação
+  +variedadeID: number                          //Identificador da variedade
+  +unidadeId: number                            //Identificador da unidade
+}
+
+class SemeadouraLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +OperacaoAgriculaID: number                   //Identificador da operação agricula
+  +semente: float(10)                           //Semente da semeadoura
+  +UnidadesunidadeID: number                    //Identificador da unidade
+}
+
+class ColheitaLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaID: number                   //Identificador da operação agricula
+  +quantidade: number                           //Quantidade da colheita
+  +ProdutoprodutoID: number                     //Identificador do produto
+  +UnidadesunidadeID: number                    //Identificador da unidade
+}
+
+class PlantacaoLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaID: number                   //Identificador da operação agricula
+  +numeroPlantas: number                        //Numero de plantas
+  +compasso: number                             //Distancia do compasso, distancia entre plantas
+  +DistanciaFilas: number                       //Distancia entre filas
+  +UnidadesunidadeID: number                    //Identificador da unidade
+}
+
+class MondaLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaID: number                   //Identificador da operação agricula
+  +area: number                                 //Area da monda
+  +UnidadesunidadeID: number                    //Identificador da unidade
+}
+
+class MovimentacaoSoloLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaiD: number                   //Identificador da operação agricula
+  +area: number                                 //Area da movimentação do solo
+  +UnidadesunidadeID: number                    //Identificador da unidade
+}
+
+class FertilizacaoLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaID: number                   //Identificador da operação agricula
+  +modo: varchar2(255)                          //Modo da fertilização
+  +UnidadesunidadeID: number                    //Identificador da unidade
+  +fatorProducaoID: number                      //Identificador do fator de produção
+}
+
+class FitofarmacoLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaID: number                   //Identificador da operação agricula
+  +FatorProducaofatorProducaoID: number         //Identificador do fator de produção
+  +UnidadesunidadeID: number                    //Identificador da unidade
+}
+
+class RegaLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaID: number                   //Identificador da operação agricula
+  +minutos: number                              //Minutos da rega
+  +horas: timestamp(0)                          //Horas da rega
+  +SetorsetorID: number                         //Identificador do setor
+}
+
+class FertiregaLOG {
+  +instante: date                               //Instante da operação agricula
+  +tipo: varchar2(255)                          //Tipo da operação agricula
+  +operacaoAgriculaID: number                   //Identificador da operação agricula
+  +minutos: number                              //Minutos da fertirega
+  +horas: timestamp(0)                          //Horas da fertirega
+  +SetorsetorID: number                         //Identificador do setor
+  +receitaID: number                            //Identificador da receita
+}
+
+@enduml

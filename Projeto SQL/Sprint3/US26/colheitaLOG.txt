@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_Colheita_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON Colheita
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into ColheitaLOG (instante, tipo, operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID, :new.quantidade,:new.ProdutoprodutoID,:new.UnidadesunidadeID);
+
+    ELSIF UPDATING THEN
+
+    insert into ColheitaLOG (instante, tipo, operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID, :new.quantidade,:new.ProdutoprodutoID,:new.UnidadesunidadeID);
+
+    ELSE  --deleting
+    insert into ColheitaLOG (instante, tipo, operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID, :old.quantidade,:old.ProdutoprodutoID,:old.UnidadesunidadeID);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

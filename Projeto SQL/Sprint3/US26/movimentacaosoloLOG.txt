@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_MovimentacaoSolo_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON MovimentacaoSolo
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into movimentacaosololog (instante, tipo, operacaoAgriculaID, area, UnidadesunidadeID)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID, :new.area,:new.UnidadesunidadeID);
+
+    ELSIF UPDATING THEN
+
+    insert into movimentacaosololog (instante, tipo, operacaoAgriculaID, area, UnidadesunidadeID)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID, :new.area,:new.UnidadesunidadeID);
+
+    ELSE  --deleting
+    insert into movimentacaosololog (instante, tipo, operacaoAgriculaID, area, UnidadesunidadeID)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID, :old.area,:old.UnidadesunidadeID);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_Monda_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON Monda
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into MondaLOG (instante, tipo, operacaoAgriculaID, area, UnidadesunidadeID)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID, :new.area,:new.UnidadesunidadeID);
+
+    ELSIF UPDATING THEN
+
+    insert into MondaLOG (instante, tipo, operacaoAgriculaID, area, UnidadesunidadeID)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID, :new.area,:new.UnidadesunidadeID);
+
+    ELSE  --deleting
+    insert into MondaLOG (instante, tipo, operacaoAgriculaID, area, UnidadesunidadeID)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID, :old.area,:old.UnidadesunidadeID);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

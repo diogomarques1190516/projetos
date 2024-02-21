@@ -1,0 +1,99 @@
+create or replace NONEDITIONABLE PROCEDURE registarRega (
+    p_designacaoParcela Parcela.designacao%type,
+    p_nomeOperacao OperacaoAgricula.nomeOperacao%type,
+    p_dataOperacao OperacaoAgricula.dataOperacao%type,
+    p_minutos Rega.minutos%type,
+    p_horas Fertirega.horas%type,
+    p_receita Fertirega.receitaID%type,
+    p_setor Fertirega.SetorsetorID%type
+)
+IS
+    v_parcelaID Parcela.parcelaID%type;
+    v_operacaoAgriculaID OperacaoAgricula.operacaoAgriculaID%type;
+    v_setorID Setor.setorID%type;
+    v_receitaID Receita.receitaID%type;
+
+    -- Custom exception for not found data
+    custom_not_found EXCEPTION;
+    PRAGMA EXCEPTION_INIT(custom_not_found, -20001);
+BEGIN
+    -- Obter o ID da Parcela Agrícola
+    SELECT parcelaID INTO v_parcelaID
+    FROM Parcela
+    WHERE UPPER(designacao) = UPPER(p_designacaoParcela);
+
+    IF SQL%NOTFOUND THEN
+        RAISE_APPLICATION_ERROR(-20001, 'Parcela ' || p_designacaoParcela || ' não encontrada.');
+    END IF;
+
+    -- Obter o ID do Setor
+    SELECT setorID INTO v_setorID
+    FROM Setor
+    WHERE UPPER(setorID) = UPPER(p_setor);
+
+    IF SQL%NOTFOUND THEN
+        RAISE_APPLICATION_ERROR(-20003, 'Setor ' || p_setor || ' não encontrado.');
+    END IF;
+
+    -- Inserir a operação agrícola (rega)
+    INSERT INTO OperacaoAgricula (
+        nomeOperacao,
+        dataOperacao,
+        parcelaID
+    ) VALUES (
+        p_nomeOperacao,
+        p_dataOperacao,
+        v_parcelaID
+    ) RETURNING operacaoAgriculaID INTO v_operacaoAgriculaID;
+
+    -- Verificar se há uma receita para decidir entre Fertirega e Rega
+    IF p_receita IS NOT NULL THEN
+        -- Obter o ID da Receita
+        BEGIN
+            SELECT receitaID INTO v_receitaID
+            FROM Receita
+            WHERE UPPER(receitaID) = UPPER(p_receita);
+        EXCEPTION
+            WHEN NO_DATA_FOUND THEN
+                RAISE_APPLICATION_ERROR(-20004, 'Receita ' || p_receita || ' não encontrada.');
+        END;
+
+        -- Inserir na tabela Fertirega
+        INSERT INTO Fertirega (
+            operacaoAgriculaID,
+            minutos,
+            horas,
+            receitaID,
+            SetorsetorID
+        ) VALUES (
+            v_operacaoAgriculaID,
+            p_minutos,
+            p_horas,
+            p_receita,
+            p_setor
+        );
+
+        -- Success message for Fertirega
+        DBMS_OUTPUT.PUT_LINE('Operação agrícola (Fertirega) registrada com sucesso!');
+    ELSE
+        -- Inserir na tabela Rega
+        INSERT INTO Rega (
+            operacaoAgriculaID,
+            minutos,
+            horas,
+            SetorsetorID
+        ) VALUES (
+            v_operacaoAgriculaID,
+            p_minutos,
+            p_horas,
+            p_setor
+        );
+
+        -- Success message for Rega
+        DBMS_OUTPUT.PUT_LINE('Operação agrícola (Rega) registrada com sucesso!');
+    END IF;
+
+EXCEPTION
+    WHEN custom_not_found THEN
+        DBMS_OUTPUT.PUT_LINE('Erro: ' || SQLERRM);
+END registarRega;

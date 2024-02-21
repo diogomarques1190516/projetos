@@ -1,0 +1,9 @@
+DECLARE
+    v_designacao_parcela VARCHAR2(255) := 'Vinha'; 
+    v_data_inicio DATE := TO_DATE('2016-01-01', 'YYYY-MM-DD'); 
+    v_data_fim DATE := TO_DATE('2023-12-31', 'YYYY-MM-DD'); 
+BEGIN
+    
+    us18(v_designacao_parcela, v_data_inicio, v_data_fim);
+END;
+/

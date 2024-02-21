@@ -1,0 +1,54 @@
+CREATE OR REPLACE PROCEDURE us17 (
+    p_designacao IN VARCHAR2,
+    p_data_inicio IN DATE,
+    p_data_fim IN DATE
+)
+IS
+    
+    v_designacao VARCHAR2(255);
+    v_designacao_fatorproducao VARCHAR2(255);
+    v_nomecomponente VARCHAR2(255);
+    v_percentagem FLOAT;
+
+    
+    CURSOR us17_cursor IS
+        SELECT DISTINCT
+            pa.designacao,
+            fp.designacao AS designacao_fatorproducao,
+            e.nomecomponente,
+            fpe.percentagem
+        FROM
+            "Parcela Agricula" pa
+        JOIN
+            parcela_cultura pc ON pa.parcelaid = pc.parcelaid
+        JOIN
+            operacaoagricula op ON pa.parcelaid = op.parcelaid
+        LEFT JOIN
+            fitofarmaco ff ON op.operacaoagriculaid = ff.operacaoagriculaid
+        LEFT JOIN
+            fertilizacao fz ON op.operacaoagriculaid = fz.operacaoagriculaid
+        LEFT JOIN
+            fatorproducao fp ON ff.fatorproducaofatorproducaoid = fp.fabricanteid OR fz.fatorproducaoid = fp.fabricanteid
+        JOIN
+            fatorproducao_elemento fpe ON fp.fatorproducaoid = fpe.fatorproducaoid
+        JOIN
+            elemento e ON fpe.componenteid = e.componenteid
+        WHERE
+            pa.designacao = p_designacao
+            AND op.dataoperacao >= p_data_inicio
+            AND op.dataoperacao <= p_data_fim;
+BEGIN
+    
+    OPEN us17_cursor;
+
+    LOOP
+        FETCH us17_cursor INTO v_designacao, v_designacao_fatorproducao, v_nomecomponente, v_percentagem;
+
+        EXIT WHEN us17_cursor%NOTFOUND;
+
+        DBMS_OUTPUT.PUT_LINE('Parcela: ' || v_designacao || ', Fator Producao: ' || v_designacao_fatorproducao || ', Componente: ' || v_nomecomponente || ', Percentagem: ' || v_percentagem);
+    END LOOP;
+
+    CLOSE us17_cursor;
+END;
+/

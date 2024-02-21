@@ -1,0 +1,1838 @@
+INSERT INTO Especie (tipoEspecie) VALUES ('Prunus domestica');
+INSERT INTO Especie (tipoEspecie) VALUES ('Prunus armeniaca');
+INSERT INTO Especie (tipoEspecie) VALUES ('Malus domestica');
+INSERT INTO Especie (tipoEspecie) VALUES ('Pyrus pyrifolia');
+INSERT INTO Especie (tipoEspecie) VALUES ('Daucus carota subsp. Sativus');
+INSERT INTO Especie (tipoEspecie) VALUES ('Lupinus luteus');
+INSERT INTO Especie (tipoEspecie) VALUES ('Lupinus albus');
+INSERT INTO Especie (tipoEspecie) VALUES ('Zea mays');
+INSERT INTO Especie (tipoEspecie) VALUES ('Brassica rapa');
+INSERT INTO Especie (tipoEspecie) VALUES ('Olea europaea');
+INSERT INTO Especie (tipoEspecie) VALUES ('Vitis vinifera');
+
+INSERT INTO PODAPLANTA (INTERVALOPODA) VALUES ('Novembro a dezembro');
+INSERT INTO PODAPLANTA (INTERVALOPODA) VALUES ('Janeiro');
+INSERT INTO PODAPLANTA (INTERVALOPODA) VALUES ('Dezembro a janeiro');
+
+INSERT INTO FLORACAOPLANTA (intervaloFloracao) VALUES ('Fevereiro a março');
+INSERT INTO FLORACAOPLANTA (intervaloFloracao) VALUES ('Março a abril');
+INSERT INTO FLORACAOPLANTA (intervaloFloracao) VALUES ('Abril a maio');
+INSERT INTO FLORACAOPLANTA (intervaloFloracao) VALUES ('Maio');
+
+INSERT INTO SementeiraPlanta (intervaloSementeira) VALUES ('Abril a junho');
+INSERT INTO SementeiraPlanta (intervaloSementeira) VALUES ('Março a setembro');
+INSERT INTO SementeiraPlanta (intervaloSementeira) VALUES ('Fevereiro a abril');
+INSERT INTO SementeiraPlanta (intervaloSementeira) VALUES ('Agosto a outubro');
+
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES ('Julho a agosto'); 
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES ('Agosto a setembro');
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES('Novembro a dezembro');
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES('80 dias');
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES('Julho a setembro');
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES('Junho a fevereiro');
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES('Outubro a novembro');
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES('90 dias');
+INSERT INTO colheitaPlanta (intervaloColheita) VALUES('Junho a agosto');
+
+INSERT INTO "Instalacao Agricula" (instalacaoAgriculaID, nomeInstalacaoAgricula)
+VALUES (1, 'Edificio');
+INSERT INTO "Instalacao Agricula" (instalacaoAgriculaID, nomeInstalacaoAgricula)
+VALUES (2, 'Parcela');
+
+INSERT INTO Aplicacao (aplicacao) VALUES ('Fungicida');
+INSERT INTO Aplicacao (aplicacao) VALUES ('Adubo solo');
+INSERT INTO Aplicacao (aplicacao) VALUES ('Adubo foliar+Fertirrega');
+INSERT INTO Aplicacao (aplicacao) VALUES ('Adubo foliar');
+INSERT INTO Aplicacao (aplicacao) VALUES ('Correção solo');
+INSERT INTO Aplicacao (aplicacao) VALUES ('Insecticida');
+
+INSERT INTO Tipo (tipo) VALUES ('Fitofármaco');
+INSERT INTO Tipo (tipo) VALUES ('Adubo');
+INSERT INTO Tipo (tipo) VALUES ('Corretor');
+
+
+
+
+
+INSERT INTO Fabricante (fabricante) VALUES ('ASCENZA');
+INSERT INTO Fabricante (fabricante) VALUES ('Bayer');
+INSERT INTO Fabricante (fabricante) VALUES ('K+S');
+INSERT INTO Fabricante (fabricante) VALUES ('Biocal');
+INSERT INTO Fabricante (fabricante) VALUES ('Nutrofertil');
+
+INSERT INTO Formato (formato) VALUES ('Pó molhável');
+INSERT INTO Formato (formato) VALUES ('Granulado');
+INSERT INTO Formato (formato) VALUES ('Pó');
+INSERT INTO Formato (formato) VALUES ('Líquido');
+INSERT INTO Formato (formato) VALUES ('Emulsão de óleo em água');
+
+
+INSERT INTO Elemento (nomeComponente) VALUES ('CU');
+INSERT INTO Elemento (nomeComponente) VALUES ('S');
+INSERT INTO Elemento (nomeComponente) VALUES ('K');
+INSERT INTO Elemento (nomeComponente) VALUES ('Mg');
+INSERT INTO Elemento (nomeComponente) VALUES ('CaCO3');
+INSERT INTO Elemento (nomeComponente) VALUES ('Bacillus pumilus');
+INSERT INTO Elemento (nomeComponente) VALUES ('Ácidos gordos (na forma de sais de potássio)');
+INSERT INTO Elemento (nomeComponente) VALUES ('Terpenóides');
+INSERT INTO Elemento (nomeComponente) VALUES ('MgCO3');
+INSERT INTO Elemento (nomeComponente) VALUES ('B');
+INSERT INTO Elemento (nomeComponente) VALUES ('MgO');
+INSERT INTO Elemento (nomeComponente) VALUES ('Mn');
+INSERT INTO Elemento (nomeComponente) VALUES ('Matéria Orgânica');
+INSERT INTO Elemento (nomeComponente) VALUES ('N');
+INSERT INTO Elemento (nomeComponente) VALUES ('P2O5');
+INSERT INTO Elemento (nomeComponente) VALUES ('K2O');
+INSERT INTO Elemento (nomeComponente) VALUES ('Ca');
+
+
+INSERT INTO TipoCultura (tipoCulturaID, tipoCultura) VALUES (1, 'Permanente');
+INSERT INTO TipoCultura (tipoCulturaID, tipoCultura) VALUES (2, 'Temporária');
+
+
+INSERT INTO Edificio (edificioID, nome, instalacaoAgriculaID) VALUES (201, 'Espigueiro', 1);
+INSERT INTO Edificio (edificioID, nome, instalacaoAgriculaID) VALUES (202, 'Armazém novo', 1);
+INSERT INTO Edificio (edificioID, nome, instalacaoAgriculaID) VALUES (203, 'Armazém grande', 1);
+INSERT INTO Edificio (edificioID, nome, instalacaoAgriculaID) VALUES (250, 'Moinho', 1);
+INSERT INTO Edificio (edificioID, nome, instalacaoAgriculaID) VALUES (301, 'Tanque do campo grande', 1);
+INSERT INTO Edificio (edificioID, nome, instalacaoAgriculaID) VALUES (302, 'Poço da bouça', 1);
+
+INSERT INTO unidades (tipoUnidade) VALUES ('un');
+INSERT INTO unidades (tipoUnidade) VALUES ('m3');
+INSERT INTO unidades (tipoUnidade) VALUES ('kg');
+INSERT INTO unidades (tipoUnidade) VALUES ('ha');
+INSERT INTO unidades (tipoUnidade) VALUES ('m2');
+
+INSERT INTO Armazem (edificioID, area, UnidadesunidadeID) VALUES (201, 600, 5 );
+INSERT INTO Armazem (edificioID, area, UnidadesunidadeID) VALUES (202, 800, 5);
+
+INSERT INTO Moinho (edificioID) VALUES (250);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (1, 'Ameixoeira', 1, 1);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (2, 'Damasqueiro', 2, 1);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (3, 'Macieira', 3, 1);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (4, 'Pera Nashi', 4, 1);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (5, 'Cenoura', 5, 2);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (6, 'Tremoço', 6, 2);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (7, 'Tremoço', 7, 2);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (8, 'Milho', 8, 2);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (9, 'Nabo greleiro', 9, 2);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (10, 'Oliveira', 10, 1);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (11, 'Nabo', 9, 2);
+
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (12, 'Videira', 11, 1);
+
+
+-- Assuming Variedade(variedadeID, tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID)
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('RAINHA CLAUDIA CARANGUEJEIRA', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('PRESIDENT', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('STANLEY', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('ANGELENO', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BLACK BEAUTY', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BLACK STAR', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BLACK GOLD', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BLACK DIAMOND', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BLACK AMBER', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BLACK SPLENDOR', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('FORTUNA', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('FRIAR', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('EL DORADO', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('ELEPHANT HEART', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('GOLDEN JAPAN', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('HARRY PITCHON', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('LAETITIA', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('METLEY', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('MIRABELLE DE NANCY', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('QUEEN ROSE', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('RED BEAUT', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('SANTA ROSA', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('SHIRO', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('SUNGOLD', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('WILSON PERFECTION', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('AUTUMN GIANT', 1, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BULIDA', 2, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('CANINO', 2, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('LIABAUD', 2, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('MAILLOT JAUNE', 2, 1, 1, 1);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('POLONAIS', 2, 1, 1, 1);
+
+-- Inserir dados na tabela Variedade
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('AKANE', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BELGOLDEN', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('BRAVO DE ESMOLFE', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('CASA NOVA DE ALCOBAÇA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('EROVAN', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('FUJI', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('GRANNY SMITH', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('GOLDEN DELICIOUS', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('HI-EARLY', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('JONAGORED', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('LYSGOLDEN', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('MUTSU', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('PORTA DA LOJA', 3, 2, 3, 3);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('REINETTE OU CANADA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('REINETTE OU GRAND FAY', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('RISCADINHA DE PALMELA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('ROYAL GALA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('REDCHIEF', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('STARKING', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('SUMMER RED', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('WELL''SPUR DELICIOUS', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('NOIVA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('OLHO ABERTO', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('CAMOESA ROSA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('MALÁPIO', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('GRONHO DOCE', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('PÉ DE BOI', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('PINOVA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('PARDO LINDO', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('PIPO DE BASTO', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('PRIMA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('QUERINA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('VISTA BELLA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('GOLDEN SMOOTHEE', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('GOLDEN SUPREMA', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('GLOSTER 69', 3, 1, 2, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('FREEDOM', 3, 1, 2, 2);
+
+-- Inserir dados na tabela Variedade
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('SNINSEIKI', 4, NULL, NULL, NULL);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('KUMOI', 4, NULL, NULL, NULL);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('HOSUI', 4, NULL, NULL, NULL);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('NIJISSEIKI', 4, NULL, NULL, NULL);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Carson Hybrid', 5, NULL, NULL, 4);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Red Cored Chantenay', 5, NULL, NULL, 4);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Danvers Half Long', 5, NULL, NULL, 4);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Imperator 58', 5, NULL, NULL, 4);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Sugarsnax Hybrid', 5, NULL, NULL, 4);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Nelson Hybrid', 5, NULL, NULL, 4);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Scarlet Nantes', 5, NULL, NULL, 4);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Amarelo', 6, NULL, NULL, NULL);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Branco', 7, NULL, NULL, NULL);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('MAS 24.C', 8, NULL, NULL, 5);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Doce Golden Bantam', 8, NULL, NULL, 5);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Senhora Conceição', 9, NULL, NULL, 6);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('COBRANÇOSA', 10, NULL, NULL, 7);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('ARBEQUINA', 10, NULL, NULL, 7);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('HOJIBLANCA', 10, NULL, NULL, 7);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('NEGRINHA DO FREIXO', 10, NULL, NULL, 7);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('PICUAL', 10, NULL, NULL, 7);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('MAÇANILHA', 10, NULL, NULL, 7);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('CONSERVA DE ELVAS', 10, NULL, NULL, 7);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Galega', 10, NULL, NULL, 7);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('S. Cosme', 9, NULL, NULL, 8);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Dona Maria', 12, 3, 4, 9);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Cardinal', 12, 3, 4, 9);
+
+-- Assuming Variedade_SementeiraPlanta(variedadeID, sementeiraPlantaID)
+INSERT INTO Variedade_SementeiraPlanta (variedadeID, sementeiraPlantaID) VALUES (82, 1);
+INSERT INTO Variedade_SementeiraPlanta (variedadeID, sementeiraPlantaID) VALUES (83, 1);
+INSERT INTO Variedade_SementeiraPlanta (variedadeID, sementeiraPlantaID) VALUES (84, 2);
+INSERT INTO Variedade_SementeiraPlanta (variedadeID, sementeiraPlantaID) VALUES (93, 3);
+INSERT INTO Variedade_SementeiraPlanta (variedadeID, sementeiraPlantaID) VALUES (93, 4);
+
+
+INSERT INTO "Parcela Agricula" (parcelaID, instalacaoAgriculaID, designacao, area, UnidadesunidadeID)
+VALUES (101, 2, 'Campo da bouça', 1.2, 4);
+
+INSERT INTO "Parcela Agricula" (parcelaID, instalacaoAgriculaID, designacao, area, UnidadesunidadeID)
+VALUES (102, 2, 'Campo grande', 3, 4);
+
+INSERT INTO "Parcela Agricula" (parcelaID, instalacaoAgriculaID, designacao, area, UnidadesunidadeID)
+VALUES (103, 2, 'Campo do poço', 1.5, 4);
+
+INSERT INTO "Parcela Agricula" (parcelaID, instalacaoAgriculaID, designacao, area, UnidadesunidadeID)
+VALUES (104, 2, 'Lameiro da ponte', 0.8, 4);
+
+INSERT INTO "Parcela Agricula" (parcelaID, instalacaoAgriculaID, designacao, area, UnidadesunidadeID)
+VALUES (105, 2, 'Lameiro do moinho', 1.1, 4);
+
+INSERT INTO "Parcela Agricula" (parcelaID, instalacaoAgriculaID, designacao, area, UnidadesunidadeID)
+VALUES (106, 2, 'Horta nova', 0.3, 4);
+
+INSERT INTO "Parcela Agricula" (parcelaID, instalacaoAgriculaID, designacao, area, UnidadesunidadeID)
+VALUES (107, 2, 'Vinha', 2, 4);
+
+
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (101, 80, TO_DATE('10/10/2020', 'DD/MM/YYYY'), TO_DATE('30/03/2021', 'DD/MM/YYYY'), 1.1, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (101, 83, TO_DATE('10/04/2021', 'DD/MM/YYYY'), TO_DATE('12/08/2021', 'DD/MM/YYYY'), 0.9, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (101, 80, TO_DATE('03/10/2021', 'DD/MM/YYYY'), TO_DATE('05/04/2022', 'DD/MM/YYYY'), 1.1, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (101, 83, TO_DATE('15/04/2022', 'DD/MM/YYYY'), TO_DATE('21/08/2022', 'DD/MM/YYYY'), 0.9, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (103, 82, TO_DATE('05/04/2020', 'DD/MM/YYYY'), TO_DATE('20/08/2020', 'DD/MM/YYYY'), 1.2, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (103, 80, TO_DATE('12/10/2020', 'DD/MM/YYYY'), TO_DATE('15/03/2021', 'DD/MM/YYYY'), 1.3, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (103, 82, TO_DATE('03/04/2021', 'DD/MM/YYYY'), TO_DATE('25/08/2021', 'DD/MM/YYYY'), 1.2, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (103, 80, TO_DATE('06/10/2021', 'DD/MM/YYYY'), TO_DATE('19/03/2022', 'DD/MM/YYYY'), 1.3, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (103, 82, TO_DATE('08/04/2022', 'DD/MM/YYYY'), TO_DATE('18/08/2022', 'DD/MM/YYYY'), 1.2, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (103, 80, TO_DATE('12/10/2022', 'DD/MM/YYYY'), TO_DATE('20/03/2023', 'DD/MM/YYYY'), 1.3, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (102, 92, TO_DATE('06/10/2016', 'DD/MM/YYYY'), NULL, 30, 1, 1);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (102, 89, TO_DATE('10/10/2016', 'DD/MM/YYYY'), NULL, 20, 1, 1);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 79, TO_DATE('10/03/2020', 'DD/MM/YYYY'), TO_DATE('15/05/2020', 'DD/MM/YYYY'), 0.15, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 78, TO_DATE('02/06/2020', 'DD/MM/YYYY'), TO_DATE('08/09/2020', 'DD/MM/YYYY'), 0.1, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 93, TO_DATE('20/09/2020', 'DD/MM/YYYY'), TO_DATE('10/01/2021', 'DD/MM/YYYY'), 0.2, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 77, TO_DATE('10/03/2021', 'DD/MM/YYYY'), TO_DATE('15/05/2021', 'DD/MM/YYYY'), 0.15, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 75, TO_DATE('02/06/2021', 'DD/MM/YYYY'), TO_DATE('08/09/2021', 'DD/MM/YYYY'), 0.1, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 93, TO_DATE('20/09/2021', 'DD/MM/YYYY'), TO_DATE('10/01/2022', 'DD/MM/YYYY'), 0.2, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 77, TO_DATE('06/03/2022', 'DD/MM/YYYY'), TO_DATE('16/05/2022', 'DD/MM/YYYY'), 0.15, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 78, TO_DATE('30/05/2022', 'DD/MM/YYYY'), TO_DATE('05/09/2022', 'DD/MM/YYYY'), 0.15, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (106, 84, TO_DATE('20/09/2022', 'DD/MM/YYYY'), TO_DATE('14/01/2023', 'DD/MM/YYYY'), 0.25, 2, 4);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (104, 41, TO_DATE('07/01/2017', 'DD/MM/YYYY'), NULL, 90, 1, 1);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (104, 37, TO_DATE('08/01/2017', 'DD/MM/YYYY'), NULL, 60, 1, 1);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (104, 48, TO_DATE('08/01/2017', 'DD/MM/YYYY'), NULL, 40, 1, 1);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (104, 48, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 30, 1, 1);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (107, 94, TO_DATE('10/01/2018', 'DD/MM/YYYY'), NULL, 500, 1, 1);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID) VALUES (107, 95, TO_DATE('11/01/2018', 'DD/MM/YYYY'), NULL, 700, 1, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Plantação', TO_DATE('06/10/2016', 'DD/MM/YYYY'), 30, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Plantação', TO_DATE('10/10/2016', 'DD/MM/YYYY'), 20, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Plantação', TO_DATE('07/01/2017', 'DD/MM/YYYY'), 90, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Plantação', TO_DATE('08/01/2017', 'DD/MM/YYYY'), 60, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Plantação', TO_DATE('08/01/2017', 'DD/MM/YYYY'), 40, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 48, 1);
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2017', 'DD/MM/YYYY'), 0.4, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2017', 'DD/MM/YYYY'), 0.9, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/07/2017', 'DD/MM/YYYY'), 3, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2017', 'DD/MM/YYYY'), 0.4, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2017', 'DD/MM/YYYY'), 0.9, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2017', 'DD/MM/YYYY'), 3.5, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/09/2017', 'DD/MM/YYYY'), 3, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), NULL, 2);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('04/11/2017', 'DD/MM/YYYY'), 30, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('04/11/2017', 'DD/MM/YYYY'), 20, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 1);
+
+-- Fertilização
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('10/12/2017', 'DD/MM/YYYY'), 15, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('10/12/2017', 'DD/MM/YYYY'), 10, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 3);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('07/01/2018', 'DD/MM/YYYY'), 90, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('08/01/2018', 'DD/MM/YYYY'), 60, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('08/01/2018', 'DD/MM/YYYY'), 40, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 48, 1);
+
+-- Plantação
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Plantação', TO_DATE('10/01/2018', 'DD/MM/YYYY'), 500, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Plantação', TO_DATE('11/01/2018', 'DD/MM/YYYY'), 700, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 1);
+
+-- Fertilização
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('06/02/2018', 'DD/MM/YYYY'), 10, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('06/02/2018', 'DD/MM/YYYY'), 6, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('06/02/2018', 'DD/MM/YYYY'), 5, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 48, 3);
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2018', 'DD/MM/YYYY'), 1, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2018', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/07/2018', 'DD/MM/YYYY'), 3.5, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/07/2018', 'DD/MM/YYYY'), 6, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2018', 'DD/MM/YYYY'), 1, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2018', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2018', 'DD/MM/YYYY'), 4, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('11/08/2018', 'DD/MM/YYYY'), 7, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('02/09/2018', 'DD/MM/YYYY'), 4, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/09/2018', 'DD/MM/YYYY'), 4, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), NULL, 2);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('17/11/2018', 'DD/MM/YYYY'), 30, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('17/11/2018', 'DD/MM/YYYY'), 20, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 1);
+
+-- Plantação
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Plantação', TO_DATE('10/12/2018', 'DD/MM/YYYY'), 30, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), 48, 1);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('16/12/2018', 'DD/MM/YYYY'), 500, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('18/12/2018', 'DD/MM/YYYY'), 700, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 1);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('07/01/2019', 'DD/MM/YYYY'), 90, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('08/01/2019', 'DD/MM/YYYY'), 60, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('08/01/2019', 'DD/MM/YYYY'), 40, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), 48, 1);
+
+-- Aplicação fitofármaco
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2019', 'DD/MM/YYYY'), 2, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2019', 'DD/MM/YYYY'), 2.5, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 3);
+
+-- Fertilização
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('06/02/2019', 'DD/MM/YYYY'), 10, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('06/02/2019', 'DD/MM/YYYY'), 5, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('06/02/2019', 'DD/MM/YYYY'), 7, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), 48, 3);
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2019', 'DD/MM/YYYY'), 1, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2019', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2019', 'DD/MM/YYYY'), 4, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/07/2019', 'DD/MM/YYYY'), 6, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2019', 'DD/MM/YYYY'), 1, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2019', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2019', 'DD/MM/YYYY'), 4.5, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('11/08/2019', 'DD/MM/YYYY'), 7, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), NULL, 2);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('15/11/2019', 'DD/MM/YYYY'), 30, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('15/11/2019', 'DD/MM/YYYY'), 20, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 1);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('16/12/2019', 'DD/MM/YYYY'), 500, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('18/12/2019', 'DD/MM/YYYY'), 700, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 1);
+
+-- Aplicação fitofármaco
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2020', 'DD/MM/YYYY'), 2, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2020', 'DD/MM/YYYY'), 2.5, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 3);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('12/03/2020', 'DD/MM/YYYY'), 0.9, 106, TO_DATE('10/03/2020', 'DD/MM/YYYY'), 79, 3);
+
+-- Fertilização
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('30/03/2020', 'DD/MM/YYYY'), 600, 103, NULL, NULL, 3);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('05/04/2020', 'DD/MM/YYYY'), 1.2, 103, TO_DATE('05/04/2020', 'DD/MM/YYYY'), 82, 4);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('05/05/2020', 'DD/MM/YYYY'), 2200, 106, TO_DATE('10/03/2020', 'DD/MM/YYYY'), 79, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('15/05/2020', 'DD/MM/YYYY'), 1400, 106, TO_DATE('10/03/2020', 'DD/MM/YYYY'), 79, 3);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('02/06/2020', 'DD/MM/YYYY'), 0.6, 106, TO_DATE('02/06/2020', 'DD/MM/YYYY'), 78, 3);
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2020', 'DD/MM/YYYY'), 1, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2020', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/7/2020', 'DD/MM/YYYY'), 6, 107, TO_DATE('10/1/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('12/7/2020', 'DD/MM/YYYY'), 15, 103, TO_DATE('5/4/2020', 'DD/MM/YYYY'), 82, 2);
+
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('15/07/2020', 'DD/MM/YYYY'), 2.5, 106, TO_DATE('02/06/2020', 'DD/MM/YYYY'), 78, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('28/07/2020', 'DD/MM/YYYY'), 15, 103, TO_DATE('05/04/2020', 'DD/MM/YYYY'), 82, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2020', 'DD/MM/YYYY'), 1, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2020', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('6/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2020', 'DD/MM/YYYY'), 15, 103, TO_DATE('05/04/2020', 'DD/MM/YYYY'), 82, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('11/08/2020', 'DD/MM/YYYY'), 7, 107, NULL, NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('12/08/2020', 'DD/MM/YYYY'), 3.5, 106, TO_DATE('02/06/2020', 'DD/MM/YYYY'), 78, 2);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('20/08/2020', 'DD/MM/YYYY'), 3300, 103, TO_DATE('05/04/2020', 'DD/MM/YYYY'), 82, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('28/08/2020', 'DD/MM/YYYY'), 600, 106, TO_DATE('02/06/2020', 'DD/MM/YYYY'), 78, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('07/09/2020', 'DD/MM/YYYY'), 1800, 106, TO_DATE('02/06/2020', 'DD/MM/YYYY'), 78, 3);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('20/09/2020', 'DD/MM/YYYY'), 0.6, 106, TO_DATE('20/09/2020', 'DD/MM/YYYY'), 93, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('10/10/2020', 'DD/MM/YYYY'), 36, 101, TO_DATE('10/10/2020', 'DD/MM/YYYY'), 80, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('12/10/2020', 'DD/MM/YYYY'), 1.3, 103, TO_DATE('12/10/2020', 'DD/MM/YYYY'), 80, 4);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('10/11/2020', 'DD/MM/YYYY'), 30, 102, TO_DATE('6/10/2016', 'DD/MM/YYYY'), 92, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('10/11/2020', 'DD/MM/YYYY'), 20, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 1);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('15/11/2020', 'DD/MM/YYYY'), 600, 106, TO_DATE('20/09/2020', 'DD/MM/YYYY'), 93, 3);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('05/12/2020', 'DD/MM/YYYY'), 70, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 48, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('05/12/2020', 'DD/MM/YYYY'), 50, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 1);
+
+-- Fertilização
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('10/12/2020', 'DD/MM/YYYY'), 10, 102, TO_DATE('6/10/2016', 'DD/MM/YYYY'), 92, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('10/12/2020', 'DD/MM/YYYY'), 7, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('15/12/2020', 'DD/MM/YYYY'), 40, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('15/12/2020', 'DD/MM/YYYY'), 60, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('16/12/2020', 'DD/MM/YYYY'), 500, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 1);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('18/12/2020', 'DD/MM/YYYY'), 2500, 106, TO_DATE('20/09/2020', 'DD/MM/YYYY'), 93, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('04/01/2021', 'DD/MM/YYYY'), 2900, 106, TO_DATE('20/09/2021', 'DD/MM/YYYY'), 93, 3);
+
+-- Poda
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Poda', TO_DATE('18/12/2020', 'DD/MM/YYYY'), 700, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 1);
+
+-- Aplicação fitofármaco
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2021', 'DD/MM/YYYY'), 2, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2021', 'DD/MM/YYYY'), 2.5, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 3);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('10/03/2021', 'DD/MM/YYYY'), 0.9, 106, TO_DATE('10/03/2021', 'DD/MM/YYYY'), 77, 3);
+
+-- Incorporação no solo
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Incorporação no solo', TO_DATE('14/03/2021', 'DD/MM/YYYY'), 1.3, 103, TO_DATE('06/10/2021', 'DD/MM/YYYY'), 80, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Incorporação no solo', TO_DATE('30/03/2021', 'DD/MM/YYYY'), 1.3, 101, TO_DATE('03/10/2021', 'DD/MM/YYYY'), 80, 4);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('03/04/2021', 'DD/MM/YYYY'), 1.2, 103, TO_DATE('03/04/2021', 'DD/MM/YYYY'), 82, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('15/04/2021', 'DD/MM/YYYY'), 30, 101, TO_DATE('10/04/2021', 'DD/MM/YYYY'), 83, 3);
+
+-- Fertilização
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Fertilização', TO_DATE('02/05/2021', 'DD/MM/YYYY'), 10, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 3);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('05/05/2021', 'DD/MM/YYYY'), 2200, 106, TO_DATE('10/03/2021', 'DD/MM/YYYY'), 77, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('15/05/2021', 'DD/MM/YYYY'), 1400, 106, TO_DATE('10/03/2021', 'DD/MM/YYYY'), 77, 3);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('02/06/2021', 'DD/MM/YYYY'), 0.6, 106, TO_DATE('02/06/2021', 'DD/MM/YYYY'), 75, 3);
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('20/06/2021', 'DD/MM/YYYY'), 3, 106, TO_DATE('02/06/2021', 'DD/MM/YYYY'), 75, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2021', 'DD/MM/YYYY'), 0.8, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('03/07/2021', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('6/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('05/07/2021', 'DD/MM/YYYY'), 5, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('07/07/2021', 'DD/MM/YYYY'), 3, 106, TO_DATE('02/06/2021', 'DD/MM/YYYY'), 75, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/07/2021', 'DD/MM/YYYY'), 7, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('12/07/2021', 'DD/MM/YYYY'), 15, 103, TO_DATE('03/04/2021', 'DD/MM/YYYY'), 82, 2);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('15/07/2021', 'DD/MM/YYYY'), 300, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('20/07/2021', 'DD/MM/YYYY'), 400, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('24/07/2021', 'DD/MM/YYYY'), 15, 103, TO_DATE('03/04/2021', 'DD/MM/YYYY'), 82, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('30/07/2021', 'DD/MM/YYYY'), 5.5, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('30/07/2021', 'DD/MM/YYYY'), 3.5, 106, TO_DATE('02/06/2021', 'DD/MM/YYYY'), 75, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('07/08/2021', 'DD/MM/YYYY'), 15, 103, TO_DATE('03/04/2021', 'DD/MM/YYYY'), 82, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2021', 'DD/MM/YYYY'), 0.8, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('10/08/2021', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('6/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('12/08/2021', 'DD/MM/YYYY'), 3300, 101, TO_DATE('10/04/2021', 'DD/MM/YYYY'), 83, 3);
+
+-- Rega
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Rega', TO_DATE('17/08/2021', 'DD/MM/YYYY'), 3, 106, TO_DATE('02/06/2021', 'DD/MM/YYYY'), 75, 2);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('24/08/2021', 'DD/MM/YYYY'), 900, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 48, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('25/08/2021', 'DD/MM/YYYY'), 3300, 103, TO_DATE('03/04/2021', 'DD/MM/YYYY'), 82, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('28/08/2021', 'DD/MM/YYYY'), 600, 106, TO_DATE('02/06/2021', 'DD/MM/YYYY'), 75, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('05/09/2021', 'DD/MM/YYYY'), 800, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 48, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('07/09/2021', 'DD/MM/YYYY'), 1800, 106, TO_DATE('02/06/2021', 'DD/MM/YYYY'), 75, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('12/09/2021', 'DD/MM/YYYY'), 800, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 3);
+
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('20/09/2021', 'DD/MM/YYYY'), 0.6, 106, TO_DATE('20/09/2021', 'DD/MM/YYYY'), 93, 3);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('23/09/2021', 'DD/MM/YYYY'), 1200, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 3);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('03/10/2021', 'DD/MM/YYYY'), 36, 101, TO_DATE('03/10/2021', 'DD/MM/YYYY'), 80, 3);
+
+-- Sementeira
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Sementeira', TO_DATE('06/10/2021', 'DD/MM/YYYY'), 1.3, 103, TO_DATE('06/10/2021', 'DD/MM/YYYY'), 80, 4);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('12/10/2021', 'DD/MM/YYYY'), 950, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 3);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('03/11/2021', 'DD/MM/YYYY'), 750, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 3);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('10/11/2021', 'DD/MM/YYYY'), 210, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 3);
+
+-- Colheita
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID) 
+VALUES ('Colheita', TO_DATE('10/11/2021', 'DD/MM/YYYY'), 120, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('15/11/2021', 'DD/MM/YYYY'), 600, 106, TO_DATE('20/09/2021', 'DD/MM/YYYY'), 93, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('17/11/2021', 'DD/MM/YYYY'), 30, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('17/11/2021', 'DD/MM/YYYY'), 20, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('28/11/2021', 'DD/MM/YYYY'), 70, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 48, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('03/12/2021', 'DD/MM/YYYY'), 90, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('16/12/2021', 'DD/MM/YYYY'), 500, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('18/12/2021', 'DD/MM/YYYY'), 60, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('18/12/2021', 'DD/MM/YYYY'), 2500, 106, TO_DATE('20/09/2021', 'DD/MM/YYYY'), 93, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('18/12/2021', 'DD/MM/YYYY'), 700, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('04/01/2022', 'DD/MM/YYYY'), 2900, 106, TO_DATE('20/09/2021', 'DD/MM/YYYY'), 93, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2022', 'DD/MM/YYYY'), 3, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2022', 'DD/MM/YYYY'), 3.5, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Sementeira', TO_DATE('06/03/2022', 'DD/MM/YYYY'), 0.9, 106, TO_DATE('06/03/2022', 'DD/MM/YYYY'), 77, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Incorporação no solo', TO_DATE('19/03/2022', 'DD/MM/YYYY'), 1.3, 103, TO_DATE('06/10/2021', 'DD/MM/YYYY'), 80, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Incorporação no solo', TO_DATE('05/04/2022', 'DD/MM/YYYY'), 1.3, 101, TO_DATE('03/10/2021', 'DD/MM/YYYY'), 80, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Sementeira', TO_DATE('08/04/2022', 'DD/MM/YYYY'), 1.2, 103, TO_DATE('08/04/2022', 'DD/MM/YYYY'), 82, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Sementeira', TO_DATE('15/04/2022', 'DD/MM/YYYY'), 30, 101, TO_DATE('15/04/2022', 'DD/MM/YYYY'), 83, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('05/05/2022', 'DD/MM/YYYY'), 2250, 106, TO_DATE('06/03/2022', 'DD/MM/YYYY'), 77, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Fertilização', TO_DATE('13/05/2022', 'DD/MM/YYYY'), 10, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('15/05/2022', 'DD/MM/YYYY'), 1300, 106, TO_DATE('06/03/2022', 'DD/MM/YYYY'), 77, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Sementeira', TO_DATE('30/05/2022', 'DD/MM/YYYY'), 0.6, 106, TO_DATE('30/05/2022', 'DD/MM/YYYY'), 78, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('05/06/2022', 'DD/MM/YYYY'), 3, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('30/06/2022', 'DD/MM/YYYY'), 3, 106, TO_DATE('30/05/2022', 'DD/MM/YYYY'), 78, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('02/07/2022', 'DD/MM/YYYY'), 5.5, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('03/07/2022', 'DD/MM/YYYY'), 0.8, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('03/07/2022', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('10/07/2022', 'DD/MM/YYYY'), 5, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 2);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('12/07/2022', 'DD/MM/YYYY'), 15, 103, TO_DATE('08/04/2022', 'DD/MM/YYYY'), 82, 2);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('15/07/2022', 'DD/MM/YYYY'), 3, 106, TO_DATE('30/05/2022', 'DD/MM/YYYY'), 78, 2);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('15/07/2022', 'DD/MM/YYYY'), 600, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('20/07/2022', 'DD/MM/YYYY'), 500, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('24/07/2022', 'DD/MM/YYYY'), 15, 103, TO_DATE('08/04/2022', 'DD/MM/YYYY'), 82, 2);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('30/07/2022', 'DD/MM/YYYY'), 5, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), NULL, 2);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('30/07/2022', 'DD/MM/YYYY'), 2.5, 106, TO_DATE('30/05/2022', 'DD/MM/YYYY'), 78, 2);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('07/08/2022', 'DD/MM/YYYY'), 15, 103, TO_DATE('08/04/2022', 'DD/MM/YYYY'), 82, 2);
+
+
+INSERT INTO OperacaoAgricula ( nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('10/08/2022', 'DD/MM/YYYY'), 0.8, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 2);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('10/08/2022', 'DD/MM/YYYY'), 1.5, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 2);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('12/08/2022', 'DD/MM/YYYY'), 1200, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('12/08/2022', 'DD/MM/YYYY'), 600, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('17/08/2022', 'DD/MM/YYYY'), 3500, 101, TO_DATE('15/04/2022', 'DD/MM/YYYY'), 83, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Rega', TO_DATE('17/08/2022', 'DD/MM/YYYY'), 3, 106, TO_DATE('30/05/2022', 'DD/MM/YYYY'), 78, 2);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('18/08/2022', 'DD/MM/YYYY'), 3300, 103, TO_DATE('08/04/2022', 'DD/MM/YYYY'), 82, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('20/08/2022', 'DD/MM/YYYY'), 950, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), 48, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('24/08/2022', 'DD/MM/YYYY'), 650, 106, TO_DATE('30/05/2022', 'DD/MM/YYYY'), 78, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('05/09/2022', 'DD/MM/YYYY'), 1900, 106, TO_DATE('30/05/2022', 'DD/MM/YYYY'), 78, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('07/09/2022', 'DD/MM/YYYY'), 830, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), 48, 3);
+
+
+INSERT INTO OperacaoAgricula ( nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('11/09/2022', 'DD/MM/YYYY'), 750, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('20/09/2022', 'DD/MM/YYYY'), 1150, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Sementeira', TO_DATE('20/09/2022', 'DD/MM/YYYY'), 0.6, 106, TO_DATE('20/09/2022', 'DD/MM/YYYY'), 84, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Sementeira', TO_DATE('12/10/2022', 'DD/MM/YYYY'), 1.3, 103, TO_DATE('12/10/2022', 'DD/MM/YYYY'), 80, 4);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('17/10/2022', 'DD/MM/YYYY'), 850, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('06/11/2022', 'DD/MM/YYYY'), 900, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('10/11/2022', 'DD/MM/YYYY'), 30, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('10/11/2022', 'DD/MM/YYYY'), 20, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('12/11/2022', 'DD/MM/YYYY'), 300, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('12/11/2022', 'DD/MM/YYYY'), 200, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('15/11/2022', 'DD/MM/YYYY'), 50, 106, TO_DATE('20/09/2022', 'DD/MM/YYYY'), 84, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('04/12/2022', 'DD/MM/YYYY'), 70, 104, TO_DATE('10/12/2018', 'DD/MM/YYYY'), 48, 1);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('07/12/2022', 'DD/MM/YYYY'), 90, 104, TO_DATE('07/01/2017', 'DD/MM/YYYY'), 41, 1);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Fertilização', TO_DATE('11/12/2022', 'DD/MM/YYYY'), 15, 102, TO_DATE('06/10/2016', 'DD/MM/YYYY'), 92, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Fertilização', TO_DATE('11/12/2022', 'DD/MM/YYYY'), 10, 102, TO_DATE('10/10/2016', 'DD/MM/YYYY'), 89, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('16/12/2022', 'DD/MM/YYYY'), 500, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('18/12/2022', 'DD/MM/YYYY'), 200, 106, TO_DATE('20/09/2022', 'DD/MM/YYYY'), 84, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('18/12/2022', 'DD/MM/YYYY'), 700, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Poda', TO_DATE('12/01/2023', 'DD/MM/YYYY'), 60, 104, TO_DATE('08/01/2017', 'DD/MM/YYYY'), 37, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Colheita', TO_DATE('14/01/2023', 'DD/MM/YYYY'), 250, 106, TO_DATE('20/09/2022', 'DD/MM/YYYY'), 84, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2023', 'DD/MM/YYYY'), 4, 107, TO_DATE('10/01/2018', 'DD/MM/YYYY'), 94, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Aplicação fitofármaco', TO_DATE('20/01/2023', 'DD/MM/YYYY'), 5, 107, TO_DATE('11/01/2018', 'DD/MM/YYYY'), 95, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Incorporação no solo', TO_DATE('20/03/2023', 'DD/MM/YYYY'), 1.3, 103, TO_DATE('12/10/2022', 'DD/MM/YYYY'), 80, 4);
+
+
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (62, 0.9, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (64, 1.2, 4);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (67, 0.6, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (82, 0.6, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (83, 36, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (84, 1.3, 4);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (100, 0.9, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (103, 1.2, 4);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (104, 30, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (108, 0.6, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (132, 0.6, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (134, 36, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (135, 1.3, 4);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (152, 0.9, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (155, 1.2, 4);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (156, 30, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (160, 0.6, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (188, 0.6, 3);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (189, 1.3, 4);
+
+INSERT INTO Produto (produto) VALUES ('Cenoura Scarlet Nantes');
+INSERT INTO Produto (produto) VALUES ('Milho MAS 24.C');
+INSERT INTO Produto (produto) VALUES ('Cenoura Nelson Hybrid');
+INSERT INTO Produto (produto) VALUES ('Nabo S. Cosme');
+INSERT INTO Produto (produto) VALUES ('Cenoura Sugarsnax Hybrid');
+INSERT INTO Produto (produto) VALUES ('Uva Dona Maria');
+INSERT INTO Produto (produto) VALUES ('Milho Doce Golden Bantam');
+INSERT INTO Produto (produto) VALUES ('Maçã Royal Gala');
+INSERT INTO Produto (produto) VALUES ('Cenoura Danvers Half Long');
+INSERT INTO Produto (produto) VALUES ('Maçã Jonagored');
+INSERT INTO Produto (produto) VALUES ('Maçã Fuji');
+INSERT INTO Produto (produto) VALUES ('Azeitona Galega');
+INSERT INTO Produto (produto) VALUES ('Azeitona Picual');
+INSERT INTO Produto (produto) VALUES ('Nabo Greleiro Senhora Conceição');
+INSERT INTO Produto (produto) VALUES ('Uva Cardinal');
+INSERT INTO Produto (produto) VALUES ('Maçã Canada');
+INSERT INTO Produto (produto) VALUES ('Maçã Grand Fay');
+INSERT INTO Produto (produto) VALUES ('Maçã Pipo de Basto');
+INSERT INTO Produto (produto) VALUES ('Maçã Gronho Doce');
+INSERT INTO Produto (produto) VALUES ('Maçã Malápio');
+INSERT INTO Produto (produto) VALUES ('Maçã Porta da Loja');
+INSERT INTO Produto (produto) VALUES ('Azeitona Arbequina');
+INSERT INTO Produto (produto) VALUES ('Azeitona Picual');
+INSERT INTO Produto (produto) VALUES ('Azeitona Galega');
+INSERT INTO Produto (produto) VALUES ('Abóbora Manteiga');
+
+
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (65, 2200, 1, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (66, 1400, 1, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (79, 3300, 2, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (80, 600, 3, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (81, 1800, 3, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (87, 600, 4, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (95, 2500, 4, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (96, 2900, 4, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (106, 2200, 5, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (107, 1400, 5, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (116, 300, 6, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (117, 400, 6, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (124, 3300, 7, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (126, 900, 8, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (127, 3300, 2, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (128, 600, 9, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (129, 800, 8, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (130, 1800, 9, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (131, 800, 10, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (133, 1200, 10, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (136, 950, 11, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (137, 750, 11, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (138, 210, 12, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (139, 120, 13, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (140, 600, 4, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (147, 2500, 4, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (149, 2900, 4, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (157, 2250, 5, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (159, 1300, 5, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (169, 600, 6, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (170, 500, 6, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (177, 1200, 15, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (178, 600, 15, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (179, 3500, 7, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (181, 3300, 2, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (182, 950, 8, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (183, 650, 3, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (184, 1900, 3, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (185, 830, 8, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (186, 750, 10, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (187, 1150, 10, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (190, 850, 11, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (191, 900, 11, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (194, 300, 12, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (195, 200, 13, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (196, 50, 14, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (202, 200, 14, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (205, 250, 14, 3);
+
+
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('Calda Bordalesa ASCENZA', 1, 1, 1, 1);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('Enxofre Bayer 80 WG', 1, 1, 1, 2);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('Patentkali', 2, 2, 2, 3);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('ESTA Kieserit', 2, 2, 2, 3);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('EPSO Microtop', 2, 3, 2, 3);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('EPSO Top', 2, 4, 2, 3);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('Biocal CaCo3', 3, 5, 2, 4);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('Biocal Composto', 3, 5, 3, 4);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('Sonata', 1, 1, 4, 2);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('FLiPPER', 1, 6, 5, 2);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('Requiem Prime', 1, 6, 4, 2);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('Fertimax Extrume de Cavalo', 2, 2, 2, 5);
+INSERT INTO FatorProducao (designacao, TipotipoID, aplicacaoID, formatoID, fabricanteID) VALUES ('BIOFERTIL N6', 2, 2, 2, 5);
+
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (1, 1, 20);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (2, 2, 80);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (3, 3, 24.9);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (3, 4, 6);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (3, 2, 17.6);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (4, 4, 15.1);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (4, 2, 20.8);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (5, 4, 9);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (5, 2, 12.4);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (5, 10, 0.9);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (5, 12, 1);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (6, 4, 9.6);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (6, 2, 13);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (7, 5, 88.2);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (7, 9, 1.9);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (8, 5, 71.7);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (8, 9, 14.8);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (8, 11, 7.9);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (9, 6, 97.74);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (10, 7, 47.8);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (11, 8, 14.42);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (12, 13, 50);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (12, 14, 3);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (12, 15, 0.8);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (12, 16, 0.4);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (12, 17, 1.6);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (12, 11, 0.3);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (12, 10, 0.004);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (13, 13, 53);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (13, 14, 6.4);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (13, 15, 2.5);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (13, 16, 2.4);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (13, 17, 6);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (13, 11, 0.3);
+INSERT INTO FatorProducao_Elemento(fatorProducaoID, componenteID, percentagem) VALUES (13, 10, 0.002);
+
+
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (15, 'Solo', 3, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (16, 'Solo', 3, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (22, 'Solo', 4, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (23, 'Solo', 4, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (24, 'Solo', 4, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (45, 'Solo', 4, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (46, 'Solo', 4, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (47, 'Solo', 4, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (63, 'Solo', 8, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (90, 'Solo', 3, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (91, 'Solo', 3, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (105, 'Foliar', 5, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (158, 'Foliar', 5, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (199, 'Solo', 3, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (200, 'Solo', 3, 3);
+
+
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (43, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (44, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (60, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (61, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (98, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (99, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (150, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (151, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (206, 1, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (207, 1, 3);
+
+INSERT INTO unidades (tipoUnidade) VALUES ('l/h');
+
+INSERT INTO Especie (tipoEspecie) VALUES ('Cucurbita moschata');
+INSERT INTO Planta (plantaID, nomeComum, especieID, tipoCulturaID)
+VALUES (13, 'Abóbora manteiga', 12, 2);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Butternut', 13, NULL, NULL, NULL);
+
+INSERT INTO "Parcela Agricula" (parcelaID, instalacaoAgriculaID, designacao, area, UnidadesunidadeID)
+VALUES (108, 2, 'Campo Novo', 1.1, 4);
+
+
+
+
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('Canada', 3, NULL, NULL, NULL);
+INSERT INTO Variedade (tipoVariedade, plantaID, podaPlantaID, floracaoPlantaID, colheitaPlantaID) VALUES ('grand fay', 3, NULL, NULL, NULL);
+
+INSERT INTO Setor (setorID, dataInicio, dataFim, caudal, CasaRegaedificioID, UnidadesunidadeID) VALUES 
+(10, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 2500, NULL, 6);
+
+INSERT INTO Setor (setorID, dataInicio, dataFim, caudal, CasaRegaedificioID, UnidadesunidadeID) VALUES 
+(11, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 1500, NULL, 6);
+
+INSERT INTO Setor (setorID, dataInicio, dataFim, caudal, CasaRegaedificioID, UnidadesunidadeID) VALUES 
+(21, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 3500, NULL, 6);
+
+INSERT INTO Setor (setorID, dataInicio, dataFim, caudal, CasaRegaedificioID, UnidadesunidadeID) VALUES 
+(22, TO_DATE('01/05/2019', 'DD/MM/YYYY'), NULL, 3500, NULL, 6);
+
+INSERT INTO Setor (setorID, dataInicio, dataFim, caudal, CasaRegaedificioID, UnidadesunidadeID) VALUES 
+(41, TO_DATE('01/04/2023', 'DD/MM/YYYY'), TO_DATE('10/10/2023', 'DD/MM/YYYY'), 2500, NULL, 6);
+
+INSERT INTO Setor (setorID, dataInicio, dataFim, caudal, CasaRegaedificioID, UnidadesunidadeID) VALUES 
+(42, TO_DATE('01/04/2023', 'DD/MM/YYYY'), TO_DATE('10/10/2023', 'DD/MM/YYYY'), 3500, NULL, 6);
+
+
+
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (102, 92, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 30, 1, 1, 10);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (102, 89, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 20, 1, 1, 10);
+
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (102, 86, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 40, 1, 1, 11);
+
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (104, 41, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 90, 1, 1, 21);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (104, 37, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 60, 1, 1, 21);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (104, 48, TO_DATE('01/05/2017', 'DD/MM/YYYY'), NULL, 40, 1, 1, 21);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (104, 48, TO_DATE('01/05/2019', 'DD/MM/YYYY'), NULL, 30, 1, 1, 21);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (105, 61, TO_DATE('01/05/2019', 'DD/MM/YYYY'), NULL, 20, 1, 1, 21);
+
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (105, 44, TO_DATE('01/05/2019', 'DD/MM/YYYY'), NULL, 50, 1, 1, 22);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (105, 56, TO_DATE('01/05/2019', 'DD/MM/YYYY'), NULL, 20, 1, 1, 22);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (105, 97, TO_DATE('01/05/2019', 'DD/MM/YYYY'), NULL, 30, 1, 1, 22);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (105, 98, TO_DATE('01/05/2019', 'DD/MM/YYYY'), NULL, 40, 1, 1, 22);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (105, 57, TO_DATE('01/05/2019', 'DD/MM/YYYY'), NULL, 50, 1, 1, 22);
+
+
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (108, 77, TO_DATE('05/04/2023', 'DD/MM/YYYY'), TO_DATE('31/05/2023', 'DD/MM/YYYY'), NULL, 2, 4, 41);
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (108, 75, TO_DATE('05/07/2023', 'DD/MM/YYYY'), TO_DATE('08/10/2023', 'DD/MM/YYYY'), NULL, 2, 4, 41);
+
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (108, 96, TO_DATE('06/04/2023', 'DD/MM/YYYY'), TO_DATE('10/09/2023', 'DD/MM/YYYY'), NULL, 2, 4, 42);
+
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('14/05/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('01/06/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('15/06/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('30/06/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('07/07/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('14/07/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('21/07/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('28/07/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('04/08/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('11/08/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('18/08/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('25/08/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('01/09/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('08/09/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('15/09/2023', 'DD/MM/YYYY'), NULL, 104, NULL, NULL, NULL);
+
+
+
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (209, 120, TO_TIMESTAMP('07:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (210, 120, TO_TIMESTAMP('07:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (211, 120, TO_TIMESTAMP('07:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (212, 120, TO_TIMESTAMP('07:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (213, 180, TO_TIMESTAMP('07:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (214, 180, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (215, 180, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (216, 180, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (217, 150, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (218, 150, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (219, 150, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (220, 120, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (221, 120, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (222, 120, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (223, 120, TO_TIMESTAMP('22:00', 'HH24:MI'), 21);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('18/08/2023', 'DD/MM/YYYY'), 700, 104, TO_DATE('01/05/2019', 'DD/MM/YYYY'), 48, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('30/08/2023', 'DD/MM/YYYY'), 900, 104, TO_DATE('01/05/2019', 'DD/MM/YYYY'), 48, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('05/09/2023', 'DD/MM/YYYY'), 900, 104, TO_DATE('01/05/2017', 'DD/MM/YYYY'), 41, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Ooperação de colheita', TO_DATE('08/09/2023', 'DD/MM/YYYY'), 1050, 104, TO_DATE('01/05/2017', 'DD/MM/YYYY'), 41, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('28/09/2023', 'DD/MM/YYYY'), 950, 104, TO_DATE('01/05/2017', 'DD/MM/YYYY'), 37, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('03/10/2023', 'DD/MM/YYYY'), 800, 104, TO_DATE('01/05/2017', 'DD/MM/YYYY'), 37, 3);
+
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (224, 700, 8, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (225, 900, 8, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (226, 900, 10, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (227, 1050, 10, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (228, 950, 11, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (229, 800, 11, 3);
+
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('04/01/2019', 'DD/MM/YYYY'), 3200, 105, NULL, NULL, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de plantação', TO_DATE('09/01/2019', 'DD/MM/YYYY'), 50, 105, TO_DATE('01/05/2019', 'DD/MM/YYYY'), 44, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de plantação', TO_DATE('09/01/2019', 'DD/MM/YYYY'), 20, 105, TO_DATE('01/05/2019', 'DD/MM/YYYY'), 56, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de plantação', TO_DATE('10/01/2019', 'DD/MM/YYYY'), 40, 105, TO_DATE('01/05/2019', 'DD/MM/YYYY'), 61, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de plantação', TO_DATE('10/01/2019', 'DD/MM/YYYY'), 30, 105, TO_DATE('01/05/2019', 'DD/MM/YYYY'), 97, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de plantação', TO_DATE('11/01/2019', 'DD/MM/YYYY'), 40, 105, TO_DATE('01/05/2019', 'DD/MM/YYYY'), 98, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de plantação', TO_DATE('11/01/2019', 'DD/MM/YYYY'), 50, 105, TO_DATE('01/05/2019', 'DD/MM/YYYY'), 57, 1);
+
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('06/01/2020', 'DD/MM/YYYY'), 100, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 44, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('06/01/2020', 'DD/MM/YYYY'), 40, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 56, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('06/01/2020', 'DD/MM/YYYY'), 80, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 61, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('06/01/2020', 'DD/MM/YYYY'), 60, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 97, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('07/01/2020', 'DD/MM/YYYY'), 80, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 98, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('07/01/2020', 'DD/MM/YYYY'), 100, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 57, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('07/01/2021', 'DD/MM/YYYY'), 150, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 44, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('07/01/2021', 'DD/MM/YYYY'), 60, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 56, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('08/01/2021', 'DD/MM/YYYY'), 120, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 61, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('07/01/2021', 'DD/MM/YYYY'), 90, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 97, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('07/01/2021', 'DD/MM/YYYY'), 120, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 98, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('08/01/2021', 'DD/MM/YYYY'), 150, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 57, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/01/2022', 'DD/MM/YYYY'), 150, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 44, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/01/2022', 'DD/MM/YYYY'), 60, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 56, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/01/2022', 'DD/MM/YYYY'), 120, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 61, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('16/01/2022', 'DD/MM/YYYY'), 90, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 97, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('16/01/2022', 'DD/MM/YYYY'), 120, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 98, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('16/01/2022', 'DD/MM/YYYY'), 150, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 57, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/05/2023', 'DD/MM/YYYY'), 5, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 44, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/05/2023', 'DD/MM/YYYY'), 2, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 56, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/05/2023', 'DD/MM/YYYY'), 4, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 61, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/05/2023', 'DD/MM/YYYY'), 3, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 97, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/05/2023', 'DD/MM/YYYY'), 4, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 98, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('15/05/2023', 'DD/MM/YYYY'), 5, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 57, 3);
+
+
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (230, 'Solo', 13, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (237, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (238, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (239, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (240, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (241, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (242, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (243, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (244, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (245, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (246, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (247, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (248, 'Solo', 12, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (249, 'Solo', 13, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (250, 'Solo', 13, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (251, 'Solo', 13, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (252, 'Solo', 13, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (253, 'Solo', 13, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (254, 'Solo', 13, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (255, 'Foliar', 5, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (256, 'Foliar', 5, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (257, 'Foliar', 5, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (258, 'Foliar', 5, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (259, 'Foliar', 5, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (260, 'Foliar', 5, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('15/09/2023', 'DD/MM/YYYY'), 700, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 97, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('16/09/2023', 'DD/MM/YYYY'), 600, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 98, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('20/09/2023', 'DD/MM/YYYY'), 700, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 98, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('27/09/2023', 'DD/MM/YYYY'), 600, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 61, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('05/10/2023', 'DD/MM/YYYY'), 700, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 61, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('15/10/2023', 'DD/MM/YYYY'), 1200, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 57, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('15/10/2023', 'DD/MM/YYYY'), 700, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 56, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('12/11/2023', 'DD/MM/YYYY'), 700, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 44, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de colheita', TO_DATE('15/11/2023', 'DD/MM/YYYY'), 800, 105, TO_DATE('1/05/2019', 'DD/MM/YYYY'), 44, 3);
+
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (261, 700, 16, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (262, 600, 17, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (263, 700, 17, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (264, 600, 18, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (265, 700, 18, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (266, 1200, 19, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (267, 700, 20, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (268, 700, 21, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (269, 800, 21, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('13/05/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('02/06/2023', 'DD/MM/YYYY'), NULL, 105, NULL,NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('16/06/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('01/07/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('08/07/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('15/07/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('22/07/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('29/07/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('05/08/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('10/08/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('17/08/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('24/08/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('02/09/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('09/09/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('Operação de rega', TO_DATE('18/09/2023', 'DD/MM/YYYY'), NULL, 105, NULL, NULL, NULL);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (270, 120, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (271, 120, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (272, 120, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (273, 120, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (274, 180, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (275, 180, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (276, 180, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (277, 180, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (278, 150, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (279, 150, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (280, 150, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (281, 120, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (282, 120, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (283, 120, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (284, 120, TO_TIMESTAMP('23:00', 'HH24:MI'), 22);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de plantação', TO_DATE('12/10/2016', 'DD/MM/YYYY'), 40, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 86, 1);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('13/01/2021', 'DD/MM/YYYY'), 120, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 89, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('12/01/2021', 'DD/MM/YYYY'), 180, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 92, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('12/01/2021', 'DD/MM/YYYY'), 240, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 86, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('12/01/2022', 'DD/MM/YYYY'), 120, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 89, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('12/01/2022', 'DD/MM/YYYY'), 180, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 92, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('13/01/2022', 'DD/MM/YYYY'), 240, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 86, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('12/01/2023', 'DD/MM/YYYY'), 120, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 89, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('12/01/2023', 'DD/MM/YYYY'), 180, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 92, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('12/01/2023', 'DD/MM/YYYY'), 240, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 86, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('02/11/2023', 'DD/MM/YYYY'), 400, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 86, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('05/11/2023', 'DD/MM/YYYY'), 300, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 89, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('08/11/2023', 'DD/MM/YYYY'), 350, 102, TO_DATE('1/05/2017', 'DD/MM/YYYY'), 92, 3);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('02/06/2023', 'DD/MM/YYYY'), NULL, 102, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('02/07/2023', 'DD/MM/YYYY'), NULL, 102, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('02/08/2023', 'DD/MM/YYYY'), NULL, 102, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('04/09/2023', 'DD/MM/YYYY'), NULL, 102, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('02/10/2023', 'DD/MM/YYYY'), NULL, 102, NULL, NULL, NULL);
+
+
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (286, 13, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (287, 13, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (288, 13, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (289, 13, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (290, 13, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (291, 13, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (292, 13, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (293, 13, 3);
+INSERT INTO Fitofarmaco (operacaoAgriculaID, FatorProducaofatorProducaoID, UnidadesunidadeID) VALUES (294, 13, 3);
+
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (295, 400, 22, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (296, 300, 23, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (297, 350, 24, 3);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (298, 60, TO_TIMESTAMP('06:00', 'HH24:MI'), 10);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (299, 120, TO_TIMESTAMP('06:00', 'HH24:MI'), 10);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (300, 180, TO_TIMESTAMP('05:00', 'HH24:MI'), 10);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (301, 120, TO_TIMESTAMP('06:00', 'HH24:MI'), 10);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (302, 60, TO_TIMESTAMP('06:00', 'HH24:MI'), 10);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('12/06/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('19/06/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('30/06/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('08/07/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('15/07/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('22/07/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('29/07/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('05/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('12/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('19/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('26/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('31/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('05/09/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (303, 60, TO_TIMESTAMP('06:00', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (304, 60, TO_TIMESTAMP('06:00', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (305, 120, TO_TIMESTAMP('04:00', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (306, 120, TO_TIMESTAMP('04:00', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (307, 120, TO_TIMESTAMP('04:00', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (308, 150, TO_TIMESTAMP('04:00', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (309, 150, TO_TIMESTAMP('04:00', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (310, 120, TO_TIMESTAMP('21:30', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (311, 120, TO_TIMESTAMP('21:30', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (312, 120, TO_TIMESTAMP('21:30', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (313, 120, TO_TIMESTAMP('21:30', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (314, 120, TO_TIMESTAMP('21:30', 'HH24:MI'), 42);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (315, 120, TO_TIMESTAMP('21:30', 'HH24:MI'), 42);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('20/05/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('02/06/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('09/06/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('09/07/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('16/07/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('23/07/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('30/07/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('07/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('14/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('21/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('28/08/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('06/09/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('13/09/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de rega', TO_DATE('20/09/2023', 'DD/MM/YYYY'), NULL, 108, NULL, NULL, NULL);
+
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (316, 120, TO_TIMESTAMP('07:30', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (317, 120, TO_TIMESTAMP('07:30', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (318, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (319, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (320, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (321, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (322, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (323, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (324, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (325, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (326, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (327, 120, TO_TIMESTAMP('06:20', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (328, 120, TO_TIMESTAMP('07:00', 'HH24:MI'), 41);
+INSERT INTO Rega (operacaoAgriculaID, minutos, horas, SetorsetorID)
+VALUES (329, 120, TO_TIMESTAMP('07:00', 'HH24:MI'), 41);
+
+
+INSERT INTO Parcela_Cultura (parcelaID, variedadeID, dataInicial, dataFinal, area, tipoCulturaID, unidadeID, SetorsetorID) VALUES (108, 80, TO_DATE('12/10/2023', 'DD/MM/YYYY'), NULL, 1.1, 2, 4, NULL);
+
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('01/04/2023', 'DD/MM/YYYY'), 500, 108, NULL, NULL, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de semeadura', TO_DATE('05/04/2023', 'DD/MM/YYYY'), 0.5, 108, TO_DATE('05/04/2023', 'DD/MM/YYYY'), 77, 4);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de semeadura', TO_DATE('06/04/2023', 'DD/MM/YYYY'), 0.6, 108, TO_DATE('06/04/2023', 'DD/MM/YYYY'), 96, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de monda', TO_DATE('08/05/2023', 'DD/MM/YYYY'), 0.5, 108, TO_DATE('05/04/2023', 'DD/MM/YYYY'), 77, 4);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de monda', TO_DATE('20/05/2023', 'DD/MM/YYYY'), 0.6, 108, TO_DATE('06/04/2023', 'DD/MM/YYYY'), 96, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('14/06/2023', 'DD/MM/YYYY'), 1500, 108, TO_DATE('05/04/2023', 'DD/MM/YYYY'), 77, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de monda', TO_DATE('20/06/2023', 'DD/MM/YYYY'), 0.6, 108, TO_DATE('06/04/2023', 'DD/MM/YYYY'), 96, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('28/06/2023', 'DD/MM/YYYY'), 2500, 108, TO_DATE('05/04/2023', 'DD/MM/YYYY'), 77, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de aplicação de fator de produção', TO_DATE('03/07/2023', 'DD/MM/YYYY'), 1800, 108, NULL, NULL, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de mobilização', TO_DATE('04/07/2023', 'DD/MM/YYYY'), 0.5, 108, NULL, NULL, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de semeadura', TO_DATE('05/07/2023', 'DD/MM/YYYY'), 0.5, 108, TO_DATE('05/07/2023', 'DD/MM/YYYY'), 75, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de monda', TO_DATE('08/08/2023', 'DD/MM/YYYY'), 0.5, 108, TO_DATE('05/07/2023', 'DD/MM/YYYY'), 75, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('15/09/2023', 'DD/MM/YYYY'), 8000, 108, TO_DATE('06/04/2023', 'DD/MM/YYYY'), 96, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('25/09/2023', 'DD/MM/YYYY'), 5000, 108, TO_DATE('06/04/2023', 'DD/MM/YYYY'), 96, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('18/09/2023', 'DD/MM/YYYY'), 900, 108, TO_DATE('05/07/2023', 'DD/MM/YYYY'), 75, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('22/09/2023', 'DD/MM/YYYY'), 1500, 108, TO_DATE('05/07/2023', 'DD/MM/YYYY'), 75, 3);
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de colheita', TO_DATE('05/10/2023', 'DD/MM/YYYY'), 1200, 108, TO_DATE('05/07/2023', 'DD/MM/YYYY'), 75, 3);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de mobilização', TO_DATE('10/10/2023', 'DD/MM/YYYY'), 1.1, 108, NULL, NULL, 4);
+
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('operação de semeadura', TO_DATE('12/10/2023', 'DD/MM/YYYY'), 1.1, 108, TO_DATE('12/10/2023', 'DD/MM/YYYY'), 80, 4);
+
+
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (330, 'Solo', 8, 3);
+INSERT INTO Fertilizacao (operacaoAgriculaID, modo, fatorProducaoID, UnidadesunidadeID) VALUES (338, 'Solo', 12, 3);
+
+INSERT INTO unidades (tipoUnidade) VALUES ('g');
+
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (331, 1200, 7);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (332, 1500, 7);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (340, 1200, 7);
+INSERT INTO Semeadoura (operacaoAgriculaID, semente, UnidadesunidadeID) VALUES (348, 32000, 7);
+
+
+
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (335, 1500, 5, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (337, 2500, 5, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (342, 8000, 25, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (343, 5000, 25, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (344, 900, 9, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (345, 1500, 9, 3);
+INSERT INTO Colheita (operacaoAgriculaID, quantidade, ProdutoprodutoID, UnidadesunidadeID) VALUES (346, 1200, 9, 3);

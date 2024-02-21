@@ -1,0 +1,4 @@
+CREATE TABLE OperacaoAgricula (operacaoAgriculaID number(10) NOT NULL, nomeOperacao varchar2(255) NOT NULL, dataOperacao date NOT NULL, quantidade float(10), parcelaID number(10) NOT NULL, dataInicial date, variedadeID number(10), unidadeID number(10), dataCriacao date DEFAULT SYSDATE NOT NULL, PRIMARY KEY (operacaoAgriculaID));
+
+
+dataCriacao date DEFAULT SYSDATE NOT NULL

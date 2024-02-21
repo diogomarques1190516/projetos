@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_Fertirega_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON Fertirega
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into fertiregalog (instante, tipo, operacaoAgriculaID, minutos, horas, SetorsetorID, receitaID)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID,:new.minutos,:new.horas, :new.SetorsetorID ,:new.receitaID);
+
+    ELSIF UPDATING THEN
+
+    insert into fertiregalog (instante, tipo, operacaoAgriculaID, minutos, horas, SetorsetorID, receitaID)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID,:new.minutos,:new.horas, :new.SetorsetorID,:new.receitaID);
+
+    ELSE  --deleting
+    insert into fertiregalog (instante, tipo, operacaoAgriculaID, minutos, horas, SetorsetorID, receitaID)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID,:old.minutos,:old.horas, :old.SetorsetorID,:old.receitaID);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

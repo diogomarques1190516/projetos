@@ -1,0 +1,65 @@
+CREATE OR REPLACE NONEDITIONABLE PROCEDURE AnularOperacao (
+    p_operacaoID OperacaoAgricula.operacaoAgriculaID%TYPE,
+    p_dataReferencia OperacaoAgricula.dataOperacao%TYPE
+)
+IS
+    v_dataOperacao OperacaoAgricula.dataOperacao%TYPE;
+    v_qtd_registros NUMBER;
+BEGIN
+    -- Obter a data da operação
+    SELECT dataOperacao INTO v_dataOperacao
+    FROM OperacaoAgricula
+    WHERE operacaoAgriculaID = p_operacaoID;
+
+    -- Verificar se a dataReferencia está dentro de 3 dias da dataOperacao
+    IF p_dataReferencia <= v_dataOperacao + 3 THEN
+        -- Verificar se o operacaoAgriculaID está presente em apenas uma tabela relacionada
+        SELECT COUNT(*)
+        INTO v_qtd_registros
+        FROM (
+            SELECT 'Colheita' AS tabela FROM Colheita WHERE operacaoAgriculaID = p_operacaoID
+            UNION ALL
+            SELECT 'Plantacao' FROM Plantacao WHERE operacaoAgriculaID = p_operacaoID
+            UNION ALL
+            SELECT 'Monda' FROM Monda WHERE operacaoAgriculaID = p_operacaoID
+            UNION ALL
+            SELECT 'MovimentacaoSolo' FROM MovimentacaoSolo WHERE operacaoAgriculaID = p_operacaoID
+            UNION ALL
+            SELECT 'Fertilizacao' FROM Fertilizacao WHERE operacaoAgriculaID = p_operacaoID
+            UNION ALL
+            SELECT 'Fitofarmaco' FROM Fitofarmaco WHERE operacaoAgriculaID = p_operacaoID
+            UNION ALL
+            SELECT 'Rega' FROM Rega WHERE operacaoAgriculaID = p_operacaoID
+            UNION ALL
+            SELECT 'Fertirega' FROM Fertirega WHERE operacaoAgriculaID = p_operacaoID
+        );
+
+        -- Se a quantidade de registros for exatamente 1, então pode proceder com as exclusões
+        IF v_qtd_registros = 1 THEN
+            -- Excluir de outras tabelas relacionadas
+            DELETE FROM Colheita WHERE operacaoAgriculaID = p_operacaoID;
+            DELETE FROM Plantacao WHERE operacaoAgriculaID = p_operacaoID;
+            DELETE FROM Monda WHERE operacaoAgriculaID = p_operacaoID;
+            DELETE FROM MovimentacaoSolo WHERE operacaoAgriculaID = p_operacaoID;
+            DELETE FROM Fertilizacao WHERE operacaoAgriculaID = p_operacaoID;
+            DELETE FROM Fitofarmaco WHERE operacaoAgriculaID = p_operacaoID;
+            DELETE FROM Rega WHERE operacaoAgriculaID = p_operacaoID;
+            DELETE FROM Fertirega WHERE operacaoAgriculaID = p_operacaoID;
+
+            -- Deixar fazer a exclusão da operação principal
+            DELETE FROM OperacaoAgricula WHERE operacaoAgriculaID = p_operacaoID;
+
+            DBMS_OUTPUT.PUT_LINE('Operação e operações relacionadas excluídas com sucesso.');
+        ELSE
+            DBMS_OUTPUT.PUT_LINE('Não é permitido excluir esta operação. O operacaoAgriculaID está presente em mais ou menos de uma tabela relacionada.');
+        END IF;
+    ELSE
+        DBMS_OUTPUT.PUT_LINE('Não é permitido excluir esta operação. A data de referência é posterior a 3 dias da data da operação.');
+    END IF;
+EXCEPTION
+    WHEN NO_DATA_FOUND THEN
+        DBMS_OUTPUT.PUT_LINE('Operação não encontrada.');
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Erro: ' || SQLERRM);
+END AnularOperacao;
+/

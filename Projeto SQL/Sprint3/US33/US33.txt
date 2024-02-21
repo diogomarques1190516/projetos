@@ -1,0 +1,58 @@
+CREATE OR REPLACE PROCEDURE us33 (
+    p_ano OperacaoAgricula.dataOperacao%TYPE
+) IS
+    CURSOR us33_cursor IS
+        WITH RankedResults AS (
+            SELECT
+                pl.nomeComum,
+                va.tipoVariedade,
+                SUM(re.minutos) AS totalMinutos,
+                RANK() OVER (ORDER BY SUM(re.minutos) DESC) AS rnk
+            FROM
+                planta pl
+            JOIN
+                variedade va ON pl.plantaID = va.plantaID
+            JOIN
+                cultura cu ON va.variedadeID = cu.variedadeID
+            JOIN
+                setor se ON cu.SetorsetorID = se.setorID
+            JOIN
+                rega re ON se.setorID = re.SetorsetorID
+            JOIN
+                operacaoagricula op ON re.operacaoagriculaid = op.operacaoagriculaid
+            WHERE
+                EXTRACT(YEAR FROM op.dataoperacao) = EXTRACT(YEAR FROM p_ano)
+            GROUP BY
+                pl.nomeComum, va.tipoVariedade
+        )
+        SELECT
+            nomeComum,
+            tipoVariedade,
+            totalMinutos
+        FROM
+            RankedResults
+        WHERE
+            rnk = 1;
+
+    v_nomeComum planta.nomeComum%TYPE;
+    v_tipoVariedade variedade.tipoVariedade%TYPE;
+    v_totalMinutos rega.minutos%TYPE;
+
+BEGIN
+    OPEN us33_cursor;
+
+    LOOP
+        FETCH us33_cursor INTO v_nomeComum, v_tipoVariedade, v_totalMinutos;
+        EXIT WHEN us33_cursor%NOTFOUND;
+
+        DBMS_OUTPUT.PUT_LINE('Nome Comum: ' || v_nomeComum || ', Tipo Variedade: ' || v_tipoVariedade || ', Total Minutos: ' || v_totalMinutos);
+    END LOOP;
+
+    CLOSE us33_cursor;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Erro: ' || SQLERRM);
+        CLOSE us33_cursor; -- Ensure to close the cursor in case of an error
+END us33;
+/

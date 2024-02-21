@@ -1,0 +1,9 @@
+DECLARE
+    v_designacao VARCHAR2(255) := 'Vinha';
+    v_data_inicio DATE := TO_DATE('2019-01-01', 'YYYY-MM-DD');
+    v_data_fim DATE := TO_DATE('2023-12-31', 'YYYY-MM-DD');
+BEGIN
+    -- Chamada do procedimento PL/SQL com os parâmetros
+    us17(v_designacao, v_data_inicio, v_data_fim);
+END;
+/

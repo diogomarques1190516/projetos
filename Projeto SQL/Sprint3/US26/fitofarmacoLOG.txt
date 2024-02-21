@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_Fitofarmaco_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON Fitofarmaco
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into fitofarmacolog (instante, tipo, operacaoAgriculaID, UnidadesunidadeID, FatorProducaofatorproducaoid)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID,:new.UnidadesunidadeID,:new.FatorProducaofatorproducaoid);
+
+    ELSIF UPDATING THEN
+
+    insert into fitofarmacolog (instante, tipo, operacaoAgriculaID,  UnidadesunidadeID, FatorProducaofatorproducaoid)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID,:new.UnidadesunidadeID,:new.FatorProducaofatorproducaoid);
+
+    ELSE  --deleting
+    insert into fitofarmacolog (instante, tipo, operacaoAgriculaID,  UnidadesunidadeID, FatorProducaofatorproducaoid)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID,:old.UnidadesunidadeID,:old.FatorProducaofatorproducaoid);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

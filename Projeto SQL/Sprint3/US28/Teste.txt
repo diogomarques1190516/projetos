@@ -1,0 +1,8 @@
+INSERT INTO OperacaoAgricula (nomeOperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeID)
+VALUES ('testejoao2', TO_DATE('01/04/2023', 'DD/MM/YYYY'), 500, 108, NULL, NULL, 3);
+
+update OperacaoAgricula set nomeOperacao='teste' where operacaoagriculaid=349;
+delete from OperacaoAgricula where operacaoagriculaid=350;
+
+
+select * from OperacaoAgriculaLOG;

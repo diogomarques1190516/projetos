@@ -1,0 +1,18 @@
+DECLARE
+    v_designacaoParcela VARCHAR2(255) := 'Campo Grande';
+    v_dataOperacao DATE := TO_DATE('05/10/2023', 'DD/MM/YYYY');
+    v_tipoVariedade VARCHAR2(255) := 'Galega';
+    v_quantidade NUMBER := 800;
+    v_unidade VARCHAR2(255) := 'kg';
+    v_dataReferencia DATE := TO_DATE('2023-12-18', 'YYYY-MM-DD');
+BEGIN
+    RegistrarSemeadura(
+        v_designacaoParcela,
+        v_dataOperacao,
+        v_tipoVariedade,
+        v_quantidade,
+        v_unidade, 
+        v_dataReferencia
+    );
+END;
+/

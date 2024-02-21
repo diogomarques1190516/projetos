@@ -1,0 +1,55 @@
+CREATE OR REPLACE PROCEDURE us19(
+    data_inicio IN DATE,
+    data_fim IN DATE
+)
+IS
+    CURSOR us19_cursor IS
+        SELECT
+            pa.designacao,
+            pl.nomecomum,
+            va.tipovariedade,
+            tp.tipo,
+            COUNT(DISTINCT op.dataoperacao) as quantidade_operacoes
+        FROM
+            "Parcela Agricula" pa
+        JOIN
+            parcela_cultura pc ON pa.parcelaid = pc.parcelaid
+        JOIN
+            variedade va ON pc.variedadeid = va.variedadeid
+        JOIN
+            planta pl ON va.plantaid = pl.plantaid
+        JOIN
+            operacaoagricula op ON pa.parcelaid = op.parcelaid
+        LEFT JOIN
+            fertilizacao fz ON op.operacaoagriculaid = fz.operacaoagriculaid
+        LEFT JOIN
+            fitofarmaco ff ON op.operacaoagriculaid = ff.operacaoagriculaid
+        LEFT JOIN
+            fatorproducao fp ON fz.fatorproducaoid = fp.fabricanteid OR ff.fatorproducaofatorproducaoid = fp.fabricanteid
+        JOIN
+            tipo tp ON fp.tipotipoid = tp.tipoid
+        WHERE
+            op.dataoperacao BETWEEN data_inicio AND data_fim
+        GROUP BY
+            pa.designacao,
+            pl.nomecomum,
+            va.tipovariedade,
+            tp.tipo;
+
+    v_designacao "Parcela Agricula".designacao%TYPE;
+    v_nomecomum planta.nomecomum%TYPE;
+    v_tipovariedade variedade.tipovariedade%TYPE;
+    v_tipo tipo.tipo%TYPE;
+    v_quantidade_operacoes NUMBER;
+BEGIN
+    OPEN us19_cursor;
+    LOOP
+        FETCH us19_cursor INTO v_designacao, v_nomecomum, v_tipovariedade, v_tipo, v_quantidade_operacoes;
+        EXIT WHEN us19_cursor%NOTFOUND;
+        
+        -- Faça algo com os dados, por exemplo, imprimir ou inserir em outra tabela
+        DBMS_OUTPUT.PUT_LINE('Designacao: ' || v_designacao || ', Nome Comum: ' || v_nomecomum || ', Tipo Variedade: ' || v_tipovariedade || ', Tipo: ' || v_tipo || ', Quantidade de Operacoes: ' || v_quantidade_operacoes);
+    END LOOP;
+    CLOSE us19_cursor;
+END us19;
+/

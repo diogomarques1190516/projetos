@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_OperacaoAgricula_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON OperacaoAgricula
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into OperacaoAgriculaLOG (instante, tipo, operacaoAgriculaID, nomeoperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeId)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID, :new.nomeoperacao, :new.dataOperacao, :new.quantidade, :new.parcelaID, :new.dataInicial, :new.variedadeID, :new.unidadeId);
+
+    ELSIF UPDATING THEN
+
+    insert into OperacaoAgriculaLOG (instante, tipo, operacaoAgriculaID, nomeoperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeId)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID, :new.nomeoperacao, :new.dataOperacao, :new.quantidade, :new.parcelaID, :new.dataInicial, :new.variedadeID, :new.unidadeId);
+
+    ELSE  --deleting
+    insert into OperacaoAgriculaLOG (instante, tipo, operacaoAgriculaID, nomeoperacao, dataOperacao, quantidade, parcelaID, dataInicial, variedadeID, unidadeId)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID, :old.nomeoperacao, :old.dataOperacao, :old.quantidade, :old.parcelaID, :old.dataInicial, :old.variedadeID, :old.unidadeId);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

@@ -1,0 +1,17 @@
+DECLARE
+
+    v_receitaID NUMBER := 223;
+    v_receita_fatoresProducao RECEITA_FACTORPRODUCAO_TBl ;
+BEGIN
+
+v_receita_fatoresProducao := RECEITA_FACTORPRODUCAO_TBl(
+receita_factorProducao_Obj('Tecniferti MOL', 60,'l\ha'),
+receita_factorProducao_Obj('Kiplant AllGrip', 2,'l\ha'),
+receita_factorProducao_Obj('soluSOP 52', 2,'kg\ha')
+);
+
+
+    -- Chamada ao procedimento registarReceita
+   registarReceita(v_receitaID, v_receita_fatoresProducao);
+END;
+/

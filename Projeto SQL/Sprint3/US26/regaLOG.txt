@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_Rega_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON Rega
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into regalog (instante, tipo, operacaoAgriculaID, minutos, horas, SetorsetorID)
+    values (SYSDATE, 'INSERT', new.operacaoAgriculaID,new.minutos,new.horas, new.SetorsetorID);
+
+    ELSIF UPDATING THEN
+
+    insert into regalog (instante, tipo, operacaoAgriculaID, minutos, horas, SetorsetorID)
+    values (SYSDATE, 'UPDATE', new.operacaoAgriculaID,new.minutos,new.horas, new.SetorsetorID);
+
+    ELSE  --deleting
+    insert into regalog (instante, tipo, operacaoAgriculaID, minutos, horas, SetorsetorID)
+    values (SYSDATE, 'DELETE', old.operacaoAgriculaID,old.minutos,old.horas, old.SetorsetorID);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

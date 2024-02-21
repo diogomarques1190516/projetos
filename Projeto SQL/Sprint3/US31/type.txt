@@ -1,0 +1,11 @@
+CREATE OR REPLACE TYPE receita_factorProducao_Obj AS OBJECT
+    ( fatorProducao        VARCHAR2(255)
+    , quantidade    NUMBER
+    , tipoUnidade     VARCHAR2(255)
+    ) ;
+    
+    create type RECEITA_FACTORPRODUCAO_TBl as table of RECEITA_FACTORPRODUCAO_OBJ;
+    
+    
+   drop type RECEITA_FACTORPRODUCAO_TBl; 
+   drop type RECEITA_FACTORPRODUCAO_OBJ;

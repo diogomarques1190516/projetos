@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_Fertilizacao_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON Fertilizacao
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into fertilizacaolog (instante, tipo, operacaoAgriculaID, modo, UnidadesunidadeID, fatorproducaoid)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID, :new.modo,:new.UnidadesunidadeID,:new.fatorproducaoid);
+
+    ELSIF UPDATING THEN
+
+    insert into fertilizacaolog (instante, tipo, operacaoAgriculaID, modo, UnidadesunidadeID, fatorproducaoid)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID, :new.modo,:new.UnidadesunidadeID,:new.fatorproducaoid);
+
+    ELSE  --deleting
+    insert into fertilizacaolog (instante, tipo, operacaoAgriculaID, modo, UnidadesunidadeID, fatorproducaoid)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID, :old.modo,:old.UnidadesunidadeID,:old.fatorproducaoid);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

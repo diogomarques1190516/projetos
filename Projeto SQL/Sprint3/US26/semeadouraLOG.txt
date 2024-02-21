@@ -1,0 +1,25 @@
+create or replace NONEDITIONABLE TRIGGER trg_Semeadoura_para_LOG
+AFTER INSERT OR UPDATE OR DELETE ON Semeadoura
+FOR EACH ROW
+DECLARE
+
+
+BEGIN
+    IF INSERTING THEN
+
+    insert into SemeadouraLOG (instante, tipo, operacaoAgriculaID, semente, UnidadesunidadeID)
+    values (SYSDATE, 'INSERT', :new.operacaoAgriculaID, :new.semente,:new.UnidadesunidadeID);
+
+    ELSIF UPDATING THEN
+
+    insert into SemeadouraLOG (instante, tipo, operacaoAgriculaID, semente, UnidadesunidadeID)
+    values (SYSDATE, 'UPDATE', :new.operacaoAgriculaID, :new.semente,:new.UnidadesunidadeID);
+
+    ELSE  --deleting
+    insert into SemeadouraLOG (instante, tipo, operacaoAgriculaID, semente, UnidadesunidadeID)
+    values (SYSDATE, 'DELETE', :old.operacaoAgriculaID, :old.semente,:old.UnidadesunidadeID);
+    END IF;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

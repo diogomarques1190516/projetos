@@ -1,0 +1,19 @@
+create or replace NONEDITIONABLE TRIGGER trg_operacaoAgricula_id
+BEFORE INSERT ON operacaoAgricula
+FOR EACH ROW
+DECLARE
+    cursor c_get_max_op IS
+    SELECT NVL(MAX(operacaoagriculaid), 0)+1 FROM operacaoAgricula;
+
+    l_max_op operacaoAgricula.operacaoagriculaid%type;
+
+BEGIN
+    open c_get_max_op;
+    fetch c_get_max_op into l_max_op;
+    close c_get_max_op;
+
+    :new.operacaoagriculaid := l_max_op;
+
+--EXCEPTION
+  --  exception_handling statements
+END;

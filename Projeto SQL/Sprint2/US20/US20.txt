@@ -1,0 +1,47 @@
+CREATE OR REPLACE PROCEDURE us20 (
+    p_data_inicio IN DATE,
+    p_data_fim IN DATE
+)
+IS
+    v_designacao VARCHAR2(255);
+    v_mes VARCHAR2(255);
+    v_total_regas NUMBER;
+    
+    CURSOR us20_cursor IS
+        SELECT
+            pa.designacao,
+            TO_CHAR(op.dataoperacao, 'MM') AS mes,
+            COUNT(DISTINCT r.operacaoagriculaid) AS total_regas
+        FROM
+            "Parcela Agricula" pa
+        JOIN
+            parcela_cultura pc ON pa.parcelaid = pc.parcelaid
+        JOIN
+            operacaoagricula op ON pa.parcelaid = op.parcelaid
+        LEFT JOIN
+            rega r ON op.operacaoagriculaid = r.operacaoagriculaid
+        WHERE
+            op.dataoperacao >= p_data_inicio
+            AND op.dataoperacao <= p_data_fim
+        GROUP BY
+            pa.designacao, TO_CHAR(op.dataoperacao, 'MM')
+        HAVING
+            COUNT(DISTINCT r.operacaoagriculaid) > 0
+        ORDER BY
+            pa.designacao, TO_CHAR(op.dataoperacao, 'MM');
+
+
+BEGIN
+    OPEN us20_cursor;
+
+    LOOP
+        FETCH us20_cursor INTO v_designacao, v_mes, v_total_regas;
+
+        EXIT WHEN us20_cursor%NOTFOUND;
+
+        DBMS_OUTPUT.PUT_LINE('Parcela: ' || v_designacao || ', Mês: ' || v_mes || ', Total de Regas: ' || v_total_regas);
+    END LOOP;
+
+    CLOSE us20_cursor;
+END us20;
+/

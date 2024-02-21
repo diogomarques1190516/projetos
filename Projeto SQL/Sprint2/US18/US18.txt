@@ -1,0 +1,68 @@
+SELECT
+    pa.designacao,
+    op.nomeoperacao,
+    op.dataoperacao,
+    COUNT(DISTINCT op.operacaoagriculaid) AS num_operacoes
+FROM
+    "Parcela Agricula" pa
+JOIN
+    parcela_cultura pc ON pa.parcelaid = pc.parcelaid
+JOIN
+    operacaoagricula op ON pa.parcelaid = op.parcelaid
+GROUP BY
+    pa.designacao,
+    op.nomeoperacao,
+    op.dataoperacao;
+-- Adicione as condições de data aqui, se necessário
+-- AND op.dataoperacao >= TO_DATE('2023-01-01', 'YYYY-MM-DD') 
+-- AND op.dataoperacao <= TO_DATE('2023-12-31', 'YYYY-MM-DD');
+
+
+CREATE OR REPLACE PROCEDURE us18 (
+    p_designacao_parcela IN VARCHAR2,
+    p_data_inicio IN DATE,
+    p_data_fim IN DATE
+) IS
+    CURSOR us18_cursor IS
+        SELECT
+            pa.designacao,
+            op.nomeoperacao,
+            op.dataoperacao,
+            COUNT(DISTINCT op.operacaoagriculaid) AS num_operacoes
+        FROM
+            "Parcela Agricula" pa
+        JOIN
+            parcela_cultura pc ON pa.parcelaid = pc.parcelaid
+        JOIN
+            operacaoagricula op ON pa.parcelaid = op.parcelaid
+        WHERE
+            pa.designacao = p_designacao_parcela
+            AND op.dataoperacao BETWEEN p_data_inicio AND p_data_fim
+        GROUP BY
+            pa.designacao,
+            op.nomeoperacao,
+            op.dataoperacao;
+
+    v_designacao VARCHAR2(255);
+    v_nomeoperacao VARCHAR2(255);
+    v_dataoperacao DATE;
+    v_num_operacoes NUMBER;
+
+BEGIN
+    OPEN us18_cursor;
+
+    LOOP
+        FETCH us18_cursor INTO v_designacao, v_nomeoperacao, v_dataoperacao, v_num_operacoes;
+        EXIT WHEN us18_cursor%NOTFOUND;
+
+        DBMS_OUTPUT.PUT_LINE('Designacao: ' || v_designacao || ', Nome Operacao: ' || v_nomeoperacao || ', Data Operacao: ' || v_dataoperacao || ', Num Operacoes: ' || v_num_operacoes);
+    END LOOP;
+
+    CLOSE us18_cursor;
+
+EXCEPTION
+    WHEN OTHERS THEN
+        DBMS_OUTPUT.PUT_LINE('Erro: ' || SQLERRM);
+        CLOSE us18_cursor; -- Certifique-se de fechar o cursor em caso de erro
+END us18;
+/

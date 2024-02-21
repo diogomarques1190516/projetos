@@ -1,0 +1,43 @@
+DECLARE
+    v_designacaoParcela Parcela.designacao%type := 'campo grande';
+    v_nomeOperacao OperacaoAgricula.nomeOperacao%type := 'operação de rega TESTE';
+    v_dataOperacao OperacaoAgricula.dataOperacao%type := TO_DATE('2023-09-02', 'YYYY-MM-DD');
+    v_minutos Rega.minutos%type := 90;
+    v_horas Fertirega.horas%type := TO_TIMESTAMP('05:00', 'HH24:MI');
+    v_receita Fertirega.receitaID%type := 19;  -- Replace with the actual receitaID
+    v_setor Fertirega.SetorsetorID%type := 10;  -- Replace with the actual setorID
+BEGIN
+    registarRega(
+        p_designacaoParcela => v_designacaoParcela,
+        p_nomeOperacao => v_nomeOperacao,
+        p_dataOperacao => v_dataOperacao,
+        p_minutos => v_minutos,
+        p_horas => v_horas,
+        p_receita => v_receita,
+        p_setor => v_setor
+    );
+END;
+/
+
+DECLARE
+    v_designacaoParcela Parcela.designacao%type := 'campo grande';
+    v_nomeOperacao OperacaoAgricula.nomeOperacao%type := 'operação de rega TESTE2';
+    v_dataOperacao OperacaoAgricula.dataOperacao%type := TO_DATE('2023-09-02', 'YYYY-MM-DD');
+    v_minutos Rega.minutos%type := 90;
+    v_horas Fertirega.horas%type := TO_TIMESTAMP('05:00', 'HH24:MI');
+    v_setor Fertirega.SetorsetorID%type := 10;  -- Replace with the actual setorID
+BEGIN
+    registarRega(
+        p_designacaoParcela => v_designacaoParcela,
+        p_nomeOperacao => v_nomeOperacao,
+        p_dataOperacao => v_dataOperacao,
+        p_minutos => v_minutos,
+        p_horas => v_horas,
+        p_receita => NULL,
+        p_setor => v_setor
+    );
+END;
+/
+
+SELECT * FROM OperacaoAgricula;
+SELECT * FROM Rega;

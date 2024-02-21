@@ -1,0 +1,50 @@
+create or replace NONEDITIONABLE PROCEDURE registarReceita (
+    p_receitaID NUMBER,
+    p_receita_fatoresProducao IN RECEITA_FACTORPRODUCAO_TBl
+)
+IS
+    v_fatorProducaoID FatorProducao.fatorProducaoID%type;
+    v_UnidadeID Unidades.unidadeID%type;
+BEGIN
+    -- Inserir na tabela Receita
+    INSERT INTO Receita(receitaID) VALUES (p_receitaID);
+
+    -- Iterar sobre os fatores de produção
+    FOR i IN 1..p_receita_fatoresProducao.COUNT LOOP
+         DBMS_OUTPUT.PUT_LINE('Fator de Producao ' || p_receita_fatoresProducao(i).fatorProducao);
+        -- Obter o ID do Fator de Produção
+        SELECT fatorProducaoID INTO v_fatorProducaoID
+        FROM FatorProducao
+        WHERE UPPER(designacao) = UPPER(p_receita_fatoresProducao(i).fatorProducao);
+
+        -- Lidar com o caso em que o Fator de Producao não é encontrado
+        IF SQL%NOTFOUND THEN
+            --DBMS_OUTPUT.PUT_LINE('Fator de Producao ' || p_fatoresProducao(i) || ' não encontrado.');
+            v_fatorProducaoID := NULL;
+        END IF;
+
+        DBMS_OUTPUT.PUT_LINE('Unidade ' || p_receita_fatoresProducao(i).tipoUnidade);
+        -- Obter o ID da Unidade
+        SELECT unidadeID INTO v_UnidadeID
+        FROM Unidades
+        WHERE UPPER(tipounidade) = UPPER(p_receita_fatoresProducao(i).tipoUnidade);
+
+        -- Lidar com o caso em que a Unidade não é encontrada
+        IF SQL%NOTFOUND THEN
+            --DBMS_OUTPUT.PUT_LINE('Unidade ' || p_tiposUnidade(i) || ' não encontrada.');
+            v_UnidadeID := NULL;
+        END IF;
+
+        -- Inserir na tabela Receita_FatorProducao
+        INSERT INTO Receita_FatorProducao(receitaID, fatorProducaoID, kgha, unidadeID)
+        VALUES (p_receitaID, v_fatorProducaoID, p_receita_fatoresProducao(i).quantidade, v_UnidadeID);
+
+        -- Verificar o resultado do insert
+      --  IF SQL%ROWCOUNT = 1 THEN
+            --DBMS_OUTPUT.PUT_LINE('Insert bem-sucedido para ' || p_fatoresProducao(i) || ' e ' || p_tiposUnidade(i));
+      --  ELSE
+            --DBMS_OUTPUT.PUT_LINE('Falha no insert para ' || p_fatoresProducao(i) || ' e ' || p_tiposUnidade(i));
+      --  END IF;
+    END LOOP;
+END registarReceita;
+

@@ -1,0 +1,8 @@
+DECLARE
+    v_operacaoID OperacaoAgricula.operacaoAgriculaID%TYPE := 123; -- Substitua pelo valor desejado
+    v_dataReferencia OperacaoAgricula.dataOperacao%TYPE := TO_DATE('2024-01-03', 'YYYY-MM-DD'); -- Substitua pela data desejada
+
+BEGIN
+    AnularOperacao(p_operacaoID => v_operacaoID, p_dataReferencia => v_dataReferencia);
+END;
+/
